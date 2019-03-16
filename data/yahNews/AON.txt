@@ -1,0 +1,630 @@
+{
+  "result": [
+    {
+      "uuid": "dd8f526f-0684-33dd-b86e-4bd80587ac96",
+      "title": "Insurance Brokerage Stock Outlook: Few Bumps in the Offing",
+      "link": "https://finance.yahoo.com/news/insurance-brokerage-stock-outlook-few-124512721.html",
+      "summary": "Insurance Brokerage Stock Outlook: Few Bumps in the Offing",
+      "publisher": "Zacks",
+      "author": "Trina Mukherjee",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1552566252,
+      "main_image": {
+        "original_height": 591,
+        "original_width": 900,
+        "original_url": "https://s.yimg.com/lo/api/res/1.2/Ps6LHjLRzLNhgXIVu.wrGg--/YXBwaWQ9eXZpZGVvZmVlZHM7dz05MDA7aD01OTE-/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8",
+        "resolutions": [
+          {
+            "tag": "original",
+            "width": 900,
+            "url": "https://s.yimg.com/lo/api/res/1.2/Ps6LHjLRzLNhgXIVu.wrGg--/YXBwaWQ9eXZpZGVvZmVlZHM7dz05MDA7aD01OTE-/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8",
+            "tags": [
+              "size=original",
+              ""
+            ],
+            "height": 591
+          },
+          {
+            "height": 140,
+            "width": 140,
+            "tag": "square-140x140",
+            "url": "https://s.yimg.com/lo/api/res/1.2/OQnVHhsjzibh1kt.Bg9ThQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE0MDt3PTE0MA--/https://s.yimg.com/lo/api/res/1.2/Ps6LHjLRzLNhgXIVu.wrGg--/YXBwaWQ9eXZpZGVvZmVlZHM7dz05MDA7aD01OTE-/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8"
+          },
+          {
+            "height": 420,
+            "width": 640,
+            "tag": "fit-width-640",
+            "url": "https://s.yimg.com/lo/api/res/1.2/VMrRtoUfU9fuCmxUh25TRA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTQyMC4yNjY2NjY2NjY2NjY2NTt3PTY0MA--/https://s.yimg.com/lo/api/res/1.2/Ps6LHjLRzLNhgXIVu.wrGg--/YXBwaWQ9eXZpZGVvZmVlZHM7dz05MDA7aD01OTE-/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/tjrfET.JTUbD18.10qHemg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTQwO3c9MTQw/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8",
+            "height": 140,
+            "width": 140,
+            "tag": "ios:size=square_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/5aRa_dM3kxuIT2R4PCMcdw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xMDU7dz0xNjA-/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8",
+            "height": 105,
+            "width": 160,
+            "tag": "ios:size=small"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/pL3m8qtrIqSVdHfVK7.9Nw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0yMTA7dz0zMjA-/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8",
+            "height": 210,
+            "width": 320,
+            "tag": "ios:size=medium"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/2eOH3y8q1UVttXUyFID3pw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD00MjA7dz02NDA-/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8",
+            "height": 420,
+            "width": 640,
+            "tag": "ios:size=extra_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/Ngf08Pxy152twjquQpkKxA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9MzIw/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8",
+            "height": 530,
+            "width": 320,
+            "tag": "ios:size=card_small_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/KNe8d0rd4xlW93mQ1VhYvg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTA2MDt3PTY0MA--/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8",
+            "height": 1060,
+            "width": 640,
+            "tag": "ios:size=card_large_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/V077bb1wU7DywB8nblBv.Q--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9NjQw/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8",
+            "height": 530,
+            "width": 640,
+            "tag": "ios:size=large_new_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/8rd8s2jx4DZ_PKTgWm0eeg--/YXBwaWQ9eXZpZGVvZmVlZHM7aD01MDQ7dz03Njg-/https://media.zenfs.com/en-us/zacks.com/ff73885958330255de14814d576daeb8",
+            "height": 504,
+            "width": 768,
+            "tag": "ios:size=ipad_portrait"
+          }
+        ]
+      },
+      "entities": [
+        {
+          "term": "TICKER:AJG",
+          "label": "Arthur J. Gallagher & Co.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:AON",
+          "label": "Aon plc",
+          "score": 1
+        },
+        {
+          "term": "TICKER:BRO",
+          "label": "Brown & Brown, Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:WLTW",
+          "label": "Willis Towers Watson Public Lim",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "dd8f526f-0684-33dd-b86e-4bd80587ac96",
+      "offnet": false,
+      "content": "<p style=\"text-align:justify;\">The Zacks Insurance - Brokerage industry comprises companies that primarily offer insurance and reinsurance products and services. Here the insurance brokers act on behalf of their clients and offer advice keeping in mind the clients’ interests. Some of these companies are also involved in providing risk management, third-party administration and managed health care services.<br><br>Here are the industry’s three major themes:</br></br></p>\n<ul>\n <li style=\"text-align:justify;\">Given an improving economy, strong customer retention and increase in insured exposure have been fueling revenue growth for the insurance brokers. Moreover, income is generated through commissions earned on policies sold. This in turn, leads to higher revenues as policy prices rise and volumes increase. Further, pertaining to some players, this trend is being supported by a steady diversification of operations through mergers and acquisitions. Also, with the market getting stronger on buoyant economic conditions, insurance brokers are capitalizing on their investments and generating better commissions and profits.<br>&nbsp;</br></li>\n <li style=\"text-align:justify;\">As the business environment is becoming more dynamic and complex, the need for insurance brokerage services is growing convincingly. Additionally, utilization of data and analytics has strengthened the insurance brokers’ capabilities to cater to the increasing need for sophisticated risk management services.<br>&nbsp;</br></li>\n <li style=\"text-align:justify;\">While investments in technology and analytics should help insurance brokers generate solid revenues in the future, the expenses associated with such investments have kept operating costs elevated for a considerable period of time. Also, the inorganic growth initiatives have been inducing higher debt levels for many players. As a result, interest expenses are expected to remain escalated.</li>\n</ul>\n<p style=\"text-align:justify;\"><strong>Zacks Industry Rank Indicates Cloudy Prospects</strong><br><br>The Zacks Insurance - Brokerage industry is housed within the broader Zacks Finance sector. It carries a Zacks Industry Rank #188, which places it at the bottom 27% of more than 250 Zacks industries.<br><br>The group’s Zacks Industry Rank, which is basically the average of the Zacks Rank of all the member stocks, signifies bleak near-term prospects. Our research shows that the top 50% of the Zacks-ranked industries outperforms the bottom 50% by a factor of more than 2 to 1.<br><br>The industry’s positioning in the bottom 50% of the Zacks-ranked industries is a result of a negative earnings outlook for the constituent companies in aggregate. Looking at the aggregate earnings estimate revisions, it appears that analysts are losing confidence in this group’s earnings growth potential. Over the past year, the industry’s earnings estimate for the current year has dipped 1.1%.<br><br>Before we present a few insurance broker stocks that you may want to consider for your portfolio, let’s take a look at the industry’s recent stock-market performance and valuation picture.<br><br><strong>Industry Outperforms S&amp;P 500 and Sector</strong><br><br>The Insurance Brokerage Industry has outperformed the Zacks S&amp;P 500 Composite and the broader Zacks Finance Sector over the past year.<br><br>The industry has gained 9.4% versus the S&amp;P 500’s slip of 0.6% and the broader sector’s decrease of 8.5 %.<br><br><strong>One-Year Price Performance</strong></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></p>\n<p style=\"text-align:justify;\"><strong><img alt=\"\" src=\"https://s1.yimg.com/uu/api/res/1.2/mQ6mczgTMseyG8xoR8TItA--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en-us/zacks.com/3a749508d9f42c03699d6de84a5dbc51\" style=\"width:620px;height:164px;\" /></strong><br><br><strong>Industry’s Current Valuation</strong><br><br>On the basis of the trailing 12-month price-to-book (P/B) ratio, which is commonly used for valuing insurance stocks, the industry is currently trading at 4.88X compared with the S&amp;P 500’s 3.87X and the sector’s 2.49X.<br><br>Over the last five years, the industry has traded as high as 5.11X, as low as 2.92X and at the median of 3.92X as the chart below shows.<br><br><strong>Trailing 12-Month Price-to-Book (P/B) Ratio</strong></br></br></br></br></br></br></br></br></p>\n<p style=\"text-align:justify;\"><strong><img alt=\"\" src=\"https://s1.yimg.com/uu/api/res/1.2/m4_sw2A2QgcnRdXZH2nOqw--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en-us/zacks.com/3da5c6b949a9adc0ffa1854a0811f5b9\" style=\"width:620px;height:125px;\" /></strong></p>\n<p style=\"text-align:justify;\">&nbsp;</p>\n<p style=\"text-align:justify;\"><strong><img alt=\"\" src=\"https://s.yimg.com/uu/api/res/1.2/b4uhf8W9ak6FR0P0vvd05Q--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en-us/zacks.com/f2aab2f5c59fefe58ef9dfd3779a57a4\" style=\"width:620px;height:125px;\" /></strong><br><br><strong>Bottom Line</strong><br><br>Strong customer retention and rising insured exposure owing to thriving economy will help the industry yield stronger revenues. However, increasing expenses pose a near-term challenge.<br><br>The Zacks Insurance Brokerage space doesn’t currently have any stocks carrying a Zacks Rank #1 (Strong Buy) or 2 (Buy). However, we are presenting four stocks with a Zacks Rank #3 (Hold) that investors may want to hold on to at the moment.</br></br></br></br></br></br></p>\n<p style=\"text-align:justify;\">You can see <strong>the complete list of today’s Zacks #1 Rank stocks here</strong>.</p>\n<p style=\"text-align:justify;\"><strong>Arthur J. Gallagher &amp; Co.</strong> (AJG): For this Rolling Meadows, IL-based company, the Zacks Consensus Estimate for 2019 EPS indicates year-over-year growth of 11.3%. The company has an estimated long-term earnings growth rate of 10.2%. It came up with average positive surprise of 1.47% in the trailing four quarters.<br><br><strong>Price and Consensus: AJG</strong></br></br></p>\n<p style=\"text-align:justify;\"><strong><img alt=\"\" src=\"https://s1.yimg.com/uu/api/res/1.2/0RtofZf8IbG4e7by032HYQ--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en-us/zacks.com/c983d2f1c1b0ceed7662ee05685f9544\" style=\"width:620px;height:218px;\" /></strong><br><br><strong>Aon plc</strong> (AON): The Zacks Consensus Estimate for 2019 EPS represents a year-over-year rise of 12.8%. This London-based company has an estimated long-term earnings growth rate of 11.8%. It delivered average earnings surprise of 4.82% in the last four quarters.<br><br><strong>Price and Consensus: AON</strong></br></br></br></br></p>\n<p style=\"text-align:justify;\"><strong><img alt=\"\" src=\"https://s1.yimg.com/uu/api/res/1.2/aHfj45RQJBiNdfYhKOyNXw--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en-us/zacks.com/bccea1f4dfac22b768ab91a5c185e713\" style=\"width:620px;height:216px;\" /></strong><br><br><strong>Willis Towers Watson Public Limited Company</strong> (WLTW): For this London-based company, the Zacks Consensus Estimate for 2019 EPS reflects a 9.9% year-over-year improvement. The company has an estimated long-term earnings growth rate of 12.4%. It pulled off average beat of 5.57% for the preceding four quarters.<br><br><strong>Price and Consensus: WLTW</strong></br></br></br></br></p>\n<p style=\"text-align:justify;\"><strong><img alt=\"\" src=\"https://s.yimg.com/uu/api/res/1.2/g.b.wOgEdtfb5KQ9.Quf7A--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en-us/zacks.com/b34aa6a4e83e0f68bfacc69de0854bdf\" style=\"width:620px;height:211px;\" /></strong><br><br><strong>Brown &amp; Brown, Inc. </strong>(BRO): For this Daytona Beach, FL-based company, the Zacks Consensus Estimate for 2019 EPS represents a 8.1% year-over-year increase. The company has an estimated long-term earnings growth rate of 10%. It pulled off average beat of 4.54% for the preceding four quarters.<br><br><strong>Price and Consensus: BRO</strong></br></br></br></br></p>\n<p style=\"text-align:justify;\"><strong><img alt=\"\" src=\"https://s1.yimg.com/uu/api/res/1.2/uHci482vNnJP5h89pAk08Q--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en-us/zacks.com/f585778efc8a282f3bb309466d6f3cc3\" style=\"width:620px;height:222px;\" /></strong></p>\n<p style=\"text-align:justify;\">&nbsp;</p>\n<p style=\"text-align:justify;\"><strong>Today's Best Stocks from Zacks </strong></p>\n<p style=\"text-align:justify;\">Would you like to see the updated picks from our best market-beating strategies? From 2017 through 2018, while the S&amp;P 500 gained +15.8%, five of our screens returned +38.0%, +61.3%, +61.6%, +68.1%, and +98.3%.</p>\n<p style=\"text-align:justify;\">This outperformance has not just been a recent phenomenon. From 2000 – 2018, while the S&amp;P averaged +4.8% per year, our top strategies averaged up to +56.2% per year.</p>\n<p style=\"text-align:justify;\"><strong>See their latest picks free &gt;&gt;</strong></p>\n<br>Want the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. \n<a href=\"https://www.zacks.com/registration/pfp/?ALERT=RPT_7BST_LP194&amp;ADID=YAHOO_CONTENT_ZER_ARTCAT_INDUSTRY_OUTLOOK&amp;cid=CS-YAHOO-FT-359384\" target=\"_blank\">Click to get this free report</a>\n<br>&nbsp;\n<br>\n<a href=\"https://www.zacks.com/registration/pfp?ALERT=YAHOO_ZER&amp;d_alert=ZER_CONF&amp;t=WLTW&amp;ADID=YAHOO_CONTENT_ZER_ARTCAT_INDUSTRY_OUTLOOK&amp;cid=CS-YAHOO-FT-359384\">Willis Towers Watson Public Limited Company (WLTW) : Free Stock Analysis Report</a>\n<br>&nbsp;\n<br>\n<a href=\"https://www.zacks.com/registration/pfp?ALERT=YAHOO_ZER&amp;d_alert=ZER_CONF&amp;t=BRO&amp;ADID=YAHOO_CONTENT_ZER_ARTCAT_INDUSTRY_OUTLOOK&amp;cid=CS-YAHOO-FT-359384\">Brown &amp; Brown, Inc. (BRO) : Free Stock Analysis Report</a>\n<br>&nbsp;\n<br>\n<a href=\"https://www.zacks.com/registration/pfp?ALERT=YAHOO_ZER&amp;d_alert=ZER_CONF&amp;t=AON&amp;ADID=YAHOO_CONTENT_ZER_ARTCAT_INDUSTRY_OUTLOOK&amp;cid=CS-YAHOO-FT-359384\">Aon plc (AON) : Free Stock Analysis Report</a>\n<br>&nbsp;\n<br>\n<a href=\"https://www.zacks.com/registration/pfp?ALERT=YAHOO_ZER&amp;d_alert=ZER_CONF&amp;t=AJG&amp;ADID=YAHOO_CONTENT_ZER_ARTCAT_INDUSTRY_OUTLOOK&amp;cid=CS-YAHOO-FT-359384\">Arthur J. Gallagher &amp; Co. (AJG) : Free Stock Analysis Report</a>\n<br>&nbsp;\n<br>\n<a href=\"https://www.zacks.com/commentary/359384/insurance-brokerage-stock-outlook-few-bumps-in-the-offing?cid=CS-YAHOO-FT-359384\">To read this article on Zacks.com click here.</a>\n<br>&nbsp;\n<br>\n<a href=\"https://www.zacks.com/\">Zacks Investment Research</a></br></br></br></br></br></br></br></br></br></br></br></br></br>",
+      "streams": null
+    },
+    {
+      "uuid": "3773ebdd-c1ce-31e8-bf30-acb905cf3883",
+      "title": "Aon's New Ventures Group accelerates the firm's Intellectual Property Solutions",
+      "link": "https://finance.yahoo.com/news/aons-ventures-group-accelerates-firms-145500343.html",
+      "summary": "New Ventures Group appoints Brian Cochrane as CCO LONDON , March 12, 2019 /PRNewswire/ --  Aon plc  (NYSE: AON), a leading global professional services firm providing a broad range of risk, retirement ...",
+      "publisher": "PR Newswire",
+      "ignore_main_image": true,
+      "type": "story",
+      "published_at": 1552402500,
+      "main_image": {
+        "original_height": 286,
+        "original_width": 400,
+        "original_url": "https://s.yimg.com/lo/api/res/1.2/_HVvu4vyyJfp8sfR1uP8Tw--/YXBwaWQ9eXZpZGVvZmVlZHM7dz00MDA7aD0yODY-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030",
+        "resolutions": [
+          {
+            "tag": "original",
+            "width": 400,
+            "url": "https://s.yimg.com/lo/api/res/1.2/_HVvu4vyyJfp8sfR1uP8Tw--/YXBwaWQ9eXZpZGVvZmVlZHM7dz00MDA7aD0yODY-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030",
+            "tags": [
+              "size=original",
+              ""
+            ],
+            "height": 286
+          },
+          {
+            "height": 140,
+            "width": 140,
+            "tag": "square-140x140",
+            "url": "https://s.yimg.com/lo/api/res/1.2/TMb7x_pb1wedoccHq0cXtQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE0MDt3PTE0MA--/https://s.yimg.com/lo/api/res/1.2/_HVvu4vyyJfp8sfR1uP8Tw--/YXBwaWQ9eXZpZGVvZmVlZHM7dz00MDA7aD0yODY-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/UMcoQUUpwYjBzXFmo9XYrg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTQwO3c9MTQw/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030",
+            "height": 140,
+            "width": 140,
+            "tag": "ios:size=square_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/EkdfJsL6gHJKAVvaYsHyWw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xMTQ7dz0xNjA-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030",
+            "height": 114,
+            "width": 160,
+            "tag": "ios:size=small"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/Xz5YTWE.LwlqTLi3tL2pCw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0yMjg7dz0zMjA-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030",
+            "height": 228,
+            "width": 320,
+            "tag": "ios:size=medium"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/57XOY2VsUmBbBY.itqHndQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9MzIw/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030",
+            "height": 530,
+            "width": 320,
+            "tag": "ios:size=card_small_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/.r62JK9.qa0rgR742XC9.A--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTA2MDt3PTY0MA--/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030",
+            "height": 1060,
+            "width": 640,
+            "tag": "ios:size=card_large_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/9jDDEOfW6I.V1ToslF185Q--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9NjQw/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030",
+            "height": 530,
+            "width": 640,
+            "tag": "ios:size=large_new_fixed"
+          }
+        ]
+      },
+      "entities": [
+        {
+          "term": "TICKER:AON",
+          "label": "Aon plc",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "3773ebdd-c1ce-31e8-bf30-acb905cf3883",
+      "offnet": false,
+      "content": "<p><br> </br></p>\n<p>New Ventures Group appoints <span class=\"xn-person\">Brian Cochrane</span> as CCO</p> \n<p><span class=\"xn-location\">LONDON</span>, <span class=\"xn-chron\">March 12, 2019</span> /PRNewswire/ --&nbsp;<a target=\"_blank\" href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=2400773-1&amp;h=2992868021&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D2400773-1%26h%3D3235419011%26u%3Dhttp%253A%252F%252Fwww.aon.com%252Fdefault.jsp%26a%3DAon%2Bplc&amp;a=Aon+plc\" rel=\"nofollow\">Aon plc</a>&nbsp;(<a href=\"/q?s=aon\">AON</a>), a leading global professional services firm providing a broad range of risk, retirement and health solutions, today announces its commitment to further develop its innovation portfolio and deliver new sources of value to clients through the New Ventures Group (NVG).&nbsp; The NVG is now formally sponsoring the firm's <a target=\"_blank\" href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=2400773-1&amp;h=2860801260&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D2400773-1%26h%3D1314403997%26u%3Dhttps%253A%252F%252Fwww.aon.com%252Frisk-services%252Famats%252Fintellectual-property-solutions.jsp%26a%3DIntellectual%2BProperty%2BSolutions&amp;a=Intellectual+Property+Solutions\" rel=\"nofollow\">Intellectual Property Solutions</a>&nbsp;(IPS) to help manage clients' intangible assets and expand the marketplace.</p> \n<p>The NVG, which comprises a team of senior leaders, was formed in Q4 2018 to help realize the full potential of the Aon United growth strategy.&nbsp; The NVG focuses on the rapid incubation and delivery of new high-impact sources of value for clients.</p> \n<p>Aon's new IPS offerings exemplify this approach, as IP is more important than ever as businesses recognize a paradigm shift from tangible to intangible assets.&nbsp; Firms need to both identify and manage risks surrounding business-critical and proprietary data, and develop and execute strategies for maximizing shareholder value from their IP portfolios. The IPS team&nbsp;has developed a set of consulting, valuation and risk transfer offerings to establish Aon as the trusted global authority in the intellectual property asset class.</p> \n<p>To drive this and future initiatives, the NVG recently appointed <span class=\"xn-person\">Brian Cochrane</span> as its Chief Commercial Officer. Brian previously served as Aon's Executive Vice President and Global Leader of M&amp;A and Transaction Solutions and he will continue to oversee the unit as Executive Chairman. &nbsp;In his new role, he will be responsible for assessing the commercial feasibility of new solutions and collaborating with Aon's Operating Committee to ensure successful go-to-market for newly developed capabilities for clients. </p> \n<p>The IPS team is led by CEO, <span class=\"xn-person\">Lewis Lee</span>, founder of 601West, the IP consulting business within his former law firm, and President, <span class=\"xn-person\">Dennis Gaughan</span>, who has ten years with Aon's M&amp;A and Transactions Solutions team.&nbsp; Lewis and Dennis combine to bring distinctive IP, business, and risk management knowledge, experience, and capabilities. The IPS team is working closely with <span class=\"xn-person\">Brian Cochrane</span>, <span class=\"xn-person\">Tony Goland</span>, and the full NVG team to accelerate development and go-to-market of their initial offerings, while exploring the much more expansive commercial opportunities related to the rapid expansion of intangible assets across Aon's client base.</p> \n<p><span class=\"xn-person\">Tony Goland</span>, Chief Innovation Officer and overall NVG leader, commented: \"We have long recognized there is a critical need to innovate at scale on behalf of clients and create new opportunities for growth. The NVG has already made important strides in this regard, and we are excited Brian has joined the team as Chief Commercial Officer, with a current primary focus on our Intellectual Property Solutions.\"</p> \n<p><span class=\"xn-person\">Brian Cochrane</span>, Chief Commercial Officer of the NVG, added: \"This is a very exciting era for the firm as the NVG seeks to identify and develop new, high-impact sources of value for Aon's clients; accelerate our ability to scale these high-impact solutions; and meaningfully contribute to Aon's growth and performance. This approach is enabling Aon to go 'bigger and faster', driving growth-stage opportunities that have the potential to deliver meaningful value to clients.\" </p> \n<p>Aon's NVG leadership team includes:</p> \n<ul type=\"disc\">\n <li><span class=\"xn-person\">Greg Case</span>, Chief Executive Officer </li>\n <li><span class=\"xn-person\">Tony Goland</span>, Chief Innovation Officer </li>\n <li><span class=\"xn-person\">Christa Davies</span>, Chief Financial Officer </li>\n <li><span class=\"xn-person\">Bryon Ehrhart</span>, Global Head of Strategic Growth and Development </li>\n <li><span class=\"xn-person\">John Bruno</span>, Chief Operations Officer and Chief Executive Officer, Data &amp; Analytic Services </li>\n <li><span class=\"xn-person\">Brian Cochrane</span>, Chief Commercial Officer, NVG and Executive Chairman, M&amp;A and Transaction Solutions</li>\n</ul>\n<p><b>About Aon</b></p> \n<p><u><a target=\"_blank\" href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=2400773-1&amp;h=749865923&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D2400773-1%26h%3D3491982673%26u%3Dhttp%253A%252F%252Fwww.aon.com%252F%26a%3DAon%2Bplc&amp;a=Aon+plc\" rel=\"nofollow\">Aon plc</a></u>&nbsp;(<a href=\"/q?s=aon\">AON</a>)&nbsp;is a leading global professional services firm providing a broad range of risk, retirement and health solutions.&nbsp;Our 50,000 colleagues in 120 countries empower results for clients by using proprietary data and analytics to deliver insights that reduce volatility and improve performance.</p> \n<p>Aon announced in <span class=\"xn-chron\">May 2018</span> it will retire the business unit brands of <span class=\"xn-person\">Aon Benfield</span> and Aon Risk Solutions, which follows the retirement of the Aon Hewitt business unit brand in 2017. This move was designed to increase the rate of innovation across the firm and make it easier for colleagues to work together to bring the best of Aon to clients. Aon has five specific global solution lines: Commercial Risk Solutions, Reinsurance Solutions, Retirement Solutions, Health Solutions and Data &amp; Analytic Services.</p> \n<p>Follow Aon on Twitter:&nbsp;<a target=\"_blank\" href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=2400773-1&amp;h=2907591964&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D2400773-1%26h%3D2080511329%26u%3Dhttps%253A%252F%252Ftwitter.com%252FAon_plc%26a%3Dhttps%253A%252F%252Ftwitter.com%252FAon_plc%2B&amp;a=https%3A%2F%2Ftwitter.com%2FAon_plc+\" rel=\"nofollow\">https://twitter.com/Aon_plc </a><br>Sign up for News Alerts:&nbsp;<a target=\"_blank\" href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=2400773-1&amp;h=3259762419&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D2400773-1%26h%3D2745164039%26u%3Dhttp%253A%252F%252Faon.mediaroom.com%252Findex.php%253Fs%253D58%26a%3Dhttp%253A%252F%252Faon.mediaroom.com%252Findex.php%253Fs%253D58&amp;a=http%3A%2F%2Faon.mediaroom.com%2Findex.php%3Fs%3D58\" rel=\"nofollow\">http://aon.mediaroom.com/index.php?s=58</a></br></p> \n<p><b>Media Contact</b>: <a target=\"_blank\" href=\"mailto:andrew.wragg@aon.com\" rel=\"nofollow\"><span class=\"xn-person\">Andrew Wragg</span></a> (+44 20 7522 8183),&nbsp;<a target=\"_blank\" href=\"mailto:alexandra.lewis@aon.com\" rel=\"nofollow\"><span class=\"xn-person\">Alexandra Lewis</span></a>&nbsp;(+44 207 086 0541) or <a target=\"_blank\" href=\"mailto:david.bogg@aon.com\" rel=\"nofollow\"><span class=\"xn-person\">David Bogg</span></a> (+44&nbsp; 207 522 4016) </p> \n<div id=\"prni_dvprnejpg0ea7left\" dir=\"ltr\">\n <img src=\"https://s.yimg.com/uu/api/res/1.2/4bxPN8_5TYdP3zv6E9L44g--/YXBwaWQ9eXRhY2h5b247cT03NTs-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030\" class=\"editorial\" id=\"prnejpg0ea7left\" title=\" \" border=\"0\" alt=\" \" align=\"middle\" imagelabel=\"General\">\n</img></div>\n<p>Logo - <a target=\"_blank\" href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=2400773-1&amp;h=4039726945&amp;u=https%3A%2F%2Fmma.prnewswire.com%2Fmedia%2F689845%2FAon_Corporation_Logo.jpg&amp;a=https%3A%2F%2Fmma.prnewswire.com%2Fmedia%2F689845%2FAon_Corporation_Logo.jpg\" rel=\"nofollow\">http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aons_New_Ventures_Group_accelerates-da88504fdecd9983b038bfa291b31030</a> </p> \n<br>\n<br>\n<br>\n<p></p> \n<style type=\"text/css\">span.prnews_span{font-size:8pt !important;font-family:\"Arial\" !important;color:black !important;} \na.prnews_a{color:blue !important;} \nli.prnews_li{font-size:8pt !important;font-family:\"Arial\" !important;color:black !important;} \np.prnews_p{font-size:0.62em !important;font-family:\"Arial\" !important;color:black !important;margin:0in !important;} \n;} \n</style></br></br></br>",
+      "streams": null
+    },
+    {
+      "uuid": "05968962-5fec-3c0a-91c3-18e8b28ec6a9",
+      "title": "See what the IHS Markit Score report has to say about Aon PLC.",
+      "link": "https://finance.yahoo.com/news/see-ihs-markit-score-report-142808508.html",
+      "summary": "Aon PLC NYSE:AONView full report here! Summary  * Bearish sentiment is low   * Economic output in this company's sector is expanding Bearish sentimentShort interest | PositiveShort interest is extremely low for AON with fewer than 1% of shares on loan. This could indicate that investors who seek to profit from falling equity prices are not currently targeting AON. Money flowETF/Index ownership | NeutralETF activity is neutral. ETFs that hold AON had net inflows of $2.98 billion over the last one-month. While these are not among the highest inflows of the last year, the rate of inflow is increasing. Economic sentimentPMI by IHS Markit | PositiveAccording to the latest IHS Markit Purchasing Managers' Index (PMI) data, output in the Financials sector is rising. The rate of growth is strong relative to the trend shown over the past year. Credit worthinessCredit default swapCDS data is not available for this security.Please send all inquiries related to the report to score@ihsmarkit.com.Charts and report PDFs will only be available for 30 days after publishing.This document has been produced for information purposes only and is not to be relied upon or as construed as investment advice. To the fullest extent permitted by law, IHS Markit disclaims any responsibility or liability, whether in contract, tort (including, without limitation, negligence), equity or otherwise, for any loss or damage arising from any reliance on or the use of this material in any way. Please view the full legal disclaimer and methodology information on pages 2-3 of the full report.",
+      "publisher": "Markit",
+      "author": "IHS Markit",
+      "ignore_main_image": true,
+      "type": "story",
+      "published_at": 1552400888,
+      "main_image": null,
+      "entities": [
+        {
+          "term": "TICKER:AON",
+          "label": "Aon plc",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "05968962-5fec-3c0a-91c3-18e8b28ec6a9",
+      "offnet": false,
+      "content": "<a href=\"https://ihsmarkit.com/index.html?utm_source=YahooScorecard&amp;utm_medium=banner&amp;utm_campaign=CN-003989\"><img src=\"https://s.yimg.com/uu/api/res/1.2/eLtWJEs_BkeM1_AzU_dlgg--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en/markit_77/7b64331492333034b26c37ea4ef74983\" width=\"150\" /></a> \n<h1>Aon PLC</h1> \n<h3>NYSE:AON</h3> \n<p><a href=\"https://api.markitondemand.com/apiman-gateway/MOD/markit-view-report/1.0/documents/46227/full-report?version=20190312\">View full report here!</a></p> \n<h2>Summary</h2> \n<p></p>\n<ul>\n <li>Bearish sentiment is low </li> \n <li>Economic output in this company's sector is expanding</li>\n</ul>\n<p></p> \n<a href=\"https://ihsmarkit.com/products/securities-finance.html?utm_source=YahooScorecard&amp;utm_medium=banner&amp;utm_campaign=CN-003989\"><h2>Bearish sentiment</h2></a> \n<p>Short interest | <strong>Positive</strong></p> \n<img src=\"https://s1.yimg.com/uu/api/res/1.2/wrXeCiTuMB6SyMfMl5Mi0g--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en/markit_77/c14f1d02124065c47795ad731d8fbcd4\"> \n<p>Short interest is extremely low for AON with fewer than 1% of shares on loan. This could indicate that investors who seek to profit from falling equity prices are not currently targeting AON.</p> \n<a href=\"https://ihsmarkit.com/products/index-etf-data-management.html?utm_source=YahooScorecard&amp;utm_medium=banner&amp;utm_campaign=CN-003989\"><h2>Money flow</h2></a> \n<p>ETF/Index ownership | <strong>Neutral</strong></p> \n<img src=\"https://s1.yimg.com/uu/api/res/1.2/dIUWouf5Fk6R0yajoMv64Q--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en/markit_77/f0ce8f7b175665e21c2289163fab1d60\"> \n<p>ETF activity is neutral. ETFs that hold AON had net inflows of $2.98 billion over the last one-month. While these are not among the highest inflows of the last year, the rate of inflow is increasing.</p> \n<a href=\"https://ihsmarkit.com/products/pmi.html?utm_source=YahooScorecard&amp;utm_medium=banner&amp;utm_campaign=CN-003989\"><h2>Economic sentiment</h2></a> \n<p>PMI by IHS Markit | <strong>Positive</strong></p> \n<img src=\"https://s1.yimg.com/uu/api/res/1.2/O5.bIvH.d14h3kWVmA15jw--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en/markit_77/9e4f8333a4ee81bcfc96dd08bc064215\"> \n<p>According to the latest IHS Markit Purchasing Managers' Index (PMI) data, output in the Financials sector is rising. The rate of growth is strong relative to the trend shown over the past year.</p> \n<a href=\"https://ihsmarkit.com/products/pricing-data-cds.html?utm_source=YahooScorecard&amp;utm_medium=banner&amp;utm_campaign=CN-003989\"><h2>Credit worthiness</h2></a> \n<p>Credit default swap</p> \n<p>CDS data is not available for this security.</p> \n<p>Please send all inquiries related to the report to <a href=\"mailto:score@ihsmarkit.com\">score@ihsmarkit.com</a>.</p> \n<p>Charts and report PDFs will only be available for 30 days after publishing.</p> \n<p>This document has been produced for information purposes only and is not to be relied upon or as construed as investment advice. To the fullest extent permitted by law, IHS Markit disclaims any responsibility or liability, whether in contract, tort (including, without limitation, negligence), equity or otherwise, for any loss or damage arising from any reliance on or the use of this material in any way. Please view the full legal disclaimer and methodology information on pages 2-3 of the <a href=\"https://api.markitondemand.com/apiman-gateway/MOD/markit-view-report/1.0/documents/46227/full-report?version=20190312\">full report</a>.</p></img></img></img>",
+      "streams": null
+    },
+    {
+      "uuid": "f1f6e56e-64c7-349a-90d0-d0a3cf8d2011",
+      "title": "Aon plc (NYSE:AON): Commentary On Fundamentals",
+      "link": "https://finance.yahoo.com/news/aon-plc-nyse-aon-commentary-144033326.html",
+      "summary": "Building up an investment case requires looking at a stock holistically. Today I've chosen to put the spotlight on Aon plc (NYSE:AON) due to its excellent fundamentals in more thanRead More...",
+      "publisher": "Simply Wall St.",
+      "author": "Simply Wall St",
+      "ignore_main_image": true,
+      "type": "story",
+      "published_at": 1552056033,
+      "main_image": {
+        "original_height": 300,
+        "original_width": 1080,
+        "original_url": "https://s.yimg.com/lo/api/res/1.2/l9gpcqv9Wk5c04RT52O.dw--/YXBwaWQ9eXZpZGVvZmVlZHM7dz0xMDgwO2g9MzAw/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07",
+        "resolutions": [
+          {
+            "tag": "original",
+            "width": 1080,
+            "url": "https://s.yimg.com/lo/api/res/1.2/l9gpcqv9Wk5c04RT52O.dw--/YXBwaWQ9eXZpZGVvZmVlZHM7dz0xMDgwO2g9MzAw/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07",
+            "tags": [
+              "size=original",
+              ""
+            ],
+            "height": 300
+          },
+          {
+            "height": 140,
+            "width": 140,
+            "tag": "square-140x140",
+            "url": "https://s.yimg.com/lo/api/res/1.2/VWCzqiIDGqSnJ1FGU9cwDQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE0MDt3PTE0MA--/https://s.yimg.com/lo/api/res/1.2/l9gpcqv9Wk5c04RT52O.dw--/YXBwaWQ9eXZpZGVvZmVlZHM7dz0xMDgwO2g9MzAw/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07"
+          },
+          {
+            "height": 178,
+            "width": 640,
+            "tag": "fit-width-640",
+            "url": "https://s.yimg.com/lo/api/res/1.2/r8RpTT7DY8aipnUteBriFw--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE3Ny43Nzc3Nzc3Nzc3Nzc3Nzt3PTY0MA--/https://s.yimg.com/lo/api/res/1.2/l9gpcqv9Wk5c04RT52O.dw--/YXBwaWQ9eXZpZGVvZmVlZHM7dz0xMDgwO2g9MzAw/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/8mQa6C_wCBo3mrBb2aE5ig--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTQwO3c9MTQw/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07",
+            "height": 140,
+            "width": 140,
+            "tag": "ios:size=square_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/lBdNOxu44byejCABaWzL.A--/YXBwaWQ9eXZpZGVvZmVlZHM7aD00NDt3PTE2MA--/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07",
+            "height": 44,
+            "width": 160,
+            "tag": "ios:size=small"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/uVZrFzfjzxewXmpks5DgHg--/YXBwaWQ9eXZpZGVvZmVlZHM7aD04ODt3PTMyMA--/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07",
+            "height": 88,
+            "width": 320,
+            "tag": "ios:size=medium"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/3lpt4hIA1qfQgo05ayY2kA--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xNzc7dz02NDA-/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07",
+            "height": 177,
+            "width": 640,
+            "tag": "ios:size=extra_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/MyV9xZ3sXVQuKnWOAyiKVw--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9MzIw/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07",
+            "height": 530,
+            "width": 320,
+            "tag": "ios:size=card_small_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/.BTkG8uzbTZY6HOS3wRm1g--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTA2MDt3PTY0MA--/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07",
+            "height": 1060,
+            "width": 640,
+            "tag": "ios:size=card_large_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/pqF5HcPJFJ.auC6_OAOAhg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9NjQw/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07",
+            "height": 530,
+            "width": 640,
+            "tag": "ios:size=large_new_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/vLw1gKfJsxFEwjDXSLOM8w--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0yMTM7dz03Njg-/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07",
+            "height": 213,
+            "width": 768,
+            "tag": "ios:size=ipad_portrait"
+          }
+        ]
+      },
+      "entities": [
+        {
+          "term": "TICKER:AON",
+          "label": "Aon plc",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "f1f6e56e-64c7-349a-90d0-d0a3cf8d2011",
+      "offnet": false,
+      "content": "<img src=\"https://s1.yimg.com/uu/api/res/1.2/aANMOMdJArQEhUsc2OxIQQ--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en/simply_wall_st__316/6b6a36860198c2c0c9830eca038f7b07\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\">\n<p> Building up an investment case requires looking at a stock holistically. Today I’ve chosen to put the spotlight on Aon plc (<a href=\"https://simplywall.st/stocks/us/insurance/nyse-aon/aon?utm_medium=finance_user&amp;utm_source=yahoo&amp;utm_campaign=Intro_ticker&amp;blueprint=278083\" target=\"_blank\">NYSE:AON</a>) due to its excellent fundamentals in more than one area. AON is a financially-healthy company with an impressive track record and a excellent growth outlook. In the following section, I expand a bit more on these key aspects. If you’re interested in understanding beyond my broad commentary, take a look at the <a href=\"https://simplywall.st/stocks/us/insurance/nyse-aon/aon?utm_medium=finance_user&amp;utm_source=yahoo&amp;utm_campaign=Conc_ticker&amp;blueprint=278083\">report on Aon here</a>. </p> \n<h3>Reasonable growth potential with proven track record and pays a dividend</h3> \n<p> AON is an attractive stock for growth-seeking investors, with an expected earnings growth of 27% in the upcoming year which is expected to flow into an impressive return on equity of 49% over the next couple of years. AON delivered a triple-digit bottom-line expansion over the past couple of years, with its most recent earnings level surpassing its average level over the last five years. In addition to beating its historical values, AON also outperformed its industry, which delivered a growth of 1.8%. This is an notable feat for the company. </p> \n<figure> \n <a href=\"https://simplywall.st/stocks/us/insurance/nyse-aon/aon?utm_medium=finance_user&amp;utm_source=yahoo&amp;utm_campaign=Infographic&amp;blueprint=278083#income-estimate\" target=\"_blank\"> <img src=\"https://s.yimg.com/uu/api/res/1.2/AdqXacJIlRANQ0SL5ebM3A--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en/simply_wall_st__316/e56560b4169d9d5b63987b657dee4f06\" alt=\"NYSE:AON Past and Future Earnings, March 8th 2019\"> </img></a> \n <figcaption>\n  NYSE:AON Past and Future Earnings, March 8th 2019\n </figcaption> \n</figure> \n<p> AON is financially robust, with ample cash on hand and short-term investments to meet upcoming liabilities. This indicates that AON has sufficient cash flows and proper cash management in place, which is an important determinant of the company’s health. AON seems to have put its debt to good use, generating operating cash levels of 0.27x total debt in the most recent year. This is also a good indication as to whether debt is properly covered by the company’s cash flows. </p> \n<figure> \n <a href=\"https://simplywall.st/stocks/us/insurance/nyse-aon/aon?utm_medium=finance_user&amp;utm_source=yahoo&amp;utm_campaign=Infographic&amp;blueprint=278083#debt_equity\" target=\"_blank\"> <img src=\"https://s1.yimg.com/uu/api/res/1.2/bg8EgNl0GsxPzTdZgc1kfA--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en/simply_wall_st__316/5b2a91182adb0720b7a9e9d843b217f8\" alt=\"NYSE:AON Historical Debt, March 8th 2019\"> </img></a> \n <figcaption>\n  NYSE:AON Historical Debt, March 8th 2019\n </figcaption> \n</figure> \n<h3>Next Steps:</h3> \n<p> For Aon, I’ve compiled three fundamental aspects you should further examine: </p> \n<ol> \n <li><strong>Valuation</strong>: What is AON worth today? Is the stock undervalued, even when its growth outlook is factored into its intrinsic value? The <a href=\"https://simplywall.st/stocks/us/insurance/nyse-aon/aon?utm_medium=finance_user&amp;utm_source=yahoo&amp;utm_campaign=Conc_ticker&amp;blueprint=278083#value\">intrinsic value infographic in our free research report</a> helps visualize whether AON is currently mispriced by the market.</li> \n <li><strong>Dividend Income vs Capital Gains</strong>: Does AON return gains to shareholders through reinvesting in itself and growing earnings, or redistribute a decent portion of earnings as dividends? Our <a href=\"https://simplywall.st/stocks/us/insurance/nyse-aon/aon?utm_medium=finance_user&amp;utm_source=yahoo&amp;utm_campaign=Conc_ticker&amp;blueprint=278083#income\">historical dividend yield visualization</a> quickly tells you what your can expect from AON as an investment.</li> \n <li><strong>Other Attractive Alternatives </strong>: Are there other well-rounded stocks you could be holding instead of AON? Explore <a href=\"https://simplywall.st/user/views/206/big-green-snowflakes?utm_medium=finance_user&amp;utm_source=yahoo&amp;utm_campaign=Conc_grid&amp;blueprint=278083\" target=\"_blank\">our interactive list of stocks with large potential</a> to get an idea of what else is out there you may be missing!</li> \n</ol> \n<p> <i style=\"font-style:italic;\">We aim to bring you long-term focused research analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material.</i><br><br> <i style=\"font-style:italic;\">If you spot an error that warrants correction, please contact the editor at <a href=\"mailto:editorial-team@simplywallst.com?subject=Re%3A%20Your%20article%20on%20NYSE%3AAON%20(yahoo)%20from%208th%20March%202019\">editorial-team@simplywallst.com</a>. This article by Simply Wall St is general in nature. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. Simply Wall St has no position in the stocks mentioned. Thank you for reading.</i> </br></br></p></img>",
+      "streams": null
+    },
+    {
+      "uuid": "d2814fe4-0002-3bfb-bfe3-4a11a68f748d",
+      "title": "[$$] Life expectancy for Britons aged 65 falls by 5 months",
+      "link": "http://www.ft.com/cms/s/dc0d73f8-40d3-11e9-b896-fe36ec32aece,s01=1.html?ftcamp=traffic/partner/feed_headline/us_yahoo/auddev&yptr=yahoo",
+      "summary": "Life expectancy for 65-year-olds in the UK has fallen by five months according to new projections published on Thursday.  Men and women aged 65 in 2018 could expect to live a further 19.8 and 22.4 years respectively, a drop of about five months each from 2017, according to analysis by the Continuous Mortality Investigation (CMI), a company owned by the Institute and Faculty of Actuaries.  The drop, which confirms a trend first noted almost a decade ago, is expected to provide a boon for insurers but calls into question planned increases in the state pension age.",
+      "publisher": "Financial Times",
+      "author": "Josephine Cumbo and Oliver Ralph in London",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1551935055,
+      "main_image": null,
+      "entities": [
+        {
+          "term": "TICKER:AON",
+          "label": "Aon plc",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "d2814fe4-0002-3bfb-bfe3-4a11a68f748d",
+      "offnet": true,
+      "content": null,
+      "streams": null
+    },
+    {
+      "uuid": "ca235568-55a3-32a7-a9c5-2ebb07c54cd6",
+      "title": "Insurer Aon abandons Willis Towers takeover plan, shares rise",
+      "link": "https://finance.yahoo.com/news/insurer-aon-abandons-willis-towers-122952114.html",
+      "summary": "Aon Plc said on Wednesday it had  scrapped plans to pursue a merger with rival insurance brokerage  Willis Towers Watson Plc, a day after it revealed it  was in early stages of considering an all-stock offer for the  Irish company.  Aon's shares rose 4.4 percent in afternoon trading,  recouping some of the losses incurred on Tuesday after news of  the potential merger surfaced.  Shares of Willis Towers rose as much as 8.6 percent to hit  an all-time high of on Tuesday after a Bloomberg report said the  companies were in preliminary talks.",
+      "publisher": "Reuters",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1551904720,
+      "main_image": null,
+      "entities": [
+        {
+          "term": "TICKER:AON",
+          "label": "Aon plc",
+          "score": 1
+        },
+        {
+          "term": "TICKER:WLTW",
+          "label": "Willis Towers Watson Public Lim",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "ca235568-55a3-32a7-a9c5-2ebb07c54cd6",
+      "offnet": false,
+      "content": "<p>(Adds Breakingviews link; updates Shares)</p> \n<p>March 6 (Reuters) - Aon Plc said on Wednesday it had scrapped plans to pursue a merger with rival insurance brokerage Willis Towers Watson Plc, a day after it revealed it was in early stages of considering an all-stock offer for the Irish company.</p> \n<p>Aon's shares rose 4.4 percent in afternoon trading, recouping some of the losses incurred on Tuesday after news of the potential merger surfaced. The company did not give any reason for abandoning the deal.</p> \n<p>An Aon-Willis merger would have been the largest deal in the U.S. insurance industry that is consolidating in the face of uncertainty arising from Britain's impending exit from the European Union and trade tensions between the United States and China.</p> \n<p>Shares of Willis Towers rose as much as 8.6 percent to hit an all-time high of on Tuesday after a Bloomberg report said the companies were in preliminary talks. Aon's shares fell nearly 8 percent.</p> \n<p>Following the report, Aon was forced to confirm that it was in early stage talks with Willis Towers due to Irish regulatory requirements.</p> \n<p>\"As a result of media speculation, those regulations required Aon to make the disclosure at a very early stage in the consideration of a potential all-share business combination,\" Aon said in a statement.</p> \n<p>Shares of Willis Towers were down 6.5 percent at $169.88 in afternoon trading.</p> \n<p>A deal would be hard to make sense, considering regulatory issues it would have faced, wrote Wells Fargo analyst Elyse Greenspan in a note reacting to Tuesday's Bloomberg report.</p> \n<p>Greenspan also said \"regulatory issues (including accretion and lost business) could have impacted its (Aon's) decision not to pursue a deal at this time.\"</p> \n<p>(Reporting by Diptendu Lahiri in Bengaluru; Editing by Shinjini Ganguli)</p>",
+      "streams": null
+    },
+    {
+      "uuid": "a9142bf4-d1ff-31c9-82fd-45778560a998",
+      "title": "[$$] Aon Says No Longer Considering Bid for Willis Towers",
+      "link": "https://www.wsj.com/articles/aon-says-no-longer-considering-bid-for-willis-towers-11551878629?mod=yahoo_hs&yptr=yahoo",
+      "summary": "Aon PLC said it is no longer pursuing a possible business combination with insurance broker Willis Towers Watson.",
+      "publisher": "The Wall Street Journal",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1551878631,
+      "main_image": null,
+      "entities": [
+        {
+          "term": "TICKER:AON",
+          "label": "Aon plc",
+          "score": 1
+        },
+        {
+          "term": "TICKER:WLTW",
+          "label": "Willis Towers Watson Public Lim",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "a9142bf4-d1ff-31c9-82fd-45778560a998",
+      "offnet": true,
+      "content": null,
+      "streams": null
+    },
+    {
+      "uuid": "f65afd50-a0bf-3299-8827-cbdcbb5d54c9",
+      "title": "Aon Says It's No Longer Pursuing Willis Towers Acquisition",
+      "link": "https://finance.yahoo.com/news/aon-says-apos-no-longer-122545866.html",
+      "summary": "The company said on Tuesday that it was in the early stages of exploring an all-share tie-up with Willis Towers after Bloomberg reported the potential plans.  The companies held preliminary talks and Aon was preparing to submit a bid in the coming weeks, people familiar with the matter had said, asking not to be identified as the details aren’t public.  A potential combination with Willis -- which gained 5.2 percent and had a market value of $23.5 billion at the close of trading -- could have been the industry’s largest-ever merger.",
+      "publisher": "Bloomberg",
+      "author": "Nick Lichtenberg and Amy Thomson",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1551875145,
+      "main_image": {
+        "original_height": 1734,
+        "original_width": 2640,
+        "original_url": "https://s.yimg.com/lo/api/res/1.2/O0oHELO4OqjrakzJMQDH9Q--/YXBwaWQ9eXZpZGVvZmVlZHM7dz0yNjQwO2g9MTczNA--/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+        "resolutions": [
+          {
+            "tag": "original",
+            "width": 2640,
+            "url": "https://s.yimg.com/lo/api/res/1.2/O0oHELO4OqjrakzJMQDH9Q--/YXBwaWQ9eXZpZGVvZmVlZHM7dz0yNjQwO2g9MTczNA--/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+            "tags": [
+              "size=original",
+              ""
+            ],
+            "height": 1734
+          },
+          {
+            "height": 140,
+            "width": 140,
+            "tag": "square-140x140",
+            "url": "https://s.yimg.com/lo/api/res/1.2/c9B55TKBCd4P2LNFXVCORw--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE0MDt3PTE0MA--/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36"
+          },
+          {
+            "height": 420,
+            "width": 640,
+            "tag": "fit-width-640",
+            "url": "https://s.yimg.com/lo/api/res/1.2/eTAe.08j_VRiTEP6olWySA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTQyMC4zNjM2MzYzNjM2MzY0O3c9NjQw/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/QeuDKBMxdIk7tBDHXxKg3A--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTQwO3c9MTQw/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+            "height": 140,
+            "width": 140,
+            "tag": "ios:size=square_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/.ZrzsFrPfd7UNbpKnYsr6Q--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xMDU7dz0xNjA-/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+            "height": 105,
+            "width": 160,
+            "tag": "ios:size=small"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/6d6UP8nAYHGHKu0mrplC9w--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0yMTA7dz0zMjA-/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+            "height": 210,
+            "width": 320,
+            "tag": "ios:size=medium"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/K7IRiizBhiVtQaeMNzzYeA--/YXBwaWQ9eXZpZGVvZmVlZHM7aD00MjA7dz02NDA-/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+            "height": 420,
+            "width": 640,
+            "tag": "ios:size=extra_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/8MqB46hp.cJ4Q2YLoeTF3Q--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9MzIw/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+            "height": 530,
+            "width": 320,
+            "tag": "ios:size=card_small_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/LiqZuBYNIOIxxa2PDqx3Yw--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTA2MDt3PTY0MA--/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+            "height": 1060,
+            "width": 640,
+            "tag": "ios:size=card_large_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/03Y4o1ciB1QNwTB8V3ceWw--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9NjQw/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+            "height": 530,
+            "width": 640,
+            "tag": "ios:size=large_new_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/9QkTWmRLl54c2fFSo_5OyQ--/YXBwaWQ9eXZpZGVvZmVlZHM7aD01MDQ7dz03Njg-/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+            "height": 504,
+            "width": 768,
+            "tag": "ios:size=ipad_portrait"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/UVKzCFn5s4WRyqz7eS7s.w--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xMDA4O3c9MTUzNg--/http://media.zenfs.com/en-US/homerun/bloomberg_markets_842/e2d08fcde599a85009ba530883dc3f36",
+            "height": 1008,
+            "width": 1536,
+            "tag": "ios:size=ipad_portrait_retina"
+          }
+        ]
+      },
+      "entities": [
+        {
+          "term": "TICKER:AON",
+          "label": "Aon plc",
+          "score": 1
+        },
+        {
+          "term": "TICKER:WLTW",
+          "label": "Willis Towers Watson Public Lim",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "f65afd50-a0bf-3299-8827-cbdcbb5d54c9",
+      "offnet": false,
+      "content": "<p>(Bloomberg) -- Aon Plc said it’s no longer pursuing a combination with rival insurance brokerage Willis Towers Watson Plc, a day after confirming that it was considering a tie-up.</p>\n<p>The company said on Tuesday that it was in the early stages of exploring an all-share tie-up with Willis Towers after Bloomberg reported the potential plans. The companies held preliminary talks and Aon was preparing to submit a bid in the coming weeks, people familiar with the matter had said, asking not to be identified as the details aren’t public.</p>\n<p>Aon shares fell 7.8 percent in New York on Tuesday, its biggest decline since 2009. A potential combination with Willis -- which gained 5.2 percent and had a market value of $23.5 billion at the close of trading -- could have been the industry’s largest-ever merger. Willis’s shares declined about 4 percent in early trading Wednesday.</p>\n<p>Wednesday’s Statement</p>Aon was required to issue Tuesday’s statement because Willis Towers Watson is subject to Irish regulatory requirements, and Aon said it had to make the disclosure “at a very early stage in the consideration”Aon said it reserves the right within the next 12 months to set aside Wednesday’s announcement where permitted under Irish Takeover Rules.\n<p>Analysts Say</p>Wells Fargo said regulatory issues would be a big overhang for any deal between Aon and rival Willis Towers given the size of the two companies, which are the second- and third-largest insurance brokers. Aon and Willis Towers’s “potential transaction would put together two very large global insurance broking companies that are also engaged in a number of human resources and management consulting practices,” Harry Fong, an analyst at MKM Partners, said Tuesday in a note to clients.Buying Willis Towers might enable Aon to overtake Marsh &amp; McLennan Cos. as the world’s largest brokerage by revenue, according to data compiled by Bloomberg.\n<p>Background</p>Brokerages, which help connect businesses looking for coverage with insurers, have been aggressively merging to diversify, boost commissions and serve customers who increasingly want to deal with fewer intermediaries.Deals in the broker space accounted for most of 2018’s insurance deals in the U.S. and Bermuda, according to a report from Deloitte. Those deals were on average smaller than many transactions for underwriters, meaning the total value of brokerage deals accounted for just 16 percent of total transactions in the space.&nbsp;The industry started 2019 with a sizable deal. Private equity firm GTCR LLC and other buyers agreed in February to buy a majority stake in AssuredPartners Inc. from Apax Partners. That transaction valued AssuredPartners at about $5.1 billion, according to people familiar with the matter.\n<p>To contact the reporters on this story: Nick Lichtenberg in New York at nlichtenberg@bloomberg.net;Amy Thomson in London at athomson6@bloomberg.net</p>\n<p>To contact the editors responsible for this story: Chakradhar Adusumilli at cadusumilli@bloomberg.net, ;Elizabeth Fournier at efournier5@bloomberg.net, Dinesh Nair</p>\n<p>For more articles like this, please visit us at <a href=\"https://www.bloomberg.com\">bloomberg.com</a></p>\n<p>©2019 Bloomberg L.P.</p>",
+      "streams": null
+    },
+    {
+      "uuid": "e0a581fa-2e66-38e7-b767-4ddeb0af93e9",
+      "title": "Aon confirms it is not pursuing business combination with Willis Towers Watson",
+      "link": "https://finance.yahoo.com/news/aon-confirms-not-pursuing-business-120600791.html",
+      "summary": "Consistent with Aon's stated focus on return on invested capital the firm regularly evaluates a variety of potential opportunities within and adjacent to its industry.  Aon had considered such a possibility with regard to Willis Towers Watson.  News of that consideration subsequently became public and Aon was required to issue a statement because Willis Towers Watson is an Irish company and is subject to Irish regulatory requirements.",
+      "publisher": "PR Newswire",
+      "ignore_main_image": true,
+      "type": "story",
+      "published_at": 1551873960,
+      "main_image": {
+        "original_height": 286,
+        "original_width": 400,
+        "original_url": "https://s.yimg.com/lo/api/res/1.2/dJw7NXPx8GgIeWN57hjUEQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz00MDA7aD0yODY-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030",
+        "resolutions": [
+          {
+            "tag": "original",
+            "width": 400,
+            "url": "https://s.yimg.com/lo/api/res/1.2/dJw7NXPx8GgIeWN57hjUEQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz00MDA7aD0yODY-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030",
+            "tags": [
+              "size=original",
+              ""
+            ],
+            "height": 286
+          },
+          {
+            "height": 140,
+            "width": 140,
+            "tag": "square-140x140",
+            "url": "https://s.yimg.com/lo/api/res/1.2/RecdygJPg_DfNZq500xCHg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE0MDt3PTE0MA--/https://s.yimg.com/lo/api/res/1.2/dJw7NXPx8GgIeWN57hjUEQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz00MDA7aD0yODY-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/jqj576QeZahd4_XOVJkbGQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTQwO3c9MTQw/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030",
+            "height": 140,
+            "width": 140,
+            "tag": "ios:size=square_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/PUxHBVAHKI0P4.1ingb7uw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xMTQ7dz0xNjA-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030",
+            "height": 114,
+            "width": 160,
+            "tag": "ios:size=small"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/rNWay66DIbeEtKYlRam8Bw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0yMjg7dz0zMjA-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030",
+            "height": 228,
+            "width": 320,
+            "tag": "ios:size=medium"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/XkQcVxy0bbFh_ncHfv402g--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9MzIw/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030",
+            "height": 530,
+            "width": 320,
+            "tag": "ios:size=card_small_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/PwN_hEFY.p3U1pWPBg5i.w--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTA2MDt3PTY0MA--/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030",
+            "height": 1060,
+            "width": 640,
+            "tag": "ios:size=card_large_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/gT6EOSz2mohqWWq9vJt2NA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9NjQw/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030",
+            "height": 530,
+            "width": 640,
+            "tag": "ios:size=large_new_fixed"
+          }
+        ]
+      },
+      "entities": [
+        {
+          "term": "TICKER:AON",
+          "label": "Aon plc",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "e0a581fa-2e66-38e7-b767-4ddeb0af93e9",
+      "offnet": false,
+      "content": "<p></p>\n<p><span class=\"xn-location\">LONDON</span>, <span class=\"xn-chron\">March 6, 2019</span> /PRNewswire/ -- <a target=\"_blank\" href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=2394923-1&amp;h=3788158308&amp;u=https%3A%2F%2Fwww.aon.com%2Fhome%2Findex.html&amp;a=Aon+plc\" rel=\"nofollow\">Aon plc</a> (<a href=\"/q?s=aon\">AON</a>) today issued the following statement:</p> \n<p>Consistent with Aon's stated focus on return on invested capital the firm regularly evaluates a variety of potential opportunities within and adjacent to its industry. Aon had considered such a possibility with regard to <span class=\"xn-person\">Willis Towers Watson</span>. News of that consideration subsequently became public and Aon was required to issue a statement because <span class=\"xn-person\">Willis Towers Watson</span> is an Irish company and is subject to Irish regulatory requirements. As a result of media speculation, those regulations required Aon to make the disclosure at a very early stage in the consideration of a potential all-share business combination. Aon today confirms that it does not intend to pursue this business combination.</p> \n<p>As a result of this announcement, Aon is bound by the restrictions set out in Rule 2.8 of the Irish Takeover Rules. Aon reserves the right within the next 12 months to set aside this announcement where so permitted under Rule 2.8 (including Rule 2.8(c)(ii)).</p> \n<p><b>About Aon <br /></b><a target=\"_blank\" href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=2394923-1&amp;h=541161200&amp;u=http%3A%2F%2Fwww.aon.com%2F&amp;a=Aon+plc\" rel=\"nofollow\">Aon plc</a>&nbsp;(<a href=\"/q?s=aon\">AON</a>) is a leading global professional services firm providing a broad range of risk, retirement and health solutions. Our 50,000 colleagues in 120 countries empower results for clients by using proprietary data and analytics to deliver insights that reduce volatility and improve performance. </p> \n<p><b>Forward-Looking Statements&nbsp; <br /></b>This press release contains statements that are forward looking, as that term is defined by the Private Securities Litigation Reform Act of 1995. These forward-looking statements are based on management's beliefs, as well as assumptions made by, and information currently available to, management. When used in this press release, the words \"believe,\" \"anticipate,\" \"estimate,\" \"expect,\" \"intend,\" \"project,\" \"plans,\" and similar expressions and the use of future dates are intended to identify forward-looking statements. Although management believes that the expectations reflected in these forward-looking statements are reasonable, it can give no assurance that these expectations will prove to have been correct. These forward-looking statements involve risks and uncertainties that could cause actual results to differ materially from those predicted in any such forward-looking statements. Such factors include, but are not limited to, adverse effects on the market price of our Class A ordinary shares and on our operating results for any reason, including negative effects of an announcement or failure to consummate a business combination transaction. You are cautioned not to place undue reliance on any forward-looking statements, which speak only as of the date made. These statements are subject to certain risks, uncertainties, and assumptions. </p> \n<p>Any or all of our forward-looking statements may turn out to be inaccurate, and there are no guarantees about Aon's performance.&nbsp;The factors identified above are not exhaustive.&nbsp;Aon and its subsidiaries operate in a dynamic business environment in which new risks may emerge frequently.&nbsp;Further information concerning Aon and its businesses, including factors that potentially could materially affect Aon's financial results, is contained in Aon's filings with the SEC. See our Annual Report on Form 10-K for the year ended <span class=\"xn-chron\">December 31, 2018</span> and additional documents filed with the SEC for a further discussion of these and other risks and uncertainties applicable to Aon's businesses. These factors may be revised or supplemented in subsequent reports.&nbsp;Aon is under no obligation, and expressly disclaims any obligation, to update or alter any forward-looking statement that it may make from time to time, whether as a result of new information, future events or otherwise.</p> \n<p><b>Additional Information <br /></b>This announcement has been prepared in accordance with English and Irish law and Rule 2.8 of the Irish Takeover Rules and information disclosed may not be the same as that which would have been prepared in accordance with the laws of jurisdictions outside <span class=\"xn-location\">England</span> or <span class=\"xn-location\">Ireland</span>. </p> \n<p><b>Contacts <br /></b>Investor Contact:&nbsp; <br>Investor Relations&nbsp; <br>+1 312-381-3310&nbsp; <br><a target=\"_blank\" href=\"mailto:investor.relations@aon.com\" rel=\"nofollow\">investor.relations@aon.com</a> </br></br></br></p> \n<p>A copy of this announcement will be available at <a target=\"_blank\" href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=2394923-1&amp;h=4264566555&amp;u=http%3A%2F%2Fwww.aon.com%2F&amp;a=www.aon.com\" rel=\"nofollow\">www.aon.com</a>.&nbsp;The content of the website referred to in this announcement is not incorporated into, and does not form part of, this announcement.</p> \n<p><b>RESPONSIBILITY STATEMENT <br /></b>The directors of Aon plc accept responsibility for the information contained in this announcement. To the best of the knowledge and belief of the directors (who have taken all reasonable care to ensure that such is the case) the information contained in this announcement is in accordance with the facts and does not omit anything likely to affect the import of such information.</p> \n<div id=\"prni_dvprnejpg2833left\" dir=\"ltr\">\n <img src=\"https://s1.yimg.com/uu/api/res/1.2/C9PseJg_QAX_ODNgeM6D2Q--/YXBwaWQ9eXRhY2h5b247cT03NTs-/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030\" class=\"editorial\" id=\"prnejpg2833left\" title=\"Aon plc (https://www.aon.com) is a leading global provider of risk management, insurance brokerage and reinsurance brokerage, and human resources solutions and outsourcing services. Through its more than 72,000 colleagues worldwide, Aon unites to empower results for clients in over 120 countries via innovative risk and people solutions. For further information on our capabilities and to learn how we empower results for clients, please visit: https://aon.mediaroom.com.\" style=\"HEIGHT: 286px; WIDTH: 400px\" border=\"0\" alt=\"Aon plc (https://www.aon.com) is a leading global provider of risk management, insurance brokerage and reinsurance brokerage, and human resources solutions and outsourcing services. Through its more than 72,000 colleagues worldwide, Aon unites to empower results for clients in over 120 countries via innovative risk and people solutions. For further information on our capabilities and to learn how we empower results for clients, please visit: https://aon.mediaroom.com.\" align=\"middle\" imagelabel=\"General\">\n</img></div>\n<p>Logo - <a target=\"_blank\" href=\"https://c212.net/c/link/?t=0&amp;l=en&amp;o=2394923-1&amp;h=11226304&amp;u=https%3A%2F%2Fmma.prnewswire.com%2Fmedia%2F689845%2FAon_Corporation_Logo.jpg&amp;a=https%3A%2F%2Fmma.prnewswire.com%2Fmedia%2F689845%2FAon_Corporation_Logo.jpg\" rel=\"nofollow\">http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Aon_confirms_it_is_not-da88504fdecd9983b038bfa291b31030</a> </p> \n<p>&nbsp;</p>\n<p></p> \n<style type=\"text/css\">span.prnews_span{font-size:8pt !important;font-family:\"Arial\" !important;color:black !important;} \na.prnews_a{color:blue !important;} \nli.prnews_li{font-size:8pt !important;font-family:\"Arial\" !important;color:black !important;} \np.prnews_p{font-size:0.62em !important;font-family:\"Arial\" !important;color:black !important;margin:0in !important;} \n;} \n</style>",
+      "streams": null
+    },
+    {
+      "uuid": "1ea12ba8-a4a3-3da0-be3a-0ddf12ac6e7a",
+      "title": "Aon's stock jumps after confirming it was not pursing a buyout of Willis Towers Watson",
+      "link": "https://www.marketwatch.com/story/aons-stock-jumps-after-confirming-it-was-not-pursing-a-buyout-of-willis-towers-watson-2019-03-06?siteid=yhoof2&yptr=yahoo",
+      "summary": "Shares of Aon PLC  rallied 4.2% in premarket trade Wednesday, after the insurance and professional services company said it was not pursuing a business combination with Willis Towers Watson . Willis Towers' stock was indicated down over 7%. The announcement comes a day after Aon confirmed that it was in early stages of considering an all-stock merger with Willis Towers, which sent Willis Towers stock up 5.2% to a record close Tuesday and Aon shares tumbling 7.8%. Aon said Wednesday it had considered the possibility of a merger, but because news of that consideration became public, and given Willis Towers is an Irish company, Aon was required by Irish regulations to disclose even very early discussions. Aon's stock has slipped 2.1% over the past three months through Tuesday, while Willis Towers shares have run up 17% and the S&P 500  has gained 3.5%.",
+      "publisher": "MarketWatch",
+      "author": "Tomi Kilgore",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1551873360,
+      "main_image": null,
+      "entities": [
+        {
+          "term": "TICKER:WLTW",
+          "label": "Willis Towers Watson Public Lim",
+          "score": 1
+        },
+        {
+          "term": "TICKER:^GSPC",
+          "label": "S&P 500",
+          "score": 1
+        },
+        {
+          "term": "TICKER:AON",
+          "label": "Aon plc",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "1ea12ba8-a4a3-3da0-be3a-0ddf12ac6e7a",
+      "offnet": true,
+      "content": null,
+      "streams": null
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "result": [
+    {
+      "uuid": "bf69e533-987b-3270-88ae-0ed5c6b93475",
+      "title": "Why it’s so hard for Facebook and Google to stop violent content from being streamed",
+      "link": "https://finance.yahoo.com/news/facebook-google-new-zealand-shooting-213458304.html",
+      "summary": "Facebook, Google, and Twitter can try to contain the video of the New Zealand mosque shooting, but they'll never be able to scrub the internet of it.",
+      "publisher": "Yahoo Finance",
+      "author": "Daniel Howley",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1552685698,
+      "main_image": {
+        "original_height": 3496,
+        "original_width": 5244,
+        "original_url": "https://s.yimg.com/lo/api/res/1.2/mFdGDaifYZlsvqd0IZ33BQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz01MjQ0O2g9MzQ5Ng--/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+        "resolutions": [
+          {
+            "tag": "original",
+            "width": 5244,
+            "url": "https://s.yimg.com/lo/api/res/1.2/mFdGDaifYZlsvqd0IZ33BQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz01MjQ0O2g9MzQ5Ng--/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+            "tags": [
+              "size=original",
+              ""
+            ],
+            "height": 3496
+          },
+          {
+            "height": 140,
+            "width": 140,
+            "tag": "square-140x140",
+            "url": "https://s.yimg.com/lo/api/res/1.2/muP0MWNfFhxpugMl8Q5Smw--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE0MDt3PTE0MA--/https://s.yimg.com/lo/api/res/1.2/mFdGDaifYZlsvqd0IZ33BQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz01MjQ0O2g9MzQ5Ng--/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg"
+          },
+          {
+            "height": 427,
+            "width": 640,
+            "tag": "fit-width-640",
+            "url": "https://s.yimg.com/lo/api/res/1.2/1HYYjogWpw4.cJqLfaDPag--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTQyNi42NjY2NjY2NjY2NjY2Mzt3PTY0MA--/https://s.yimg.com/lo/api/res/1.2/mFdGDaifYZlsvqd0IZ33BQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz01MjQ0O2g9MzQ5Ng--/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/uxhEG2pfdB6rbP.dMJKLvQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTQwO3c9MTQw/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+            "height": 140,
+            "width": 140,
+            "tag": "ios:size=square_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/x3QKR6S3l_z2nCSRjWAzMw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xMDY7dz0xNjA-/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+            "height": 106,
+            "width": 160,
+            "tag": "ios:size=small"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/Wh2pB4a1Xi_1LBJ9Z1RLRw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0yMTM7dz0zMjA-/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+            "height": 213,
+            "width": 320,
+            "tag": "ios:size=medium"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/RwkXgbHlEYh0rZIEcaZT7g--/YXBwaWQ9eXZpZGVvZmVlZHM7aD00MjY7dz02NDA-/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+            "height": 426,
+            "width": 640,
+            "tag": "ios:size=extra_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/onp6tnjzdJS8iy3eQN4Q4A--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9MzIw/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+            "height": 530,
+            "width": 320,
+            "tag": "ios:size=card_small_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/5vjgFjZbaDtT6Nm_OoH6Mg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTA2MDt3PTY0MA--/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+            "height": 1060,
+            "width": 640,
+            "tag": "ios:size=card_large_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/OlHDzCuFpOMi7UTBQxIANQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9NjQw/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+            "height": 530,
+            "width": 640,
+            "tag": "ios:size=large_new_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/FIohG0DeGXB31m1_RB1b1g--/YXBwaWQ9eXZpZGVvZmVlZHM7aD01MTI7dz03Njg-/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+            "height": 512,
+            "width": 768,
+            "tag": "ios:size=ipad_portrait"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/Bt_Ny92bGJFGxTlwaG0tqQ--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xMDI0O3c9MTUzNg--/https://img.huffingtonpost.com/asset/5c8c181b2400006b054db096.jpeg",
+            "height": 1024,
+            "width": 1536,
+            "tag": "ios:size=ipad_portrait_retina"
+          }
+        ]
+      },
+      "entities": [
+        {
+          "term": "TICKER:GOOG",
+          "label": "Alphabet Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:FB",
+          "label": "Facebook, Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GOOGL",
+          "label": "Alphabet Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:TWTR",
+          "label": "Twitter, Inc.",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "bf69e533-987b-3270-88ae-0ed5c6b93475",
+      "offnet": false,
+      "content": "<figure>\n <img src=\"https://img.huffingtonpost.com/asset/5c8c184c3b000002076dca06.jpeg\" alt=\"Flower rest at a road block, as a Police officer stands guard near the Linwood mosque, site of one of the mass shootings at two mosques in Christchurch, New Zealand, Saturday, March 16, 2019. (AP Photo/Mark Baker)\" credit=\"\" crediturl=\"\" width=\"5244\" height=\"3496\" data-ops=\"\"> \n <figcaption>\n  No matter how hard Google, Facebook and other sites work to scrub their services of video of the Christchurch shootings, they'll never be able to contain it. (AP Photo/Mark Baker)\n </figcaption> \n</img></figure>\n<p>Facebook (<a href=\"https://finance.yahoo.com/quote/FB?p=FB&amp;.tsrc=fin-srch\">FB</a>), Google’s (<a href=\"https://finance.yahoo.com/quote/GOOG?p=GOOG&amp;.tsrc=fin-srch\">GOOG</a>,&nbsp;<a href=\"https://finance.yahoo.com/quote/GOOGL?p=GOOGL&amp;.tsrc=fin-srch\">GOOGL</a>) YouTube, and Twitter (<a href=\"https://finance.yahoo.com/quote/TWTR?p=TWTR&amp;.tsrc=fin-srch\">TWTR</a>) are facing backlash after a&nbsp;<a href=\"https://news.yahoo.com/zealand-police-hunt-active-shooter-gunman-opens-fire-023335853--business.html\">suspected gunman live-streamed </a>a mass shooting on Facebook.</p>\n<p>The three companies are working to scrub any trace of the video from their services, after dozens of people were killed in two mosques in Christchurch, New Zealand on Friday, with some of the killings being live-streamed.</p>\n<p>But the sheer scale of their networks and incredible number of users they support makes that a difficult task—even for the largest technology firms in the world.</p>\n<h2>Fighting a losing battle</h2>\n<p>Facebook said it began trying to stop the video from being spread after New Zealand police alerted the company about the stream.</p>\n<p>“We're also removing any praise or support for the crime and the shooter or shooters as soon as we’re aware. We will continue working directly with New Zealand Police as their response and investigation continues,” Facebook New Zealand’s Mia Garlick said in a statement.</p>\n<p>But the social network hasn’t moved fast enough for some critics. “Facebook should be able to take something like [the live stream] down within a minute, within 2 minutes,”&nbsp;<a href=\"http://ide.mit.edu/about-us/people/sinan-aral\">said Sinan Aral</a>, David Austin professor of management at MIT and founding partner at Manifest Investment Partners.</p>\n<p>Google, meanwhile, says it has taken down thousands of YouTube videos related to the attacks, and is using its smart-detection technology to automatically flag and keep videos from being viewed. According to Google, the technology can remove 73% of all flagged videos before they’re ever viewed. Google also says it can remove the majority of videos with violent extremism before they can attract 10 views.</p>\n<p>But with more than 1 billion people on YouTube and more than 2 billion using Facebook, policing so much content is like trying to hold back a tsunami with a screen door. There’s simply no way for Facebook or Google to stop people from uploading violent or exploitative content.</p>\n<figure>\n <img src=\"https://img.huffingtonpost.com/asset/5c8c19b92300002f00e8672e.jpeg\" alt=\"WELLINGTON, NEW ZEALAND - MARCH 16: New Zealand Prime Minister Jacinda Ardern addresses the media on March 16, 2019 in Wellington, New Zealand. At least 49 people are confirmed dead, with more than 40 people injured following attacks on two mosques in Christchurch on Friday afternoon. 41 of the victims were killed at Al Noor Mosque on Deans Avenue and seven died at Linwood mosque. Another victim died later in Christchurch hospital. Three people are in custody over the mass shootings. An Australian man has been charged with murder and will appear in court today. (Photo by Mark Tantrum/Getty Images)\" credit=\"\" crediturl=\"\" width=\"5217\" height=\"3478\" data-ops=\"\"> \n <figcaption>\n  New Zealand Prime Minister Jacinda Ardern addresses the media on March 16, 2019 in Wellington, New Zealand. (Photo by Mark Tantrum/Getty Images)\n </figcaption> \n</img></figure>\n<p>Short of enabling some kind of buffered delay that allows the companies to view content before it’s available to the general public, there’s not much either company can do in preventing the live streaming of violent acts.</p>\n<p>Then there’s the fact that one of the internet’s greatest strengths — the ability to share and spread information with ease — can be used to quickly disseminate violent content. Individuals can crop portions of the video or alter it slightly to slip past censors, and propagate the video further. I was still able to find a version of the video that blurs the victims, but shows the shooter’s face and the attack taking place on YouTube at 4 p.m. on Friday.</p>\n<p>Facebook is working to detect visually similar videos, and using audio technology to pick up parts of the video in cases where the image has been altered to defeat the visual detection systems.</p>\n<p>Regardless of how hard Facebook, Twitter, Google, and other social media sites work to contain the virality of the mosque video, they’re fighting a losing battle. The moment something is available online, it is all but certain to live there forever.</p>\n<p>Someone, somewhere has saved it and will be able to upload it again and again with ease, spreading it to others who download and share and upload it at will — if not on Facebook and YouTube, then somewhere else.</p>\n<h2>Do tech companies bear responsibility for content?</h2>\n<p>Even though the shooter streamed the attack on Facebook, and others uploaded it to YouTube, neither Facebook or Google probably won’t face legal consequences for the content being on their services.</p>\n<p>“It is unlikely that they will face legal issues,” explained&nbsp;<a href=\"https://clinic.cyber.harvard.edu/bio/kendra-albert/\">Kendra Albert</a>, clinical instructional fellow at the Cyberlaw Clinic at Harvard Law School. “That’s because of a particular piece of law called&nbsp;<a href=\"https://www.law.cornell.edu/uscode/text/47/230\">Section 230 of the Communications Decency Act</a>.”</p>\n<p>According to Albert, Section 230 is what ensures that companies like Facebook, YouTube, Twitter, and others can’t be held responsible for what third-party users post on their services.</p>\n<p>As Albert explains it, Section 230 explains why companies like Yelp aren’t liable for users posting fraudulent reviews of restaurants, or why news sites aren’t liable for commenters posting inflammatory comments. Most large tech firms have their own user guidelines that they work to ensure are followed, and remove particularly egregious posts — but even commenter systems can be gamed.</p>\n<p><strong>More from Dan:</strong></p>\n<ul> \n <li><p><a href=\"https://finance.yahoo.com/news/fitbit-versa-lite-review-193641289.html\">Fitbit Versa Lite review</a></p></li> \n <li><p><a href=\"https://finance.yahoo.com/news/facebook-amazon-google-smartphone-spying-170721118.html\">Why people think their phones are listening to them</a></p></li> \n <li><p><a href=\"https://finance.yahoo.com/news/apple-siri-shortcuts-google-amazon-212004143.html\">Apple’s Siri partners with new apps to take on Alexa and Google Assistant</a></p></li> \n <li><p><a href=\"https://finance.yahoo.com/news/galaxy-s10-review-125242371.html\">Samsung Galaxy S10 Plus review</a></p></li> \n</ul>\n<p><em>Email Daniel Howley at dhowley@oath.com; follow him on Twitter at </em><a href=\"https://twitter.com/danielhowley\"><em>@DanielHowley</em></a><em>. Follow Yahoo Finance on </em><a href=\"https://www.facebook.com/yahoofinance/\"><em>Facebook</em></a><em>,</em> Twitter<em>, </em><a href=\"https://www.instagram.com/yahoofinance/?hl=en\"><em>Instagram</em></a><em>, and </em><a href=\"https://www.linkedin.com/company/yahoo-finance\"><em>LinkedIn.finance.yahoo.com/</em></a></p>",
+      "streams": null
+    },
+    {
+      "uuid": "3d3eb8d9-9726-3bc5-bcef-025c11617791",
+      "title": "[$$] Facebook, YouTube, Twitter Scramble to Remove Video of New Zealand Mosque Shooting",
+      "link": "https://www.wsj.com/articles/live-video-of-new-zealand-mosque-shooting-dodges-social-media-safeguards-11552657931?mod=yahoo_hs&yptr=yahoo",
+      "summary": "Scenes of Friday’s New Zealand mosque massacre were streamed live on Facebook and posted on YouTube and Twitter, a gruesome example of how social-media platforms can be used to spread terror despite heavy spending by their owners to contain it.  New Zealand police said the footage of the attack on a pair of mosques, which left 49 dead, was “extremely distressing” and urged people not to circulate it.  The 17-minute video shows a gunman walking through a mosque and firing at worshipers who slump to the floor.",
+      "publisher": "The Wall Street Journal",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1552692508,
+      "main_image": null,
+      "entities": [
+        {
+          "term": "TICKER:FB",
+          "label": "Facebook, Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:TWTR",
+          "label": "Twitter, Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GOOGL",
+          "label": "Alphabet Inc.",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "3d3eb8d9-9726-3bc5-bcef-025c11617791",
+      "offnet": true,
+      "content": null,
+      "streams": null
+    },
+    {
+      "uuid": "ec5b864d-d22a-3c0b-bfd5-d23f681ce9f7",
+      "title": "[$$] Digital Media Companies Tell Ad Giant It's 'All Hands on Deck' to Pull New Zealand Video",
+      "link": "https://www.wsj.com/articles/digital-media-companies-tell-ad-giant-its-all-hands-on-deck-to-pull-new-zealand-video-11552690015?mod=yahoo_hs&yptr=yahoo",
+      "summary": "sought to reassure one of the world’s largest ad buyers they were striving to block violent content after video of the New Zealand terrorist attacks ricocheted around social media.  Facebook said engineers were seeking and removing a video by the gunman, who used Facebook Live to stream at least part of his deadly assault on two mosques, and permutations posted by others, Ms. Taylor said.",
+      "publisher": "The Wall Street Journal",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1552690018,
+      "main_image": null,
+      "entities": [
+        {
+          "term": "TICKER:FB",
+          "label": "Facebook, Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GOOG",
+          "label": "Alphabet Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:TWTR",
+          "label": "Twitter, Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GOOGL",
+          "label": "Alphabet Inc.",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "ec5b864d-d22a-3c0b-bfd5-d23f681ce9f7",
+      "offnet": true,
+      "content": null,
+      "streams": null
+    },
+    {
+      "uuid": "ef065d08-d519-387b-8f68-2d923ade7d75",
+      "title": "New Zealand massacre shows how online users find ways to share violent videos",
+      "link": "https://finance.yahoo.com/news/social-media-firms-under-scrutiny-145019244.html",
+      "summary": "LEBANON, N.H./CHRISTCHURCH, March 15 (Reuters) - The Friday  massacre at two New Zealand mosques, live-streamed to the world,  was not the first time that violent crimes have been broadcast  on the internet, but trying to stop the spread of a video once  it has been posted online has turned into a virtual game of  whack-a-mole.  Facebook said it acted to remove  the video after being alerted to it by New Zealand police  shortly after the livestream began.  The New Zealand live Facebook broadcast  was rapidly repackaged and distributed by internet users across  other social media platforms within minutes.",
+      "publisher": "Reuters",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1552689792,
+      "main_image": null,
+      "entities": [
+        {
+          "term": "TICKER:FB",
+          "label": "Facebook, Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GOOG",
+          "label": "Alphabet Inc.",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "ef065d08-d519-387b-8f68-2d923ade7d75",
+      "offnet": false,
+      "content": "<p>(Recasts with difficulty of shutting down video, adds Facebook comment and background)</p> \n<p>By Joseph Ax and Charlotte Greenfield</p> \n<p>LEBANON, N.H./CHRISTCHURCH, March 15 (Reuters) - The Friday massacre at two New Zealand mosques, live-streamed to the world, was not the first time that violent crimes have been broadcast on the internet, but trying to stop the spread of a video once it has been posted online has turned into a virtual game of whack-a-mole.</p> \n<p>The livestream of the mass shooting, which left 49 dead, lasted for 17 minutes. Facebook said it acted to remove the video after being alerted to it by New Zealand police shortly after the livestream began.</p> \n<p>But hours after the attack copies of the video were still available on Facebook, Twitter and Alphabet Inc's YouTube, as well as Facebook-owned Instagram and WhatsApp.</p> \n<p>Once a video is posted online, people who want to spread the material race to action. The New Zealand live Facebook broadcast was rapidly repackaged and distributed by internet users across other social media platforms within minutes.</p> \n<p>Other violent crimes that have been live-streamed on the internet include a father in Thailand in 2017 who broadcast himself killing his daughter on Facebook Live. After more than a day, and 370,000 views, Facebook removed the video.</p> \n<p>In the United States, the assault in Chicago of an 18-year-old man with special needs, accompanied by anti-white racial taunts, in 2017, and the fatal shooting of a man in Cleveland, Ohio, that same year, were also live-streamed.</p> \n<p>Facebook has spent years building artificial intelligence and in May 2017 it promised to hire another 3,000 people to speed the removal of videos showing murder, suicide and other violent acts. Still, the problem persists.</p> \n<p>Facebook, Twitter and YouTube on Friday all said they were taking action to remove the videos.</p> \n<p>\"Police alerted us to a video on Facebook shortly after the livestream commenced and we quickly removed both the shooter’s Facebook and Instagram accounts and the video,\" Facebook tweeted. \"We're also removing any praise or support for the crime and the shooter or shooters as soon as we’re aware.\"</p> \n<p>Twitter said it had \"rigorous processes and a dedicated team in place for managing exigent and emergency situations\" such as this. \"We also cooperate with law enforcement to facilitate their investigations as required,\" it said.</p> \n<p>YouTube said: \"Please know we are working vigilantly to remove any violent footage.\"</p> \n<p>Frustrated with years of similar obscene online crises, politicians around the globe on Friday voiced the same conclusion: social media is failing.</p> \n<p>As the New Zealand massacre video continued to spread, former New Zealand Prime Minister Helen Clark in televised remarks said social media platforms had been slow to close down hate speech.</p> \n<p>\"What’s going on here?\" she said, referring to the shooter's ability to livestream for 17 minutes. “I think this will add to all the calls around the world for more effective regulation of social media platforms.”</p> \n<p></p> \n<p>COPIES SPREAD</p> \n<p>After Facebook stopped the livestream from New Zealand, it told moderators to delete from its network any copies of the footage.</p> \n<p>\"All content praising, supporting and representing the attack and the perpetrator(s) should be removed from our platform,\" Facebook instructed content moderators in India, according to an email seen by Reuters.</p> \n<p>Users intent on sharing the violent video took several approaches - doing so at times with an almost military precision.</p> \n<p>Copies of the footage reviewed by Reuters showed that some users had recorded the video playing on their own phones or computers to create a new version with a digital fingerprint different from the original. Others shared shorter sections or screenshots from the gunman’s livestream, which would also be harder for a computer program to identify.</p> \n<p>On internet discussion forum Reddit, users actively planned and strategized to avoid the actions of content moderators, directing each other to sharing platforms which had yet to take action and sharing downloaded copies of the video privately.</p> \n<p>Facebook on Friday acknowledged the challenge and said it was responding to new user reports.</p> \n<p>\"To detect new instances of the video, we are using our artificial intelligence for graphic violence\" as well as audio technology and looking for new accounts impersonating the alleged shooter, it said. \"We are adding each video we find to an internal data base which enables us to detect and automatically remove copies of the video when uploaded.\"</p> \n<p>Politicians in multiple countries said social media companies need to take ownership of the problem.</p> \n<p>\"Tech companies have a responsibility to do the morally right thing. I don’t care about your profits,\" Democratic U.S. Senator Cory Booker, who is running for president, said at a campaign event in New Hampshire.</p> \n<p>\"This is a case where you’re giving a platform for hate,\" he said. \"That’s unacceptable, it should have never happened, and it should have been taken down a lot more swiftly.\"</p> \n<p>Britain's interior minister, Sajid Javid, also said the companies need to act. \"You really need to do more @YouTube @Google @facebook @Twitter to stop violent extremism being promoted on your platforms,\" Javid wrote on Twitter. \"Take some ownership. Enough is enough.\"</p> \n<p>(Reporting by Joseph Ax in New Hampshire and Charlotte Greenfield in Christchurch, New Zealand; Additional reporting by Diane Bartz in Washington, Munsif Vengattil in Bengaluru and Paresh Dave in San Francisco; Writing by Peter Henderson, Miyoung Kim and Jack Stubbs; Editing by Leslie Adler)</p>",
+      "streams": null
+    },
+    {
+      "uuid": "e6fadaf5-f454-346a-bef6-c7869f1e0760",
+      "title": "We'll go after big tech if necessary because DC is doing nothing: Arizona attorney general",
+      "link": "https://www.cnbc.com/2019/03/15/arizona-will-go-after-big-tech-if-necessary-says-attorney-general.html?__source=yahoo%7Cfinance%7Cheadline%7Cstory%7C&par=yahoo&yptr=yahoo",
+      "summary": "\"We as state AGs we are taking a look at maybe whether we should do something and if so what should be done,\" he says.  Arizona Attorney General Mark Brnovich told CNBC on Friday he is prepared to go after big tech companies.",
+      "publisher": "CNBC",
+      "author": "Michelle Fox",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1552687745,
+      "main_image": null,
+      "entities": [
+        {
+          "term": "TICKER:GOOG",
+          "label": "Alphabet Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GOOGL",
+          "label": "Alphabet Inc.",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "e6fadaf5-f454-346a-bef6-c7869f1e0760",
+      "offnet": true,
+      "content": null,
+      "streams": null
+    },
+    {
+      "uuid": "9d4d635f-7d37-322d-b16d-f85a805bcc33",
+      "title": "Google AI Struggles to Keep Mosque Shooting Clip Off YouTube",
+      "link": "https://finance.yahoo.com/news/google-ai-struggles-keep-mosque-212741969.html",
+      "summary": "The Google unit hired thousands of human moderators and put some of the best minds in artificial intelligence on the problem.  On Thursday, that was no match for a gunman, who used social media to broadcast his killing spree in a New Zealand mosque, and legions of online posters tricking YouTube’s software to spread the attacker’s video.  When the rampage was streamed live on Facebook, police alerted the social network, which took the video down.",
+      "publisher": "Bloomberg",
+      "author": "Gerrit De Vynck and Jeremy Kahn",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1552685261,
+      "main_image": null,
+      "entities": [
+        {
+          "term": "TICKER:GOOG",
+          "label": "Alphabet Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GOOGL.BA",
+          "label": "ALPHABET INC",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GOOGL",
+          "label": "Alphabet Inc.",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "9d4d635f-7d37-322d-b16d-f85a805bcc33",
+      "offnet": false,
+      "content": "<p>(Bloomberg) -- YouTube has tried to keep violent and hateful videos off its service for years. The Google unit hired thousands of human moderators and put some of the best minds in artificial intelligence on the problem.</p>\n<p>On Thursday, that was no match for a gunman, who used social media to broadcast his killing spree in a New Zealand mosque, and legions of online posters tricking YouTube’s software to spread the attacker’s video.</p>\n<p>When the rampage was streamed live on Facebook, police alerted the social network, which took the video down. But by then it had been captured by others, who re-posted it on YouTube.</p>\n<p>Google said it’s “working vigilantly to remove any violent footage” and had deleted the video thousands of times by Friday afternoon. Still, many hours after the original event, it could still be found, an unnerving reminder of how far giant internet companies have to go to understand and control the information shared on their services.</p>\n<p>\"Once content has been determined to be illegal, extremist or a violation of their terms of service, there is absolutely no reason why, within a relatively short period of time, this content can’t be eliminated automatically at the point of upload,\" said Hany Farid, a computer science professor at the University of California at Berkeley’s School of Information and a senior adviser to the Counter Extremism Project. \"We’ve had the technology to do this for years.\"</p>\n<p>YouTube has worked to block certain videos from ever showing up on its site for years. One tool, called Content ID, has been around for more than a decade. It gives copyright owners such as film studios the ability to claim content as their own, get paid for it, and have bootlegged copies deleted. Similar technology has been used to blacklist other illegal or undesirable content, including child pornography and terrorist propaganda videos.</p>\n<p>About five years ago, Google revealed it was using AI techniques such as machine learning and image recognition to improve many of its services. The technology was applied to YouTube. In early 2017, 8 percent of videos flagged and removed for violent extremism were taken down with fewer than 10 views. After YouTube introduced a flagging system powered by machine learning in June 2017, more than half of the videos pulled for violent extremism had fewer than 10 views, it reported in a blog.</p>\n<p>Google executives have testified multiple times in front of the U.S. Congress on the topic of violent and extremist videos being spread through YouTube. The repeated message: YouTube is getting better, sharpening its algorithms and hiring more people to deal with the problem. Google is widely seen as the best-equipped company to deal with this problem because of its AI prowess.</p>\n<p>So why couldn’t Google stop a single video, that is clearly extreme and violent, from being reposted on YouTube?</p>\n<p>“There are so many ways to trick computers,” said Rasty Turek, chief executive officer of Pex, a startup that builds a competing technology to YouTube’s Content ID. “It’s whack-a-mole.”</p>\n<p>Making minor changes to a video, such as putting a frame around it or flipping it on its side, can throw off software that’s been trained to identify troubling images, Turek said.</p>\n<p>The other major problem is live streaming, which by its very nature doesn’t allow AI software to analyze a whole video before the clip is uploaded. Clever posters can take an existing video they know YouTube will block and stream it live second by second -- essentially rebroadcasting it online to get around Google’s software. By the time YouTube recognizes what’s going on, the video has already been playing for 30 seconds or a minute, regardless of how good the algorithm is, Turek said.</p>\n<p>“Live stream slows this down to a human level,” he said. It’s a problem YouTube, Facebook, Pex and other companies working in the space are struggling with, he added.</p>\n<p>This rebroadcasting trick is a particular problem for YouTube’s approach to blacklisting videos that break its rules. Once the company identifies a problematic video, it puts the clip on a blacklist. It’s AI-powered software is then trained to automatically recognize the clip and block it if someone else if trying to upload it to the site again.</p>\n<p>It still takes a while for the AI software to be trained before it can spot other copies. And by definition, the video has to exist online before YouTube can set this machine-learning process in motion. And that’s before people start slicing the offending content into short live-streamed clips.</p>\n<p>Another complicating factor is that edited clips of the shooting video are also being posted by reputable news organizations as part of their coverage of the event. If YouTube were to take down a news report simply because it had a screen shot of the video, press freedom advocates would object.</p>\n<p>The New Zealand shooter used social media to gain maximum exposure. He posted on internet forums used by right-wing and anti-Muslim groups, tweeted about his plans and then began the Facebook live stream on his way to carry out the attack.</p>\n<p>He posted a manifesto filled with references to internet and alt-right culture, most likely designed to give journalists more material to work with and therefore spread his notoriety further, said Jonas Kaiser, a researcher affiliated with Harvard’s Berkman Klein Center for Internet and Society.</p>\n<p>“The patterns seem to be very similar to prior events,” Kaiser said.</p>\n<p>(Updates with Google statement in fourth paragraph.)</p>\n<p>To contact the reporters on this story: Gerrit De Vynck in New York at gdevynck@bloomberg.net;Jeremy Kahn in London at jkahn21@bloomberg.net</p>\n<p>To contact the editors responsible for this story: Jillian Ward at jward56@bloomberg.net, Alistair Barr, Robin Ajello</p>\n<p>For more articles like this, please visit us at <a href=\"https://www.bloomberg.com\">bloomberg.com</a></p>\n<p>©2019 Bloomberg L.P.</p>",
+      "streams": null
+    },
+    {
+      "uuid": "ee5025db-4b6e-3964-8b77-67704064fe34",
+      "title": "The 5 Best Stocks to Invest in Self-Driving Cars",
+      "link": "https://finance.yahoo.com/news/5-best-stocks-invest-self-203340915.html",
+      "summary": "[Editor's note: This story was previously published in November 2018. It has since been updated and republished.] When Alphabet (NASDAQ:GOOG, NASDAQ:GOOGL) started to give the public a glimpse of its developments in self-driving cars, the idea seemed out of this world. Alphabet's unit, Waymo, which stands for new way forward in mobility, is leading the way when it comes to the self-driving car trend.But since the search-engine giant derives much of its revenue from advertising, some investors might be more interested in stocks to invest in that are closer to being pure-plays in the space.InvestorPlace - Stock Market News, Stock Advice & Trading Tips  * 15 Stocks That May Be Hurt by This Year's Big IPOs With that said, here are five stocks to buy that will play a key role in the future of self-driving cars. Some are similar to Alphabet, as not every stock on this list is a \"pure\" autonomous vehicle play, but each will undoubtedly be at the forefront of this rapidly growing trend in the months and years ahead. Tesla (TSLA)The first name on this list of stocks to invest in the trend of self-driving cars,  Tesla (NASDAQ:TSLA), is one of the purest plays in the space. After all, TSLA's development in autonomous driving is as impressive as the lead it has in the electronic vehicle market.On Nov. 27, the company's CEO, Elon Musk, took to the wheel when the company announced Version 9 software updates. The most notable feature was Navigate on Autopilot.Navigate on Autopilot builds on the original Autopilot but does more: the car now suggests lane changes and, with driver supervision, it makes the lane changes. It also navigates highway interchanges and takes on-ramp/off-ramps as well as exits the highway.This technology is powered by a neural network, so the more data it gets, the better the code becomes and the less buggy Navigate on Autopilot gets.Tesla clearly offers the most advanced driver assist system on the market and the software will only get better as the company pushes out over the air (OTA) upgrades.TSLA stock does not come cheap: shares trade for 30 times analysts' consensus 2019 profit estimate. Debt-to-equity is 219 times, but the market's confidence in Elon Musk should not hinder a money raise, should Tesla need it. Ambarella (AMBA)Ambarella (NASDAQ:AMBA), whose past growth rates came from supplying camera chip technology to GoPro (NASDAQ:GPRO), reinvented itself by developing computer vision (CV1, CV2) chips for the ADAS market. However, the transition to the market of self-driving cars has not been without hiccups. In 2018, Ambarella's overall revenue dropped meaningfully year-over-year, and it's expected to do the same this year.The firm needs to spend its efforts on computer vision applications in the IP security, automotive and robotics AI markets. In the OEM automotive market, customers want a flexible solution that adds value. Since legacy automotive chips are vastly inferior -- unable to meet processing performance requirements, consuming more power than the desired limits and exceeding thermal constraints for camera -- Ambarella may have a moat.Ambarella's front-camera ADAS solution is a leading Tier 1 chip that it just introduced.in late January. In the Level 2 to Level 5 autonomous vehicle categories, the company offers a flexible open perception platform.  * 15 Stocks That May Be Hurt by This Year's Big IPOs  Nvidia (NVDA)When investors look at the stock charts for Nvidia (NASDAQ:NVDA), the first thing they'll notice is the drop in the NVDA stock price from over $280 down to around $170 as of Friday afternoon. The company's main business, GPUs for PCs, has weakened.Looking beyond the PC GPU market, Nvidia's strength in automotive suggests this company is poised to grow along with the self-driving car trend. In 2018,the company's  revenue from automotive hit record levels.Autonomous vehicle production and development engagement are growing. Nvidia's next-generation AI-based cockpit infotainment systems should assure its growth rates hold in the automotive space.At GTC Europe, Nvidia announced that Volvo would include Nvidia's Drive AGX Xavier solution early in the 2020's. The solution will deliver on Level 2+ assisted driving. This is made possible by the integration of 360-degree surround perception and a driver monitoring system. General Motors (GM)Looking within the automotive sector, General Motors' (NYSE:GM) mass layoff announcement on Nov. 26 changed the strategic direction of the company.Even though traditional auto parts suppliers will suffer, as will GM staff getting let go, development for GM's self-driving car unit will probably accelerate. GM's Orion, Michigan plant will manufacture autonomous vehicles once they are mass-produced. The plant is a natural location for self-driving car production because it already manufactures electric vehicles.GM is making a big commitment to the self-driving trend. Between May 2018 and October 2018, GM and its self-driving car unit, Cruise, attracted $5 billion in investments. This amount pushed GM ahead of Alphabet's Waymo, Uber and Lyft.  * 15 Stocks That May Be Hurt by This Year's Big IPOs GM's restructuring could distract the company from its self-driving car development. Glitches in the driverless cars could also delay the company from releasing it on the market. But if management recognizes the resources it needs to push the technology's development, GM has a chance of succeeding in the ADAS space. Aptiv (APTV)Aptiv PLC (NYSE:APTV) has earned a number of customer awards that recognized the firm's innovations in advanced safety, electrification and connectivity.It won a business award for its six highly scalable Level 2+ ADAS systems with a major North American OEM. The auto parts supplier is pivoting its business toward software, compute and integration solutions. This transition is playing out because Aptiv is booking new business.Aptiv, through its Mobility and Services Group, makes automated driving software. Its development in high-speed central compute platforms give the company a competitive edge. This fits nicely with its goal of having more automated and connected vehicle content.Given APTV's forward price-earnings ratio of 13.5, markets appear to have ignored this firm's growth potential in self-driving cars.If investors look beyond the macro challenges for APTV stock and put a valuation on the technology portion of the business, Aptiv is undervalued.As of this writing, Chris Lau did not own shares in any of the aforementioned securities, but was considering buying Aptiv in the next 72 hours. More From InvestorPlace  * 2 Toxic Pot Stocks You Should Avoid   * 7 Dividend Stocks to Buy Today   * 7 ETFs to Buy to Ride the Longevity Economy   * 7 Winning High-Yield Dividend Stocks With Payouts Over 5% Compare Brokers The post The 5 Best Stocks to Invest in Self-Driving Cars appeared first on InvestorPlace.",
+      "publisher": "InvestorPlace",
+      "author": "Chris Lau",
+      "ignore_main_image": false,
+      "type": "story",
+      "published_at": 1552678420,
+      "main_image": {
+        "original_height": 400,
+        "original_width": 728,
+        "original_url": "https://s.yimg.com/lo/api/res/1.2/u3yyBzww2XLcFBqagbS32g--/YXBwaWQ9eXZpZGVvZmVlZHM7dz03Mjg7aD00MDA-/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0",
+        "resolutions": [
+          {
+            "tag": "original",
+            "width": 728,
+            "url": "https://s.yimg.com/lo/api/res/1.2/u3yyBzww2XLcFBqagbS32g--/YXBwaWQ9eXZpZGVvZmVlZHM7dz03Mjg7aD00MDA-/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0",
+            "tags": [
+              "size=original",
+              ""
+            ],
+            "height": 400
+          },
+          {
+            "height": 140,
+            "width": 140,
+            "tag": "square-140x140",
+            "url": "https://s.yimg.com/lo/api/res/1.2/_mgw2Ra9j0xlhkhGqf4PdQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE0MDt3PTE0MA--/https://s.yimg.com/lo/api/res/1.2/u3yyBzww2XLcFBqagbS32g--/YXBwaWQ9eXZpZGVvZmVlZHM7dz03Mjg7aD00MDA-/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0"
+          },
+          {
+            "height": 352,
+            "width": 640,
+            "tag": "fit-width-640",
+            "url": "https://s.yimg.com/lo/api/res/1.2/hZkZJG8XfZ7LjoWXrWcA_Q--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTM1MS42NDgzNTE2NDgzNTE2NTt3PTY0MA--/https://s.yimg.com/lo/api/res/1.2/u3yyBzww2XLcFBqagbS32g--/YXBwaWQ9eXZpZGVvZmVlZHM7dz03Mjg7aD00MDA-/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/ZjCN31frInQqX10IIEUCGg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTQwO3c9MTQw/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0",
+            "height": 140,
+            "width": 140,
+            "tag": "ios:size=square_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/4Oyl81IcmTzo6WjBrLX.9w--/YXBwaWQ9eXZpZGVvZmVlZHM7aD04Nzt3PTE2MA--/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0",
+            "height": 87,
+            "width": 160,
+            "tag": "ios:size=small"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/DlPwJMzvnLMab6BjhpQobg--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xNzU7dz0zMjA-/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0",
+            "height": 175,
+            "width": 320,
+            "tag": "ios:size=medium"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/iv9Lzw7df6AmjCpOjC5yVg--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0zNTE7dz02NDA-/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0",
+            "height": 351,
+            "width": 640,
+            "tag": "ios:size=extra_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/lHp6v7wPCeacAu7sTszokw--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9MzIw/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0",
+            "height": 530,
+            "width": 320,
+            "tag": "ios:size=card_small_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/4tvuyYHHTEUPWOyu5jQ_yA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTA2MDt3PTY0MA--/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0",
+            "height": 1060,
+            "width": 640,
+            "tag": "ios:size=card_large_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/YmTCDQobbX.pR28v0gGDvA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9NjQw/https://media.zenfs.com/en-US/investorplace_417/8d598ef89c1e9fc10c27a603a46f1ce0",
+            "height": 530,
+            "width": 640,
+            "tag": "ios:size=large_new_fixed"
+          }
+        ]
+      },
+      "entities": [
+        {
+          "term": "TICKER:GOOG",
+          "label": "Alphabet Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GPRO",
+          "label": "GoPro, Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:AMBA",
+          "label": "Ambarella, Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:NVDA",
+          "label": "NVIDIA Corporation",
+          "score": 1
+        },
+        {
+          "term": "TICKER:TSLA",
+          "label": "Tesla, Inc.",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "ee5025db-4b6e-3964-8b77-67704064fe34",
+      "offnet": false,
+      "content": "<p><i>[Editor’s note: This story was previously published in November 2018. It has since been updated and republished.]&nbsp;</i></p> \n<p>When <strong>Alphabet</strong>&nbsp;(NASDAQ:<a href=\"https://investorplace.com/stock-quotes/goog-stock-quote/\"><strong>GOOG</strong></a>, NASDAQ:<strong><a href=\"https://investorplace.com/stock-quotes/googl-stock-quote/\"><strong>GOOGL</strong></a></strong>) started to give the public a glimpse of its developments in self-driving cars, the idea seemed out of this world. Alphabet’s unit, Waymo, which stands for new way forward in mobility, is leading the way when it comes to the self-driving car trend.</p> \n<p>But since the search-engine giant derives much of its revenue from advertising, some investors might be more interested in stocks to invest in that are closer to being pure-plays in the space.</p>\n<p><a href=\"https://investorplace.com\">InvestorPlace - Stock Market News, Stock Advice &amp; Trading Tips</a></p> \n<ul>\n <li> <a href=\"https://investorplace.com/2019/03/15-stocks-that-may-be-hurt-by-this-years-big-ipos/\"> 15 Stocks That May Be Hurt by This Year’s Big IPOs </a> </li> \n</ul>\n<p>With that said, here are five stocks to buy that will play a key role in the future of self-driving cars. Some are similar to Alphabet, as not every stock on this list is a “pure” autonomous vehicle play, but each will undoubtedly be at the forefront of this rapidly growing trend in the months and years ahead.</p> \n<p></p> \n<h3><strong>Tesla (TSLA)</strong></h3> \n<p>The first name on this list of stocks to invest in the trend of self-driving cars,&nbsp; <strong>Tesla</strong>&nbsp;(NASDAQ:<strong><a href=\"https://investorplace.com/stock-quotes/tsla-stock-quote/\">TSLA</a></strong>), is one of the purest plays in the space. After all, TSLA’s development in autonomous driving is as impressive as the lead it has in the electronic vehicle market.</p> \n<p>On Nov. 27, the company’s CEO, Elon Musk, took to the wheel when the company announced Version 9 software updates. The most notable feature was <a href=\"#\">Navigate on Autopilot</a>.</p> \n<p>Navigate on Autopilot builds on the original Autopilot but does more: the car now suggests lane changes and, with driver supervision, it makes the lane changes. It also navigates highway interchanges and takes on-ramp/off-ramps as well as exits the highway.</p> \n<p>This technology is powered by a neural network, so the more data it gets, the better the code becomes and the less buggy Navigate on Autopilot gets.</p> \n<p>Tesla clearly offers the most advanced driver assist system on the market and the software will only get better as the company pushes out over the air (OTA) upgrades.</p> \n<p>TSLA stock does not come cheap: shares trade for 30 times analysts’ consensus 2019 profit estimate. Debt-to-equity is 219 times, but the market’s confidence in Elon Musk should not hinder a money raise, should Tesla need it.</p> \n<p></p> \n<h3><strong>Ambarella (AMBA)</strong></h3> \n<p><strong>Ambarella</strong>&nbsp;(NASDAQ:<strong><a href=\"https://investorplace.com/stock-quotes/amba-stock-quote/\">AMBA</a></strong>), whose past growth rates came from supplying camera chip technology to <strong>GoPro</strong>&nbsp;(NASDAQ:<a href=\"https://investorplace.com/stock-quotes/gpro-stock-quote/\"><strong>GPRO</strong></a>), reinvented itself by developing computer vision (CV1, CV2) chips for the ADAS market. However, the transition to the market of self-driving cars has not been without hiccups. In 2018, Ambarella’s overall revenue dropped meaningfully year-over-year, and it’s expected to do the same this year.</p> \n<p>The firm needs to spend its efforts on computer vision applications in the IP security, automotive and robotics AI markets. In the OEM automotive market, customers want a flexible solution that adds value. Since legacy automotive chips are vastly inferior — unable to meet processing performance requirements, consuming more power than the desired limits and exceeding thermal constraints for camera — Ambarella may have a moat.</p> \n<p>Ambarella’s front-camera ADAS solution is a leading Tier 1 chip that it just introduced.in late January. In the Level 2 to Level 5 autonomous vehicle categories, the company offers a flexible open perception platform.</p> \n<ul>\n <li> <a href=\"https://investorplace.com/2019/03/15-stocks-that-may-be-hurt-by-this-years-big-ipos/\"> 15 Stocks That May Be Hurt by This Year’s Big IPOs </a> </li> \n</ul>\n<p></p> \n<h3><strong>Nvidia (NVDA)</strong></h3> \n<p>When investors look at the stock charts for&nbsp;<strong>Nvidia</strong>&nbsp;(NASDAQ:<strong><a href=\"https://investorplace.com/stock-quotes/nvda-stock-quote/\">NVDA</a></strong>), the first thing they’ll notice is the drop in the NVDA stock price from over $280 down to around $170 as of Friday afternoon. The company’s main business, GPUs for PCs, has weakened.</p> \n<p>Looking beyond the PC GPU market, Nvidia’s strength in automotive suggests this company is poised to grow along with the self-driving car trend. In 2018,the company’s&nbsp; revenue from automotive hit record levels.</p> \n<p>Autonomous vehicle production and development engagement are growing. Nvidia’s next-generation AI-based cockpit infotainment systems should assure its growth rates hold in the automotive space.</p> \n<p>At GTC Europe, Nvidia announced that Volvo would include Nvidia’s Drive AGX Xavier solution early in the 2020’s. The solution will deliver on Level 2+ assisted driving. This is made possible by the integration of 360-degree surround perception and a driver monitoring system.</p> \n<p></p> \n<h3><strong>General Motors (GM)</strong></h3> \n<p>Looking within the automotive sector, <strong>General Motors’&nbsp;</strong>(NYSE:<a href=\"https://investorplace.com/stock-quotes/gm-stock-quote/\"><strong>GM</strong></a>) mass layoff announcement on Nov. 26 changed the strategic direction of the company.</p> \n<p>Even though traditional auto parts suppliers will suffer, as will GM staff getting let go, development for GM’s self-driving car unit will probably accelerate. GM’s Orion, Michigan plant will manufacture autonomous vehicles once they are <a href=\"#\">mass-produced</a>. The plant is a natural location for self-driving car production because it already manufactures electric vehicles.</p> \n<p>GM is making a big commitment to the self-driving trend. Between May 2018 and October 2018, GM and its self-driving car unit, Cruise, attracted <a href=\"#\">$5 billion in investments</a>. This amount pushed GM ahead of Alphabet’s Waymo, Uber and Lyft.</p> \n<ul>\n <li> <a href=\"https://investorplace.com/2019/03/15-stocks-that-may-be-hurt-by-this-years-big-ipos/\"> 15 Stocks That May Be Hurt by This Year’s Big IPOs </a> </li> \n</ul>\n<p>GM’s restructuring could distract the company from its self-driving car development. Glitches in the driverless cars could also delay the company from releasing it on the market. But if management recognizes the resources it needs to push the technology’s development, GM has a chance of succeeding in the ADAS space.</p> \n<p></p> \n<h3><strong>Aptiv (APTV)</strong></h3> \n<p><strong>Aptiv PLC</strong> (NYSE:<a href=\"https://investorplace.com/stock-quotes/aptv-stock-quote/\"><strong>APTV</strong></a>) has earned a number of customer awards that recognized the firm’s innovations in advanced safety, electrification and connectivity.</p> \n<p>It won a business award for its six highly scalable Level 2+ ADAS systems with a major North American OEM. The auto parts supplier is pivoting its business toward software, compute and integration solutions. This transition is playing out because Aptiv is booking new business.</p> \n<p>Aptiv, through its Mobility and Services Group, makes automated driving software. Its development in high-speed central compute platforms give the company a competitive edge. This fits nicely with its goal of having more automated and connected vehicle content.</p> \n<p>Given APTV’s forward price-earnings ratio of 13.5, markets appear to have ignored this firm’s growth potential in self-driving cars.</p> \n<p>If investors look beyond the macro challenges for APTV stock and put a valuation on the technology portion of the business, Aptiv is undervalued.</p> \n<p><em>As of this writing, Chris Lau did not own shares in any of the aforementioned securities, but was considering buying Aptiv in the next 72 hours.</em></p> \n<h3>More From InvestorPlace</h3> \n<ul>\n <li> <a href=\"https://investorplace.com/2018/10/toxic-pot-stocks-to-avoid?cid=MKT382818&amp;eid=MKT385969\"> 2 Toxic Pot Stocks You Should Avoid </a> </li> \n <li> <a href=\"https://investorplace.com/2019/03/7-dividend-stocks-to-buy-today/\"> 7 Dividend Stocks to Buy Today </a> </li> \n <li> <a href=\"https://investorplace.com/2019/03/etfs-to-buy-to-ride-the-longevity-economy/\"> 7 ETFs to Buy to Ride the Longevity Economy </a> </li> \n <li> <a href=\"https://investorplace.com/2019/03/7-winning-high-yield-dividend-stocks-with-payouts-over-5/\"> 7 Winning High-Yield Dividend Stocks With Payouts Over 5% </a> </li> \n</ul> \n<a href=\"https://investorplace.com/options-trading/broker-center/\"> Compare Brokers </a> \n<p>The post <a href=\"https://investorplace.com/2019/03/the-5-best-stocks-to-invest-in-self-driving-cars/\">The 5 Best Stocks to Invest in Self-Driving Cars</a> appeared first on <a href=\"https://investorplace.com\">InvestorPlace</a>.</p>",
+      "streams": null
+    },
+    {
+      "uuid": "cf2d8351-afe8-3a16-a4fc-9ce05416adb9",
+      "title": "Wedbush's Pachter Sees 'Zero Chance' of Antitrust Action Against Big Tech",
+      "link": "https://finance.yahoo.com/video/wedbushs-pachter-sees-zero-chance-185413448.html",
+      "summary": "Mar.15 -- Michael Pachter, Wedbush Securities managing director, discusses the mounting concerns about big tech in U.S. statehouses. He speaks with Bloomberg's Caroline Hyde and Scarlet Fu on \"Bloomberg Markets: The Close.\"",
+      "publisher": "Bloomberg",
+      "author": "",
+      "type": "cavideo",
+      "published_at": 1552676053,
+      "main_image": {
+        "original_height": 720,
+        "original_width": 1280,
+        "original_url": "https://s.yimg.com/lo/api/res/1.2/0TJE9czMQBa7PLBE0D9Flg--/YXBwaWQ9eXZpZGVvZmVlZHM7dz0xMjgwO2g9NzIw/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949",
+        "resolutions": [
+          {
+            "tag": "original",
+            "width": 1280,
+            "url": "https://s.yimg.com/lo/api/res/1.2/0TJE9czMQBa7PLBE0D9Flg--/YXBwaWQ9eXZpZGVvZmVlZHM7dz0xMjgwO2g9NzIw/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949",
+            "tags": [
+              "size=original",
+              ""
+            ],
+            "height": 720
+          },
+          {
+            "height": 140,
+            "width": 140,
+            "tag": "square-140x140",
+            "url": "https://s.yimg.com/lo/api/res/1.2/9Z8OM.hemRfeVPt0GvTK_Q--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE0MDt3PTE0MA--/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949"
+          },
+          {
+            "height": 360,
+            "width": 640,
+            "tag": "fit-width-640",
+            "url": "https://s.yimg.com/lo/api/res/1.2/wSOweIZj7PduLcXr5n1wfQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTM2MDt3PTY0MA--/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/0thj.OpbPVtdX0VaMUsUIQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTQwO3c9MTQw/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949",
+            "height": 140,
+            "width": 140,
+            "tag": "ios:size=square_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/hCU0lZQ_WlZIMJqMMsTluw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD05MDt3PTE2MA--/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949",
+            "height": 90,
+            "width": 160,
+            "tag": "ios:size=small"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/zrpxaOe4dxStTWMafIpjoQ--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xODA7dz0zMjA-/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949",
+            "height": 180,
+            "width": 320,
+            "tag": "ios:size=medium"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/UdbyXTY1efphsAqvKUZWVw--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0zNjA7dz02NDA-/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949",
+            "height": 360,
+            "width": 640,
+            "tag": "ios:size=extra_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/MXfGCssS2wJvhZeeahVe7A--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9MzIw/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949",
+            "height": 530,
+            "width": 320,
+            "tag": "ios:size=card_small_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/dOq86nh8j2ONbwTzEiCUBw--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTA2MDt3PTY0MA--/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949",
+            "height": 1060,
+            "width": 640,
+            "tag": "ios:size=card_large_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/E6OJ7ZEYcrtJVX57_3Ui0w--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9NjQw/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949",
+            "height": 530,
+            "width": 640,
+            "tag": "ios:size=large_new_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/pu2s7x2rZjzCVera2HhcDg--/YXBwaWQ9eXZpZGVvZmVlZHM7aD00MzI7dz03Njg-/http://media.zenfs.com/en-US/video/bloomberg_technology_video_876/fdedfd8eb0f14ac996ffe5e25cde4949",
+            "height": 432,
+            "width": 768,
+            "tag": "ios:size=ipad_portrait"
+          }
+        ]
+      },
+      "entities": [
+        {
+          "term": "TICKER:GOOG",
+          "label": "Alphabet Inc.",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "cf2d8351-afe8-3a16-a4fc-9ce05416adb9",
+      "offnet": false,
+      "streams": [
+        {
+          "mime_type": "application/vnd.apple.mpegURL",
+          "url": "https://video.media.yql.yahoo.com/v1/hls/cf2d8351-afe8-3a16-a4fc-9ce05416adb9.m3u8?region=US&site=finance",
+          "uuid": "cf2d8351-afe8-3a16-a4fc-9ce05416adb9"
+        }
+      ]
+    },
+    {
+      "uuid": "7de3689e-35e1-3d78-83fb-10c098c3e4bf",
+      "title": "Federal action against tech giants more likely than state action, says NYT's Ed Lee",
+      "link": "https://finance.yahoo.com/video/federal-action-against-tech-giants-185005488.html",
+      "summary": "Ed Lee of The New York Times and Casey Newton of The Verge discuss the potential government regulations facing tech giants like Facebook and Google.",
+      "publisher": "CNBC Videos",
+      "author": "",
+      "type": "cavideo",
+      "published_at": 1552675805,
+      "main_image": {
+        "original_height": 225,
+        "original_width": 400,
+        "original_url": "https://s.yimg.com/lo/api/res/1.2/WyGmOtfPHbWtEpYOS.E2fA--/YXBwaWQ9eXZpZGVvZmVlZHM7dz00MDA7aD0yMjU-/http://media.zenfs.com/en-US/video/video.cnbc2.com/ae883cbd02a741b23556959ccb7a0e1c",
+        "resolutions": [
+          {
+            "tag": "original",
+            "width": 400,
+            "url": "https://s.yimg.com/lo/api/res/1.2/WyGmOtfPHbWtEpYOS.E2fA--/YXBwaWQ9eXZpZGVvZmVlZHM7dz00MDA7aD0yMjU-/http://media.zenfs.com/en-US/video/video.cnbc2.com/ae883cbd02a741b23556959ccb7a0e1c",
+            "tags": [
+              "size=original",
+              ""
+            ],
+            "height": 225
+          },
+          {
+            "height": 140,
+            "width": 140,
+            "tag": "square-140x140",
+            "url": "https://s.yimg.com/lo/api/res/1.2/13dyt4DCJi8poJLeC2XQ_Q--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE0MDt3PTE0MA--/http://media.zenfs.com/en-US/video/video.cnbc2.com/ae883cbd02a741b23556959ccb7a0e1c"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/cvKylG.baoJUcLdcLuFYfg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTQwO3c9MTQw/http://media.zenfs.com/en-US/video/video.cnbc2.com/ae883cbd02a741b23556959ccb7a0e1c",
+            "height": 140,
+            "width": 140,
+            "tag": "ios:size=square_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/weqN_0nKu.YN0VyZWKSA4g--/YXBwaWQ9eXZpZGVvZmVlZHM7aD05MDt3PTE2MA--/http://media.zenfs.com/en-US/video/video.cnbc2.com/ae883cbd02a741b23556959ccb7a0e1c",
+            "height": 90,
+            "width": 160,
+            "tag": "ios:size=small"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/wEvqyVcMfcAF0hZz86oEKA--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xODA7dz0zMjA-/http://media.zenfs.com/en-US/video/video.cnbc2.com/ae883cbd02a741b23556959ccb7a0e1c",
+            "height": 180,
+            "width": 320,
+            "tag": "ios:size=medium"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/wIqHTUvwPUAFbzXsxz6XDA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9MzIw/http://media.zenfs.com/en-US/video/video.cnbc2.com/ae883cbd02a741b23556959ccb7a0e1c",
+            "height": 530,
+            "width": 320,
+            "tag": "ios:size=card_small_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/sCuotUkzMrImcTh8rEE8BQ--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTA2MDt3PTY0MA--/http://media.zenfs.com/en-US/video/video.cnbc2.com/ae883cbd02a741b23556959ccb7a0e1c",
+            "height": 1060,
+            "width": 640,
+            "tag": "ios:size=card_large_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/CWAYBZAqspVrOYdjaSR5IA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9NjQw/http://media.zenfs.com/en-US/video/video.cnbc2.com/ae883cbd02a741b23556959ccb7a0e1c",
+            "height": 530,
+            "width": 640,
+            "tag": "ios:size=large_new_fixed"
+          }
+        ]
+      },
+      "entities": [
+        {
+          "term": "TICKER:GOOG",
+          "label": "Alphabet Inc.",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "7de3689e-35e1-3d78-83fb-10c098c3e4bf",
+      "offnet": false,
+      "streams": [
+        {
+          "mime_type": "application/vnd.apple.mpegURL",
+          "url": "https://video.media.yql.yahoo.com/v1/hls/7de3689e-35e1-3d78-83fb-10c098c3e4bf.m3u8?region=US&site=finance",
+          "uuid": "7de3689e-35e1-3d78-83fb-10c098c3e4bf"
+        }
+      ]
+    },
+    {
+      "uuid": "767dc8a7-8ff1-3eee-aa4b-c8edaf079378",
+      "title": "Facebook Stock Is Still a Good Buy on Any Dip … For Now",
+      "link": "https://finance.yahoo.com/news/facebook-stock-still-good-buy-184450353.html",
+      "summary": "The 12-month scoreboard would show that Facebook (NASDAQ:FB) stock is lagging since it's down 8%, while the markets, in general, are up 3% for the same period. But lately, FB stock has had an incredible rally off its December lows.Source: Shutterstock Even though I saw the breakout in FB early enough to trade it, I chose to use the Nasdaq Invesco QQQ Trust (NASDAQ:QQQ) as the vehicle to capture the rally. Why? For the simple reason of it now being a company prone to surprise headlines and I am not referring to the global outage they had this week.Case in point, while investors on Wall Street were exuberant about Facebook stock this week, it got hit with nasty headlines about legal troubles ahead. These likely stem from the data privacy debacle from the Cambridge Analytica that just won't quit.InvestorPlace - Stock Market News, Stock Advice & Trading TipsNow the company may face criminal investigations from the Justice Department on how Facebook shared user data with business partners. This is different from merely having a few public outcries over privacy expectations. It is serious stuff to have criminal indictment looming over your stock.To make matters worse, we learned that the head of Chief Product Officer and the head of WhatsApp are leaving the company. This comes on the heels of major announcements from FB CEO Mark Zukerberg. Needless to say, the company's future seems in limbo.  * The 10 Best Stocks to Buy for the Bull Market's Anniversary However, I still believe it is a money-making engine that will be hard to break. I wrote a note years ago saying that it would take colossal mistakes to ruin the potential of a billion users. Well, they are sure trying and testing my theory on that.I was lucky to trade FB stock from the long side into earnings based on conversations I've had with advertisers. They absolutely love the way it works for their businesses and they didn't care at all about the privacy issues. So I view those as a distraction away from the engine that actually generates the revenues: The advertisers.It is not easy to replicate the reach that Facebook has, so until there is an alternative. It would take a serious change in how ads flow through its model to kill the top line. So if you're in Facebook stock for the long term, then I stay in it. Nothing so far has changed the thesis on that front.From a shorter-term trading perspective, there are levels to know. Bottom Line on FB StockLast year was tough for all stocks and the crash ended on Christmas. Since then, FB stock set on a 40% rally off the double bottom test, but it is now looking like a double top is forming at $173 per share. This is not surprising because this is a level that has been in contention since July 2017.Contention levels like these create congestion and on the way up these are temporary resistance. As long as the fundamentals remain the same, eventually the bulls will prevail and take them out. That's how breakouts develop. They bang against resistance until they pierce it and overshoot higher.  * 7 Small-Cap Stocks That Make the Grade The best way to evaluate a stock is to cover up the name and examine the price action. The FB weekly volume profile also tells me that the zone around $173 is the point of interest, so both bulls and bears want to rule it.The problem for short-term FB traders is that the fast rally left weak levels for the stock. If it loses $166 per share it could target $159. The problem is that this is another potential trigger line that could itself send the stock lower to cover the open gap at $151 per share.This is not my forecast but it is a set of two scenarios that could unfold into next week. If this happens I bet that it would be a trading opportunity from the long side. I am not one to short the stock, but I will go long it on dips where I have clear levels.The Facebook thesis is still intact for as long as advertisers are happy. I will change my mind as the facts change, but for now, the bulls have the advantage.Nicolas Chahine is the managing director of SellSpreads.com. As of this writing, he did not hold a position in any of the aforementioned securities. You can follow him as @racernic on Twitter and Stocktwits. More From InvestorPlace  * 2 Toxic Pot Stocks You Should Avoid   * 7 Dividend Stocks to Buy Today   * 7 ETFs to Buy to Ride the Longevity Economy   * 7 Winning High-Yield Dividend Stocks With Payouts Over 5% Compare Brokers The post Facebook Stock Is Still a Good Buy on Any Dip … For Now appeared first on InvestorPlace.",
+      "publisher": "InvestorPlace",
+      "author": "Nicolas Chahine",
+      "ignore_main_image": true,
+      "type": "story",
+      "published_at": 1552675490,
+      "main_image": {
+        "original_height": 400,
+        "original_width": 728,
+        "original_url": "https://s.yimg.com/lo/api/res/1.2/zM2NWIWQwUAqIyRXyR0_KQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz03Mjg7aD00MDA-/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8",
+        "resolutions": [
+          {
+            "tag": "original",
+            "width": 728,
+            "url": "https://s.yimg.com/lo/api/res/1.2/zM2NWIWQwUAqIyRXyR0_KQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz03Mjg7aD00MDA-/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8",
+            "tags": [
+              "size=original",
+              ""
+            ],
+            "height": 400
+          },
+          {
+            "height": 140,
+            "width": 140,
+            "tag": "square-140x140",
+            "url": "https://s.yimg.com/lo/api/res/1.2/fqdOe5qOm7QG3qKgD9m2dA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTE0MDt3PTE0MA--/https://s.yimg.com/lo/api/res/1.2/zM2NWIWQwUAqIyRXyR0_KQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz03Mjg7aD00MDA-/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8"
+          },
+          {
+            "height": 352,
+            "width": 640,
+            "tag": "fit-width-640",
+            "url": "https://s.yimg.com/lo/api/res/1.2/RP1OPr6OzouSXDvaLSbnVg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtoPTM1MS42NDgzNTE2NDgzNTE2NTt3PTY0MA--/https://s.yimg.com/lo/api/res/1.2/zM2NWIWQwUAqIyRXyR0_KQ--/YXBwaWQ9eXZpZGVvZmVlZHM7dz03Mjg7aD00MDA-/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/lP84wc7Ydq.QP.lMQlFkGA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTQwO3c9MTQw/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8",
+            "height": 140,
+            "width": 140,
+            "tag": "ios:size=square_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/IAY.B6zVJt5cwmVtbokg_g--/YXBwaWQ9eXZpZGVvZmVlZHM7aD04Nzt3PTE2MA--/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8",
+            "height": 87,
+            "width": 160,
+            "tag": "ios:size=small"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/IHJI4NiEEFj2U9pJMXhbSA--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0xNzU7dz0zMjA-/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8",
+            "height": 175,
+            "width": 320,
+            "tag": "ios:size=medium"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/tTRYpAdsumW8ukYfl0nHvA--/YXBwaWQ9eXZpZGVvZmVlZHM7aD0zNTE7dz02NDA-/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8",
+            "height": 351,
+            "width": 640,
+            "tag": "ios:size=extra_large"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/ukae66xkKcqa3026tmbIaA--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9MzIw/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8",
+            "height": 530,
+            "width": 320,
+            "tag": "ios:size=card_small_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/Sqv1k7SqtK0xJDYMr2F7gg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9MTA2MDt3PTY0MA--/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8",
+            "height": 1060,
+            "width": 640,
+            "tag": "ios:size=card_large_fixed"
+          },
+          {
+            "url": "https://s.yimg.com/lo/api/res/1.2/5G8NMbZQ1ixu665sYTECRg--/YXBwaWQ9eXZpZGVvZmVlZHM7Zmk9ZmlsbDtweW9mZj0wO2g9NTMwO3c9NjQw/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8",
+            "height": 530,
+            "width": 640,
+            "tag": "ios:size=large_new_fixed"
+          }
+        ]
+      },
+      "entities": [
+        {
+          "term": "TICKER:FB",
+          "label": "Facebook, Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GOOG",
+          "label": "Alphabet Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:GOOGL",
+          "label": "Alphabet Inc.",
+          "score": 1
+        },
+        {
+          "term": "TICKER:QQQ",
+          "label": "Invesco QQQ Trust, Series 1",
+          "score": 1
+        }
+      ],
+      "is_magazine": false,
+      "reference_id": "767dc8a7-8ff1-3eee-aa4b-c8edaf079378",
+      "offnet": false,
+      "content": "<p>The 12-month scoreboard would show that <strong>Facebook</strong> (NASDAQ:<a href=\"https://investorplace.com/stock-quotes/fb-stock-quote/\"><strong>FB</strong></a>) stock is lagging since it’s down 8%, while the markets, in general, are up 3% for the same period. But lately, FB stock has had an incredible rally off its December lows.</p> \n<img src=\"https://s.yimg.com/uu/api/res/1.2/b4nF4Lsk8X8.u6JLz5FsAg--/YXBwaWQ9eXRhY2h5b247cT03NTs-/https://media.zenfs.com/en-US/investorplace_417/fad3080d5d8d67c48d7cca81a981e6d8\" alt=\"Facebook Stock Is Still a Good Buy on Any Dip ... For Now\" width=\"728\" height=\"400\">Source: Shutterstock \n<p>Even though I saw the breakout in FB early enough to trade it, I chose to use the <strong>Nasdaq Invesco QQQ Trust</strong> (NASDAQ:<a href=\"https://investorplace.com/stock-quotes/qqq-stock-quote/\"><strong>QQQ</strong></a>) as the vehicle to capture the rally. Why? For the simple reason of it now being a company prone to surprise headlines and I am not referring to the global outage they had this week.</p> \n<p>Case in point, while investors on Wall Street were exuberant about Facebook stock this week, it got hit with nasty headlines about legal troubles ahead. These likely stem from the data privacy debacle from the Cambridge Analytica that just won’t quit.</p>\n<p><a href=\"https://investorplace.com\">InvestorPlace - Stock Market News, Stock Advice &amp; Trading Tips</a></p> \n<p>Now the company may face criminal investigations from the Justice Department on how Facebook shared user data with business partners. This is different from merely having a few public outcries over privacy expectations. It is serious stuff to have criminal indictment looming over your stock.</p> \n<p>To make matters worse, we learned that the head of Chief Product Officer and the head of WhatsApp are leaving the company. This comes on the heels of major announcements from FB CEO Mark Zukerberg. Needless to say, the company’s future seems in limbo.</p> \n<ul>\n <li> <a href=\"https://investorplace.com/2019/03/10-best-stocks-to-buy-for-the-bull-markets-tenth-anniversary-bgim/\"> The 10 Best Stocks to Buy for the Bull Market’s Anniversary </a> </li> \n</ul>\n<p>However, I still believe it is a money-making engine that will be hard to break. I wrote a note years ago saying that it would take colossal mistakes to ruin the potential of a billion users. Well, they are sure trying and testing my theory on that.</p> \n<p>I was lucky to trade FB stock from the long side into earnings based on conversations I’ve had with advertisers. They absolutely love the way it works for their businesses and they didn’t care at all about the privacy issues. So I view those as a distraction away from the engine that actually generates the revenues: The advertisers.</p> \n<p>It is not easy to replicate the reach that Facebook has, so until there is an alternative. It would take a serious change in how ads flow through its model to kill the top line. So if you’re in Facebook stock for the long term, then I stay in it. Nothing so far has changed the thesis on that front.</p> \n<p>From a shorter-term trading perspective, there are levels to know.</p> \n<p></p> \n<h3>Bottom Line on FB Stock</h3> \n<p>Last year was tough for all stocks and the crash ended on Christmas. Since then, FB stock set on a 40% rally off the double bottom test, but it is now looking like a double top is forming at $173 per share. This is not surprising because this is a level that has been in contention since July 2017.</p> \n<p>Contention levels like these create congestion and on the way up these are temporary resistance. As long as the fundamentals remain the same, eventually the bulls will prevail and take them out. That’s how breakouts develop. They bang against resistance until they pierce it and overshoot higher.</p> \n<ul>\n <li> <a href=\"https://investorplace.com/2019/03/7-small-cap-stocks-that-make-the-grade/\"> 7 Small-Cap Stocks That Make the Grade </a> </li> \n</ul>\n<p>The best way to evaluate a stock is to cover up the name and examine the price action. The FB weekly volume profile also tells me that the zone around $173 is the point of interest, so both bulls and bears want to rule it.</p> \n<p>The problem for short-term FB traders is that the fast rally left weak levels for the stock. If it loses $166 per share it could target $159. The problem is that this is another potential trigger line that could itself send the stock lower to cover the open gap at $151 per share.</p> \n<p>This is not my forecast but it is a set of two scenarios that could unfold into next week. If this happens I bet that it would be a trading opportunity from the long side. I am not one to short the stock, but I will go long it on dips where I have clear levels.</p> \n<p>The Facebook thesis is still intact for as long as advertisers are happy. I will change my mind as the facts change, but for now, the bulls have the advantage.</p> \n<p><em>Nicolas Chahine is the managing director of&nbsp;<a href=\"#\">SellSpreads.com</a>. As of this writing, he did not hold a position in any of the aforementioned securities. You can follow him as @racernic on&nbsp;<a href=\"#\">Twitter</a>&nbsp;and&nbsp;<a href=\"#\">Stocktwits</a>.</em></p> \n<h3>More From InvestorPlace</h3> \n<ul>\n <li> <a href=\"https://investorplace.com/2018/10/toxic-pot-stocks-to-avoid?cid=MKT382818&amp;eid=MKT385969\"> 2 Toxic Pot Stocks You Should Avoid </a> </li> \n <li> <a href=\"https://investorplace.com/2019/03/7-dividend-stocks-to-buy-today/\"> 7 Dividend Stocks to Buy Today </a> </li> \n <li> <a href=\"https://investorplace.com/2019/03/etfs-to-buy-to-ride-the-longevity-economy/\"> 7 ETFs to Buy to Ride the Longevity Economy </a> </li> \n <li> <a href=\"https://investorplace.com/2019/03/7-winning-high-yield-dividend-stocks-with-payouts-over-5/\"> 7 Winning High-Yield Dividend Stocks With Payouts Over 5% </a> </li> \n</ul> \n<a href=\"https://investorplace.com/options-trading/broker-center/\"> Compare Brokers </a> \n<p>The post <a href=\"https://investorplace.com/2019/03/facebook-stock-good-buy-on-any-dip/\">Facebook Stock Is Still a Good Buy on Any Dip … For Now</a> appeared first on <a href=\"https://investorplace.com\">InvestorPlace</a>.</p></img>",
+      "streams": null
+    }
+  ]
+}
