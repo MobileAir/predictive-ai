@@ -63,10 +63,11 @@ This model outperforms the toughest Kaggle competitor (Kaggle projects used only
 
 
 #### Test MSE on normalized stock prices:
-
-|          | High       | Low        | Close      |
-|----------|------------|------------|------------|
-| Test MSE | 8.74x10^-7 | 1.40x10^-6 | 8.50x10^-7 |
+<center
+| High       | Low        | Close      |
+|------------|------------|------------|
+| 8.74x10^-7 | 1.40x10^-6 | 8.50x10^-7 |
+</center>
 
 
 
