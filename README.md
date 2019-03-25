@@ -18,7 +18,7 @@ Contianed in this document is the journey that the data takes in order to become
 This step was made easy with special thanks to the good grace of pandas datareader, Twitter, and RapidAPI. This project uses three sources of data; pandas datareader (for Yahoo Finance), RapidAPI (for news), and Twitter (for tweets).
 
 Aquiring stock prices was done with the code below. I was interested in the stock prices from the last 50 days.
-###### insert code
+
 For this project, I observed four prices: the high, open, low, and close for each of the 50 days.
 
 Tweets were collected through Twitter's developer-friendly API, that simplifies the search for relevent Tweets. Using tweepy, I searched twitter for the very uninspired tokens "(company name) stock". This brutish method proved effective.
