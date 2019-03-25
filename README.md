@@ -1,8 +1,8 @@
 # Stock-Analysis
 
-This project is meant to explore the potential in today's big data enterprises. Though a heavily standardized approach is taken here to a benign problem, this project harps upon the wonderous possibilities with big data. This project combines stock prices as well as relevant news articles and tweets to predict future stock prices. The news and twitter data bring novelty to an otherwise benign approach to this problem. ----- Mention neural network
+This project is meant to explore the potential in today's big data enterprises. Though a heavily standardized approach is taken here to a benign problem, this project harps upon the wonderous possibilities with big data. This project combines stock prices as well as relevant news articles and tweets to predict future stock prices. The news and twitter data bring novelty to an otherwise benign approach to this problem.
 
-This project was done through the McGill AI Society's Accelrated ML bootcamp. Checkout their blogpost here #####insert blogpost
+This project was done through the McGill AI Society's Accelrated ML bootcamp. Checkout their blogpost [here](https://mcgillai.com/)
 
 Contianed in this document is the journey that the data takes in order to become a prediction.
 
