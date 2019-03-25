@@ -7,12 +7,12 @@ This project was done through the McGill AI Society's Accelrated ML bootcamp. Ch
 Contianed in this document is the journey that the data takes in order to become a prediction.
 
 #### Table of contents:
-[Data Mining]
-Data preprocessing
-Model
-Results
-Problems
-Next Steps
+1. [Data Mining][https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-mining]
+2. Data preprocessing
+3. Model
+4. Results
+5. Problems
+6. Next Steps
 References
 ## Data mining
 This step was made easy with special thanks to the good grace of pandas datareader, Twitter, and RapidAPI. This project uses three sources of data; pandas datareader (for Yahoo Finance), RapidAPI (for news), and Twitter (for tweets).
