@@ -53,7 +53,7 @@ Lastly, I computed my losses with mean squared error. Most sources I found used 
 ## Results
 Compared to Kaggle projects on similar datasets, this model shines bright, outperforming even the most critically acclaimed models. I believe that both the news and tweets were tantamount to the model's performance, as none of the other models I could find incorporated thses added dimension. The best error I could find on Kaggle was from Rohit Verma. His project is [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
 |           |Best on Kaggle | This Model |
-|-----------|--------------:|-----------:|
+| --------- | -------------:| ----------:|
 | Train MSE |1.91x10^-4     |4.02x10^-7  |
 | Test MSE  |3.28x10^-4     |1.08x10^-6  |
 
