@@ -49,7 +49,7 @@ The model was implemented in pytorch, which can be found [here](https://github.c
 I stayed true to my Canadian roots and used the <strong>Adam optimizer</strong>.
 
 ## Results
-This model outperforms the toughest Kaggle competitor (Kaggle projects used only the stock prices). Clearly see that the news and tweets were key to the model's performance. The best error I could find on Kaggle was from Rohit Verma. His project is [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
+This model outperforms the toughest Kaggle competitor (Kaggle projects used only the stock prices). Clearly see that the news and tweets were key to the model's performance. The best error I could find on Kaggle was from Rohit Verma. Checkout his project [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
 
 <center>
 
@@ -72,13 +72,13 @@ This model outperforms the toughest Kaggle competitor (Kaggle projects used only
 
 ## Next Steps
 
-###### 1. Training a more refined NLP classifier for data preprocessing
+##### 1. Training a more refined NLP classifier for data preprocessing
 The polarity score is a vague and much too generalized for my data. I would like to add some language processing that would return a score for how the news impacts the stock market, not just if the news sounds good or bad.
 
-###### 2. Exploring other influences
+##### 2. Exploring other influences
 Since the news and tweets clearly influenced the model's performance, I'd love to tap into other news and social media websites and see if I can improve the predictions.
 
-###### 3. Longer forecast
+##### 3. Longer forecast
 The fact that the model currently only predicts to prices for the next day overshadows its impressive performacen thus far. It would be nice to accurately predict further into the future.
 
 
