@@ -30,27 +30,31 @@ Mining news data was dreamy when using RapidAPI's Yahoo Finance endpoints. This 
 There were two central components of in this stage: Sentiment Polarity and MinMax Scaling.
 To translate the tweets and news articles to tangible features, I used Textblob's sentiment polarity.
 
-#### NLP with TextBlob
-TextBlob uses a Naive Bayes NLP model to calculate sentiment polarity. When the method is called, it will first tokenize each word in the input text, then uses a Bag of Words technique to get a count of how many times each word appears. From that, it generates a polarity score in range [-1,1],  representing how "positive" or negative" a text is. Each article and tweet got its own polarity score before being added to the feature matrix.
+
+<strong><em>TextBlob</em></strong> uses a Naive Bayes NLP model to calculate sentiment polarity. When the method is called, it will first tokenize each word in the input text, then uses a Bag of Words technique to get a count of how many times each word appears. From that, it generates a polarity score in range [-1,1],  representing how "positive" or negative" a text is. Each article and tweet got its own polarity score before being added to the feature matrix.
 
 From its sparse beginnings, I assembled these 6 features into a dataset to be pass to the last stage of preprocessing. Here is a glimpse at Bank of America's data:
 ![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/sampData.png)
 
 Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my Neural Network. The algorithm is as follows:
-###### insert MinMax picture
+![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/minmax.png)
 
-
----- The model -------
 ## Model
-This model was implemented in pytorch. The code is contained within ######This document. Evidently, this data called for a neural net that considers the time dependance of its data. I found my best results with a double layered GRU. This video https://www.youtube.com/watch?v=pYRIOGTPRPU describes the process very well. Below is a simplified version of the flow of data through the net.
+This model was implemented in pytorch. The code is contained within ######This document. Evidently, this data called for a neural net that considers the time dependance of its data. I found my best results with a double layered GRU. This [video](https://www.youtube.com/watch?v=pYRIOGTPRPU) describes the process very well. Below is a simplified version of the flow of data through the net.
 ###### image of flow of data through the net
+
 ###### Optimizer
 To update my parameters, I used the world famous, made-in-Canada Adam optimizer. Due to it's individualistic learning reates for each parameter and as well as its computational efficiency.
 Done in pytorch
 
+Lastly, I computed my losses with mean squared error. Most sources I found used this metric and I wanted to be able to compare my results.
+
 ## Results
-Compared to Kaggle projects on similar datasets, this model shines bright, outperforming even the most critically acclaimed models. I believe that both the news and tweets were tantamount to the model's performance, as none of the other models I could find incorporated thses added dimension.
-###### Insert comparison1, comparison2
+Compared to Kaggle projects on similar datasets, this model shines bright, outperforming even the most critically acclaimed models. I believe that both the news and tweets were tantamount to the model's performance, as none of the other models I could find incorporated thses added dimension. The best error I could find on Kaggle was from Rohit Verma. His project is [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
+![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/compError.png)
+
+Test MSE:
+![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/errs.png)
 
 
 
