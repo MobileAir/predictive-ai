@@ -31,7 +31,7 @@ There were two central components of in this stage: Sentiment Polarity and MinMa
 To translate the tweets and news articles to tangible features, I used Textblob's sentiment polarity.
 
 
-<strong><em>TextBlob</em></strong> uses a Naive Bayes NLP model to calculate sentiment polarity. When the method is called, it will first tokenize each word in the input text, then uses a Bag of Words technique to get a count of how many times each word appears. From that, it generates a polarity score in range [-1,1],  representing how "positive" or negative" a text is. Each article and tweet got its own polarity score before being added to the feature matrix.
+<strong>TextBlob</strong> uses a Naive Bayes NLP model to calculate sentiment polarity. When the method is called, it will first tokenize each word in the input text, then uses a Bag of Words technique to get a count of how many times each word appears. From that, it generates a polarity score in range [-1,1],  representing how "positive" or negative" a text is. Each article and tweet got its own polarity score before being added to the feature matrix.
 
 From its sparse beginnings, I assembled these 6 features into a dataset to be pass to the last stage of preprocessing. Here is a glimpse at Bank of America's data:
 ![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/sampData.png)
@@ -52,15 +52,13 @@ Lastly, I computed my losses with mean squared error. Most sources I found used 
 
 ## Results
 Compared to Kaggle projects on similar datasets, this model shines bright, outperforming even the most critically acclaimed models. I believe that both the news and tweets were tantamount to the model's performance, as none of the other models I could find incorporated thses added dimension. The best error I could find on Kaggle was from Rohit Verma. His project is [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
-|           | Best on Kaggle | This Model |
-|:---------:|:--------------:|:----------:|
-| Train MSE | 1.91x10^-4     | 4.02x10^-7 |
-| Test MSE  | 3.28x10^-4     | 1.08x10^-6 |
+<center>
 
 |           | Best on Kaggle | This model |
 |-----------|----------------|------------|
 | Train MSE | 1.91x10^-4     | 4.02x10^-7 |
 | Test MSE  | 3.28x10^-4     | 1.08x10^-6 |
+</center>
 
 
 ![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/compError.png)
