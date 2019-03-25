@@ -8,12 +8,12 @@ Contianed in this document is the journey that the data takes in order to become
 
 #### Table of contents:
 1. [Data Mining](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-mining)
-2. Data preprocessing
-3. Model
-4. Results
-5. Problems
-6. Next Steps
-References
+2. [Data preprocessing](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-preprocessing)
+3. [Model](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#model)
+4. [Results](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#results)
+5. [Challenges](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#challenges)
+6. [Next Steps](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#references)
+
 ## Data mining
 This step was made easy with special thanks to the good grace of pandas datareader, Twitter, and RapidAPI. This project uses three sources of data; pandas datareader (for Yahoo Finance), RapidAPI (for news), and Twitter (for tweets).
 
@@ -41,7 +41,7 @@ Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my N
 
 
 ---- The model -------
-## Le Modèle
+## Model
 This model was implemented in pytorch. The code is contained within ######This document. Evidently, this data called for a neural net that considers the time dependance of its data. I found my best results with a double layered GRU. This video https://www.youtube.com/watch?v=pYRIOGTPRPU describes the process very well. Below is a simplified version of the flow of data through the net.
 ###### image of flow of data through the net
 ###### Optimizer
@@ -57,7 +57,7 @@ Compared to Kaggle projects on similar datasets, this model shines bright, outpe
 ## Challenges
 Though the model performs well, there is plenty of room for improvement! Here are a few areas I would like to focus on:
 #### 1. Training a more suitable NLP classifier for input text
-The polarity score is a vague and much too generalized for my data. I would like to add some language processing that would return a score for how the news impacts the stock market, not just if the news sounds good or bad. 
+The polarity score is a vague and much too generalized for my data. I would like to add some language processing that would return a score for how the news impacts the stock market, not just if the news sounds good or bad.
 
 #### 2. Expanding News sources
 There are many APIs that are eager to provide financial news enpoints. Through the Yahoo subscrption wiht RapidAPI, I am limited to just yahoo finance. I would like to expand my horizons in this regard, as there are more influential news sources.
