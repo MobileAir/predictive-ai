@@ -41,7 +41,6 @@ Here is a glimpse at Bank of America's data:
 
 Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my Neural Network. The algorithm is as follows:
 ![equation](https://latex.codecogs.com/gif.latex?x%5E%7B%27%7D%20%3D%20%5Cfrac%7Bx%20-%20min%28x%29%7D%7Bmax%28x%29%20-%20min%28x%29%7D)
-![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/minmax.png)
 
 ## Model
 I obtained the best results using two Gated Recurrent Units stacked on top of one another followed by a fully connected layer that mapped to the output dimension. [Here](https://github.com/j-c-carr/Stock-Analysis/blob/master/src/model.py) is the implementation.
