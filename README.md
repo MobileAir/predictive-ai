@@ -7,7 +7,7 @@ This project was done through the McGill AI Society's Accelrated ML bootcamp. Ch
 Contianed in this document is the journey that the data takes in order to become a prediction.
 
 #### Table of contents:
-1. [Data Mining][https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-mining]
+1. [Data Mining](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-mining)
 2. Data preprocessing
 3. Model
 4. Results
