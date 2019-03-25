@@ -1,6 +1,37 @@
 # Stock-Analysis
-Stock prediction and analysis with historical stock price, News and Twitter data
 
-For more details about methodology and data preprocessing, please see the documents in the deliverable folder.
 
-This project was done in conjunction with the McGill Artificial Intelligence Society
+Note:
+
+Add: table of contents
+WHat's in this project:
+Full pipeline
+
+Data mining with the datarest API
+
+data collecting with pandas datareader
+
+Textblob sentiment polarity
+
+Min max Scaler
+ ------ End of preprocessing
+
+---- The model -------
+Done in pytorch
+double layered GRU (explain a bit how that works)
+Optimizer
+
+
+Results:
+
+
+
+The challenges:
+
+
+Next Steps:
+
+
+References:
+experimented with LSTM, other models, explain the challenges
+
