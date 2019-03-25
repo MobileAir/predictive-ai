@@ -51,14 +51,13 @@ I stayed true to my Canadian roots and used the <strong>Adam optimizer</strong>.
 ## Results
 This model outperforms the toughest Kaggle competitor (Kaggle projects used only the stock prices). Clearly see that the news and tweets were key to the model's performance. The best error I could find on Kaggle was from Rohit Verma. Checkout his project [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
 
-<center>
-
+<p align="center">
 |           |    Best on Kaggle    |    This model    |
 |-----------|----------------------|------------------|
 | Train MSE | 1.91 x 10<sup>-4     | 4.02 x 10<sup>-4 |
 | Test MSE  | 3.28 x 10<sup>-4     | 1.08 x 10<sup>-6 |
 
-</center>
+</p>
 
 
 #### Test MSE on normalized stock prices:
