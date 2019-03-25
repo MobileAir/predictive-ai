@@ -65,9 +65,9 @@ Compared to Kaggle projects on similar datasets, this model shines bright, outpe
 
 #### Test MSE on normalized stock prices:
 
-|          | High       | Low        | Close      |   |
-|----------|------------|------------|------------|---|
-| Test MSE | 8.74x10^-7 | 1.40x10^-6 | 8.50x10^-7 |   |
+|          | High       | Low        | Close      |
+|----------|------------|------------|------------|
+| Test MSE | 8.74x10^-7 | 1.40x10^-6 | 8.50x10^-7 |
 
 
 
