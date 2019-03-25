@@ -44,7 +44,7 @@ Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my N
 ![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/minmax.png)
 
 ## Model
-The model was implemented in pytorch, which can be found [here](https://github.com/j-c-carr/Stock-Analysis/blob/master/src/model.py). I used two Gated Recurrent Units stacked on top of one another followed by a fully connected layer that mapped to the output dimension.
+I obtained the best results using two Gated Recurrent Units stacked on top of one another followed by a fully connected layer that mapped to the output dimension. [Here](https://github.com/j-c-carr/Stock-Analysis/blob/master/src/model.py) is the implementation.
 
 I stayed true to my Canadian roots and used the <strong>Adam optimizer</strong>.
 
