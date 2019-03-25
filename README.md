@@ -37,7 +37,8 @@ From its sparse beginnings, I assembled these 6 features into a dataset to be pa
 ![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/sampData.png)
 
 Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my Neural Network. The algorithm is as follows:
-![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/minmax.png)
+
+![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/minmax.png)|width=100
 
 ## Model
 This model was implemented in pytorch. The code is contained within ######This document. Evidently, this data called for a neural net that considers the time dependance of its data. I found my best results with a double layered GRU. This [video](https://www.youtube.com/watch?v=pYRIOGTPRPU) describes the process very well. Below is a simplified version of the flow of data through the net.
