@@ -38,8 +38,7 @@ From its sparse beginnings, I assembled these 6 features into a dataset to be pa
 
 Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my Neural Network. The algorithm is as follows:
 
-![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/minmax.png =100x)
-![](.extras/minmax.png =100x)
+![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/minmax.png)
 
 ## Model
 This model was implemented in pytorch. The code is contained within ######This document. Evidently, this data called for a neural net that considers the time dependance of its data. I found my best results with a double layered GRU. This [video](https://www.youtube.com/watch?v=pYRIOGTPRPU) describes the process very well. Below is a simplified version of the flow of data through the net.
@@ -53,6 +52,11 @@ Lastly, I computed my losses with mean squared error. Most sources I found used 
 
 ## Results
 Compared to Kaggle projects on similar datasets, this model shines bright, outperforming even the most critically acclaimed models. I believe that both the news and tweets were tantamount to the model's performance, as none of the other models I could find incorporated thses added dimension. The best error I could find on Kaggle was from Rohit Verma. His project is [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
+|           | Best on Kaggle | This Model |
+|-----------|--------------:|-----------:|
+| Train MSE |1.91x10^-4     |4.02x10^-7  |
+| Test MSE  |3.28x10^-4     |1.08x10^-6  |
+
 ![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/compError.png)
 
 Test MSE:
