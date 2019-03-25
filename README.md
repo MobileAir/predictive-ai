@@ -57,11 +57,11 @@ Compared to Kaggle projects on similar datasets, this model shines bright, outpe
 | Train MSE | 1.91x10^-4     | 4.02x10^-7 |
 | Test MSE  | 3.28x10^-4     | 1.08x10^-6 |
 
-|           | Best on Kaggle | This model |   |   |
-|-----------|----------------|------------|---|---|
-| Train MSE | deq            | 123        |   |   |
-| Test MSE  | 1312           | e21        |   |   |
-|           |                |            |   |   |
+|           | Best on Kaggle | This model |
+|-----------|----------------|------------|
+| Train MSE | 1.91x10^-4     | 4.02x10^-7 |
+| Test MSE  | 3.28x10^-4     | 1.08x10^-6 |
+
 
 ![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/compError.png)
 
