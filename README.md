@@ -34,7 +34,7 @@ To translate the tweets and news articles to tangible features, I used Textblob'
 TextBlob uses a Naive Bayes NLP model to calculate sentiment polarity. When the method is called, it will first tokenize each word in the input text, then uses a Bag of Words technique to get a count of how many times each word appears. From that, it generates a polarity score in range [-1,1],  representing how "positive" or negative" a text is. Each article and tweet got its own polarity score before being added to the feature matrix.
 
 From its sparse beginnings, I assembled these 6 features into a dataset to be pass to the last stage of preprocessing. Here is a glimpse at Bank of America's data:
-###### insert BAC picture
+(https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/sampData.png)
 
 Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my Neural Network. The algorithm is as follows:
 ###### insert MinMax picture
