@@ -19,11 +19,15 @@ This step was made easy with special thanks to the good grace of pandas dataread
 
 Aquiring stock prices was done with the code below. I was interested in the stock prices from the last 50 days.
 
+```
+    prices = pd.datareader.get_data_yahoo(stock, since, today)
+```
+
 For this project, I observed four prices: the high, open, low, and close for each of the 50 days.
 
-Tweets were collected through Twitter's developer-friendly API, that simplifies the search for relevent Tweets. Using tweepy, I searched twitter for the very uninspired tokens "(company name) stock". This brutish method proved effective.
+I collected tweets using Twitter's pyhton library, tweepy. This made it easy to search and collect tweets mentioning a given company and thier stock.
 
-Mining news data was dreamy when using RapidAPI's Yahoo Finance endpoints. This enabled me to get stock data data and relevant news headlines by simply provding the stock ticker. One minor drawback was that the packages they were using are not supported in python, and so I had to use (read: learn) ruby to access these endpoints. The payoff, however, was a tremendous amount of useful data for each stock, as well as live market updates.
+To get news articles I used RapidAPI's Yahoo Finance endpoint. It was an excellent source for all my heart's desires.
  ------ End of preprocessing
  
 ## Data preprocessing
