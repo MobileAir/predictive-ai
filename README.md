@@ -35,9 +35,9 @@ There were two central components of in this stage: Sentiment Polarity and MinMa
 To translate the tweets and news articles to tangible features, I used Textblob's sentiment polarity.
 
 
-<strong>TextBlob</strong> uses a Naive Bayes NLP model to calculate sentiment polarity. When the method is called, it will first tokenize each word in the input text, then uses a Bag of Words technique to get a count of how many times each word appears. From that, it generates a polarity score in range [-1,1],  representing how "positive" or negative" a text is. Each article and tweet got its own polarity score before being added to the feature matrix.
+<strong>TextBlob</strong> uses a Naive Bayes NLP model to calculate sentiment polarity (ie. score in range [-1,1],  representing how "positive" or negative" a text is). Each article and tweet got its own polarity score before being added to the feature matrix.
 
-From its sparse beginnings, I assembled these 6 features into a dataset to be pass to the last stage of preprocessing. Here is a glimpse at Bank of America's data:
+Here is a glimpse at Bank of America's data:
 ![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/sampData.png)
 
 Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my Neural Network. The algorithm is as follows:
@@ -45,17 +45,12 @@ Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my N
 ![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/minmax.png)
 
 ## Model
-This model was implemented in pytorch. The code is contained within ######This document. Evidently, this data called for a neural net that considers the time dependance of its data. I found my best results with a double layered GRU. This [video](https://www.youtube.com/watch?v=pYRIOGTPRPU) describes the process very well. Below is a simplified version of the flow of data through the net.
-###### image of flow of data through the net
+The model was implemented in pytorch, which can be found [here](https://github.com/j-c-carr/Stock-Analysis/blob/master/src/model.py). I used two Gated Recurrent Units stacked on top of one another followed by a fully connected layer that mapped to the output dimension.
 
-###### Optimizer
-To update my parameters, I used the world famous, made-in-Canada Adam optimizer. Due to it's individualistic learning reates for each parameter and as well as its computational efficiency.
-Done in pytorch
-
-Lastly, I computed my losses with mean squared error. Most sources I found used this metric and I wanted to be able to compare my results.
+I stayed true to my Canadian roots and used the <strong>Adam optimizer</strong>.
 
 ## Results
-Compared to Kaggle projects on similar datasets, this model shines bright, outperforming even the most critically acclaimed models. I believe that both the news and tweets were tantamount to the model's performance, as none of the other models I could find incorporated thses added dimension. The best error I could find on Kaggle was from Rohit Verma. His project is [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
+This model outperforms the toughest Kaggle competitor (Kaggle projects used only the stock prices). Clearly see that the news and tweets were key to the model's performance. The best error I could find on Kaggle was from Rohit Verma. His project is [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
 
 <center>
 
@@ -77,15 +72,14 @@ Compared to Kaggle projects on similar datasets, this model shines bright, outpe
 
 ## Challenges
 Though the model performs well, there is plenty of room for improvement! Here are a few areas I would like to focus on:
-#### 1. Training a more suitable NLP classifier for input text
+#### 1. Training a more refined NLP classifier for data preprocessing
 The polarity score is a vague and much too generalized for my data. I would like to add some language processing that would return a score for how the news impacts the stock market, not just if the news sounds good or bad.
 
-#### 2. Expanding News sources
-There are many APIs that are eager to provide financial news enpoints. Through the Yahoo subscrption wiht RapidAPI, I am limited to just yahoo finance. I would like to expand my horizons in this regard, as there are more influential news sources.
+#### 2. Exploring other influences
+Since the news and tweets clearly influenced the model's performance, I'd love to tap into other news and social media websites and see if I can improve the predictions.
 
-#### 3. Longer range predictions
-My model performs extremely well on simple one-day stock forecasts, but in practice this means very little. It would be nice if my model made longer range forecasts.
+#### 3. Longer forecast
+The fact that the model currently only predicts to prices for the next day overshadows its impressive performacen thus far. It would be nice to accurately predict further into the future.
 
-## References
-Lastly, I would like to give another thanks to the McGill AI society for helping out along the way
 
+Thanks again to the McGill AI society for a great course and stellar support!
