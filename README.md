@@ -8,13 +8,12 @@ Contianed in this document is the journey that the data takes in order to become
 
 #### Table of contents:
 1. [Data Mining](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-mining)
-2. [Data preprocessing](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-preprocessing)
+2. [Data Preprocessing](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-preprocessing)
 3. [Model](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#model)
 4. [Results](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#results)
-5. [Challenges](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#challenges)
-6. [Next Steps](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#references)
+5. [Next Steps](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#next-steps)
 
-## Data mining
+## Data Mining
 This step was made easy with special thanks to the good grace of pandas datareader, Twitter, and RapidAPI. This project uses three sources of data; pandas datareader (for Yahoo Finance), RapidAPI (for news), and Twitter (for tweets).
 
 Aquiring stock prices was done with the code below. I was interested in the stock prices from the last 50 days.
@@ -30,7 +29,7 @@ I collected tweets using Twitter's pyhton library, tweepy. This made it easy to 
 To get news articles I used RapidAPI's Yahoo Finance endpoint. It was an excellent source for all my heart's desires.
  ------ End of preprocessing
  
-## Data preprocessing
+## Data Preprocessing
 There were two central components of in this stage: Sentiment Polarity and MinMax Scaling.
 To translate the tweets and news articles to tangible features, I used Textblob's sentiment polarity.
 
@@ -64,22 +63,22 @@ This model outperforms the toughest Kaggle competitor (Kaggle projects used only
 
 #### Test MSE on normalized stock prices:
 
-| High       | Low        | Close      |
-|------------|------------|------------|
-| 8.74x10^-7 | 1.40x10^-6 | 8.50x10^-7 |
+|    High          |    Low           |    Close         |
+|------------------|------------------|------------------|
+| 8.74 x 10<sup>-7 | 1.40 x 10<sup>-6 | 8.50 x 10<sup>-7 |
 
 
 
 
-## Challenges
-Though the model performs well, there is plenty of room for improvement! Here are a few areas I would like to focus on:
-#### 1. Training a more refined NLP classifier for data preprocessing
+## Next Steps
+
+###### 1. Training a more refined NLP classifier for data preprocessing
 The polarity score is a vague and much too generalized for my data. I would like to add some language processing that would return a score for how the news impacts the stock market, not just if the news sounds good or bad.
 
-#### 2. Exploring other influences
+###### 2. Exploring other influences
 Since the news and tweets clearly influenced the model's performance, I'd love to tap into other news and social media websites and see if I can improve the predictions.
 
-#### 3. Longer forecast
+###### 3. Longer forecast
 The fact that the model currently only predicts to prices for the next day overshadows its impressive performacen thus far. It would be nice to accurately predict further into the future.
 
 
