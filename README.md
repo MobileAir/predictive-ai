@@ -6,7 +6,7 @@ This project was done through the McGill AI Society's Accelrated ML bootcamp. Ch
 
 Contianed in this document is the journey that the data takes in order to become a prediction.
 
-Table of contents:
+#### Table of contents:
 Data Mining
 Data preprocessing
 Model
