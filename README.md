@@ -54,10 +54,10 @@ This model outperforms the toughest Kaggle competitor (Kaggle projects used only
 
 <center>
 
-|           |   Best on Kaggle   | This model |
-|-----------|--------------------|------------|
-| Train MSE | 1.91x10<sup>-4     | 4.02x10^-7 |
-| Test MSE  | 3.28x10<sup>-4     | 1.08x10^-6 |
+|           |    Best on Kaggle    |    This model    |
+|-----------|----------------------|------------------|
+| Train MSE | 1.91 x 10<sup>-4     | 4.02 x 10<sup>-4 |
+| Test MSE  | 3.28 x 10<sup>-4     | 1.08 x 10<sup>-6 |
 
 </center>
 
