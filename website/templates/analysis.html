@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta content="text/html, charset=utf-8">
+        <title>Geraldine the Oracle</title>
+
+        <link rel="stylesheet" href="../static/css/breakdown.css?q=1280549780" type="text/css"/>
+        <!-- For fun animations
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+        <!-- Scroll Reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+    <header>
+        <nav>
+            <ul>
+                <li class="predictor" id="predictor"><a href="">home</a></li>
+                <li>NASDAQ {{ nas }} ({{ nas_pct }})</li>
+                <li>S&P 500 {{ snp }} ({{snp_pct}})</li>
+                <li>DOW 30  {{ dow }} ({{ dow_pct}})</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-container">
+        <div id="companyName">
+            <h1> tomorrow's forecast for {{ name }} ({{ title }})</h1>
+        </div>
+        <div class="prediction">
+            <h3>High: {{ High }}</h3>
+        </div>
+        <div class="prediction">
+            <h3>Low: {{ Low }}</h3>
+        </div>
+        <div class="prediction">
+            <h3>Close: {{ Close }}</h3>
+        </div>
+        <div id="babyBlue">
+            <a href="#section2" id="click-scroll">breakdown</a>
+        </div>
+    </div>
+    <div id="section2">
+    <!-- ### BUTTON TO SCROLL TO TOP ###-->
+        <h3>closing price trend (3mo)</h3>
+        <canvas id="stockChart" width="40" height="17"></canvas>
+    </div>
+    <br>
+    <br>
+    <button onclick="topFunction()" id="topButton" title="Go to top">Top</button>
+    <div class="bottom-container">
+        <div id="NewsScore">
+            <h1>news article polarity</h1>
+            {% if news!= none %}
+            <h2 class="content">{{ news }}</h2>
+            {% else %}
+            <h2 class="content">n/a</h2>
+            {% endif %}
+        </div>
+        <div id="tweet-score">
+            <h1>twitter polarity</h1>
+            {% if tweets != none %}
+            <h1 class="content">{{ tweets }}</h1>
+            {% else %}
+            <h1 class="content">n/a</h1>
+            {% endif %}
+        </div>
+        <div id="fif2">
+            <h1>Fifty-two week summary</h1>
+            <div id="high">
+                <h2>Highest</h2>
+                <h2>{{ fif2hi }}</h2>
+            </div>
+            <div id="low">
+                <h2>Lowest</h2>
+                <h2>{{ fif2low }}</h2>
+            </div>
+            <div id="close">
+                <h2>Change</h2>
+                <h2>{{ fif2change }}</h2>
+            </div>
+        </div>
+        <div id="last-fisc">
+            <h1>Profit margin</h1>
+            <h2 class="content">{{ margin }}</h2>
+        </div>
+        <div id="market-cap">
+            <h1>Market Cap</h1>
+            <h2 class="content">{{ cap }}</h2>
+        </div>
+    </div>
+    <footer>
+        <nav>
+            <li><a href="https://www.linkedin.com/in/jonathan-colaco-carr-8959ab180/">linkedin</a></li>
+            <li><a href="https://medium.com/mcgill-artificial-intelligence-review">medium</a></li>
+            <li><a href="https://github.com/j-c-carr/Stock-Analysis">gitHub</a></li>
+        </nav>
+    </footer>
+    <script>
+        ScrollReveal().reveal('.prediction');
+        ScrollReveal().reveal('.fiftytwo');
+        ScrollReveal().reveal('.article');
+    </script>
+    <!-- Imports for charts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <!-- SmootH scroll down to articles-->
+    <!-- Read Data for the graph-->
+    <script>
+        $(window).bind("load", function() {
+            renderChart();
+        });
+        function renderChart() {
+            var ctx = document.getElementById("stockChart").getContext('2d');
+            Chart.defaults.global.defaultFontColor = 'white';
+            function float2dollar(value){
+                return "U$ "+(value).toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+            }
+            var myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: {{ stamps | tojson}},
+                    datasets: [{
+                        defaultFontColor: 'rbg(250,250,250)',
+                        label: 'closing price',
+                        data: {{ labels | tojson }},
+                        precision: 2,
+                        backgroundColor: ['rgba(250, 250, 250, 1.0)'],
+                    }]
+                },
+                options: {
+                    legend: {
+                        display: false,
+                        labels: {
+                            // This more specific font property overrides the global property
+                            defaultFontSize: 18,
+                            defaultFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif"
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+        <!-- Top Button scroll -->
+        <script src="../static/js/scrollTop.js"></script>
+        <!-- Smooth scrolling -->
+        <script src="../static/js/scrollDown.js"></script>
+
+    </body>
+</html>

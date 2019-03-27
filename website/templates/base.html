@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta content="text/html, charset=utf-8">
+        <title>Jonathan's stock emporium</title>
+
+        <link rel="stylesheet" href="../static/css/main.css?q=1280549780" type="text/css"/>
+    </head>
+    <body>
+    <header>
+        <nav>
+            <ul>
+                <li class="predictor" id="predictor"><a href="">predictor</a></li>
+                <li>NASDAQ {{ nas }} ({{ nas_pct }})</li>
+                <li>S&P 500 {{ snp }} ({{snp_pct}})</li>
+                <li>DOW 30  {{ dow }} ({{ dow_pct}})</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="home-container" >
+    <h1>Welcome to Jonathan's post-Victorian of stock price emporium</h1>
+        <form method="POST">
+            <h2>search a stock ticker:</h2>
+            <input type="text" name="company" placeholder="ex. AON" id="search-box">
+            <input type="image" src="../static/images/search.png" alt="predict" id="search">
+        </form>
+        <a href="#section2" id="click-scroll">view headlines</a>
+    </div>
+    <div class="grid-container" id="section2">
+        <a style="display:block" href="{{ bl_u_1 }}">
+        <div class="bloomberg" id="left1">
+            <p class="tag">Bloomberg</p><br><br><br><br><br>
+            <h2 class="b_head">{{ bl_t_1 }}</h2>
+        </div>
+        </a>
+        <a style="display:block" href="{{ bl_u_2 }}">
+        <div class="bloomberg" id="right1">
+            <p class="tag">Bloomberg</p><br><br><br><br><br>
+            <h2>{{ bl_t_2 }}</h2>
+        </div>
+        </a>
+        <!-- ### BUTTON TO SCROLL TO TOP ###-->
+        <button onclick="topFunction()" id="topButton" title="Go to top">Top</button>
+        <a id="bigLeft" href="{{ bin_u_1 }}">
+        <div class="b-in">
+            <!--<img id="bigPic1" src="{{ bin_i_1 }}">-->
+            <img id="bigPic1" src="dylan.jpg">
+            <p class="lowtag">Business Insider</p>
+            <h2>{{ bin_t_1 }}</h2>
+            <p class="content">{{ bin_c_1 }}</p>    
+        </div>
+        </a>
+        <a style="display:block" href="{{ bl_u_3 }}">
+        <div class="bloomberg" id="right2">
+            <p class="tag">Bloomberg</p><br><br><br><br><br>
+            <h2>{{ bl_t_3 }}</h2>
+        </div>
+        </a>
+        <a style="display:block" href="{{ bl_u_4 }}">
+        <div class="bloomberg" id="right3">
+            <p class="tag">Bloomberg</p><br><br><br><br><br>
+            <h2>{{ bl_t_4 }}</h2>
+        </div>
+        </a>
+        <a style="display:block" href="{{ ft_u_1 }}">
+        <div class="ft" id="left2">
+            <p class="tag">Financial Times</p>
+            <h2>{{ ft_t_1 }}</h2>
+            <p class="content">{{ ft_c_1 }}</p>
+        </div>
+        </a>
+        <a style="display:block" href="{{ ft_u_2 }}">
+        <div class="ft" id="left3">
+            <p class="tag">Financial Times</p>
+            <h2>{{ ft_t_2 }}</h2>
+            <p class="content">{{ ft_c_2 }}</p>
+        </div>
+        </a>
+        <a style="display:block" href="{{ ft_u_3 }}">
+        <div class="ft" id="left4">
+            <p class="tag">Financial Times</p>
+            <h2>{{ ft_t_3 }}</h2>
+            <p class="content">{{ ft_c_3 }}</p>
+        </div>
+        </a>
+        <a id="bigRight" style="display:block" href="{{ bin_u_2 }}">
+        <div class="b-in">
+            <img id="bigPic2" src="{{ bin_i_2 }}">
+            <p class="lowtag">Business Insider</p>
+            <h2>{{ bin_t_2 }}</h2>
+            <p class="content">{{ bin_c_2 }}</p>
+        </div>
+        </a>
+        <a style="display:block" href="{{ ft_u_4 }}">
+        <div class="ft" id="left5">
+            <p class="tag">Financial Times</p>
+            <h2>{{ ft_t_4 }}</h2>
+            <p class="content">{{ ft_c_4 }}</p>
+        </div>
+        </a>
+    </div>
+    <footer>
+        <nav>
+            <li><a href="https://www.linkedin.com/in/jonathan-colaco-carr-8959ab180/">linkedin</a></li>
+            <li><a href="https://medium.com/mcgill-artificial-intelligence-review">medium</a></li>
+            <li><a href="https://github.com/j-c-carr/Stock-Analysis">gitHub</a></li>
+        </nav>
+    </footer>
+    <!-- For fun animations-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Top Button scroll -->
+    <script src="../static/js/scrollTop.js"></script>
+    <!-- Smooth scrolling -->
+    <script src="../static/js/scrollDown.js"></script>
+   </body>
+</html>

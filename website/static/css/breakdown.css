@@ -1,0 +1,201 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+   margin: 0;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 300;
+   color: #001a33;
+   background: linear-gradient(#001a33 20%, #001a3325 60%);
+}
+header, footer{
+    background: #fafafa;
+}
+
+nav{
+    text-align: center;
+    margin: 0px 0px;
+    padding: 10px 10px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #001a33;
+}
+nav a{
+    color: #001a33;
+    text-decoration: none;
+    text-align: left;
+}
+nav a:hover{
+    color: #001a33af;
+}
+/* ####### FORMATTING THE TOP NAVBAR ########### */
+header > nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fafafa;
+    border: #001a33;
+    border: solid;
+    border-width: 1px;
+    z-index: 1;
+}
+header > nav > ul > li{
+    display: inline-block;
+    color: #001a33;
+    text-align: center;
+    padding: 6px 6px;
+}
+
+/* ############# BREAKDOWN BLOCKS ####### */
+.main-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    grid-gap: 40px;
+    padding-top: 1%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.main-container > #companyName{
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    grid-column-start: 1; 
+    grid-column-end: 4;
+    color: #fafafa; 
+}
+/* ######## FORMATING PREDICTIONS ########## */
+.main-container > .prediction{
+    padding-top: 40px;
+    color: #fafafa;
+}
+.main-container > .prediction:hover{
+    background: #fafafa;
+    color: #001a33;
+}
+/* ########## GRAPH FORMAT ########## */
+#section2{
+    color: #fafafa;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    font-size: 150%;
+    grid-column-start: 1; 
+    grid-column-end: 4; 
+    grid-row-start: 2; 
+    grid-row-end: 2;
+}
+#section2 > h3{
+    padding-left: 40px;
+}
+
+/* ############## REMAINING METRICS ##############*/
+.bottom-container{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 400px;
+    grid-gap: 40px;
+    color: #fafafa;
+}
+.bottom-container > *{
+    text-align: center;
+}
+.bottom-container > * > h1{
+    text-align: left;
+    padding-left: 20px;
+}
+#market-cap, #last-fisc, #fif2{
+    text-align: center;
+    background: #001a33;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+#market-cap:hover, #last-fisc:hover, #fif2:hover{
+    opacity: 1;
+}
+.bottom-container > * > .content{
+    line-height: 120%;
+    text-align: center;
+    font-size: 600%;
+}
+#tweet-score:hover, #NewsScore:hover{
+    color: #001a33be;
+}
+/* ######## FIFTY TWO WEEK #*/
+#fif2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    line-height: 120%;
+    padding-top: 12px;
+}
+#fif2{
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-rows: 130px;
+    grid-gap: 20px;
+    padding-bottom: 8%;
+}
+#fif2 > #high, #low, #close{
+    font-size: 200%;
+    color: #fafafa;
+}
+#fif2 > h1{
+    font-size: 250%;
+    text-align: bottom;
+    padding-left: 50px;
+}
+
+/* ####### BUTTON FORMAT ########### */
+#click-scroll{
+    position: absolute;
+    left: 600px;
+    bottom: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    font-size: 200%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* TOP BUTTON FORMAT */
+#topButton{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #001a33; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+}
+#topButton:hover {
+    background-color: #001a33af;
+}

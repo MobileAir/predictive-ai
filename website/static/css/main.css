@@ -1,0 +1,229 @@
+html
+{
+    background: #fafafa;
+    scroll-behavior: smooth;
+}
+body
+{
+   margin: 0;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 300;
+   color: #001a33;
+   background: linear-gradient(#001a33 20%, #001a3325);
+}
+header, footer{
+    background: #fafafa
+}
+
+nav{
+    text-align: center;
+    margin: 0px 0px;
+    padding: 10px 10px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #001a33;
+}
+nav a{
+    color: #001a33;
+    text-decoration: none;
+    text-align: left;
+}
+nav a:hover{
+    color: #001a33af;
+}
+
+/* ####### FORMATTING THE TOP NAVBAR ########### */
+header > nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fafafa;
+    opacity: 1s;
+    z-index: 1;
+    border: #001a33;
+    border: solid;
+    border-width: 1px;
+}
+header > nav > ul > li{
+    display: inline-block;
+    color: #001a33;
+    text-align: center;
+    padding: 6px 6px;
+}
+
+/* ################## MAIN CONTAINER ################# */
+
+.home-container{
+    scroll-behavior: unset;
+    text-align: center;
+    color: aliceblue;
+    height: 100%;
+    padding-top:150px;
+    padding-bottom: 250px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.home-container > h1{
+    font-size: 30px;
+}
+
+
+/* ######## FORM FORMAT ############## */
+#search {
+    margin-top: 50px;
+    margin-left: 1%;
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+}
+#search:hover{
+    width: 68px;
+    height: 68px;
+}
+/*
+input > *{
+    margin: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+}*/
+#search-box{
+    left: 20px;
+    font-size: 300%;
+    padding: 0.8%;
+    text-align: center;
+    clear: right;
+    width: 300px;
+    height: 70px;
+}
+
+/* ############# NEWS ARTICLES ####### */
+.grid-container{
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 450px;
+    grid-gap: 10px;
+    padding-top: 150px;
+    margin-bottom: 1%;
+}
+.grid-container > *{
+    text-align: center;
+    background: #fafafa;
+}
+
+/* ############## ARTICLE GRIDS ################ */
+/* GENERAL FORMATS */
+
+.grid-container > a{
+    color: #001a33;
+    text-decoration: none;
+    text-align: center;
+}
+.grid-container > a:hover{
+    background: whitesmoke;
+}
+.grid-container > * > * > .content{
+    padding: 30px;
+    text-align: left;
+    font-size: 150%;
+}
+.grid-container > a > *{
+    position: relative;
+    padding: 10px 10px;
+}
+.grid-container > * > * > .tag{
+    position: absolute;
+    top: 0;
+    right: 10;
+    margin-left: auto;
+    padding-right: 20;
+    text-align: right;
+}
+
+/* ######## Business Insider Formatting ######### */
+.grid-container > * > * > .lowtag{
+    text-align: right;
+}
+.grid-container > #bigLeft{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.grid-container > #bigRight{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.grid-container > #bigLeft, #bigRight > a{
+    color: #001a33;
+    text-decoration: none;
+    text-align: center;
+}
+.grid-container > #bigLeft, #bigRight > a:hover{
+    text-decoration: none;
+}
+
+#bigPic1, #bigPic2{
+    max-width: 100%;
+}
+.grid-container > * > .b-in > h2{
+    padding-top: 40px;
+}
+
+/* ########## BLOOMBERG ########### */
+
+.grid-container > * > .bloomberg > h2{
+    font-size: 275%;
+    text-align: center;
+}
+.grid-container > * > .bloomberg > .b_head{
+    font-size: 275%;
+    text-align: center;
+}
+
+/* ############ FINANCIAL TIMES ########### */
+.grid-container > * > .ft{
+    padding-top: 30px;
+}
+
+/* TOP BUTTON FORMAT */
+#topButton{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #001a33; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+}
+#topButton:hover {
+    background-color: #001a33af;
+}
+#click-scroll{
+    position: absolute;
+    bottom: 40px;
+    padding-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    font-size: 200%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
