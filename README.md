@@ -39,25 +39,26 @@ Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my N
 <p align="center">
 <img src="https://latex.codecogs.com/gif.latex?x%5E%7B%27%7D%20%3D%20%5Cfrac%7Bx%20-%20min%28x%29%7D%7Bmax%28x%29%20-%20min%28x%29%7D">
 </p>
-## Model
-I obtained the best results using two Gated Recurrent Units followed by a fully connected layer that mapped the GRU output to the model's final dimension. [Here](https://github.com/j-c-carr/Stock-Analysis/blob/master/src/model.py) is the implementation.
 
-Also, celebrating my Candian heritage I used the <strong>Adam optimizer</strong> to update my parameters.
+## Model
+Finally, I had a nice feature matrix: 49 rows x 6 columns, with each row being one day. It was now time to let my model do some heavy lifting. I obtained the best results using two Gated Recurrent Units followed by a fully connected layer. [Here](https://github.com/j-c-carr/Stock-Analysis/blob/master/src/model.py) is the implementation.
+
+Celebrating my Candian heritage I used the <strong>Adam optimizer</strong> to update my parameters.
 
 ## Results
 This model outperforms the toughest Kaggle competitor (though Kaggle projects used only the stock prices). The tweets and news articles were clearly a welcomed addition! The best error I could find on Kaggle was from Rohit Verma. Checkout his project [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
 
 |           |    Best on Kaggle    |    This model    |
 |-----------|----------------------|------------------|
-| Train MSE | 1.91 x 10<sup>-4     | 4.02 x 10<sup>-4 |
-| Test MSE  | 3.28 x 10<sup>-4     | 1.08 x 10<sup>-6 |
+| Train MSE | 1.91 x 10<sup>-4     | 5.90 x 10<sup>-7 |
+| Test MSE  | 3.28 x 10<sup>-4     | 6.21 x 10<sup>-7 |
 
 
 #### Test MSE on normalized stock prices:
 
 |    High          |    Low           |    Close         |
 |------------------|------------------|------------------|
-| 8.74 x 10<sup>-7 | 1.40 x 10<sup>-6 | 8.50 x 10<sup>-7 |
+| 6.87 x 10<sup>-7 | 5.81 x 10<sup>-6 | 8.34 x 10<sup>-7 |
 
 
 
@@ -74,4 +75,4 @@ Since the news and tweets boosted the model's performance, I'd love to tap into 
 The model corrently predicts for one day in advance. It would be nice to predict further into the future, though I get the feeling that if that was possible, someone might have beat me to it!
 
 
-Thanks again to the McGill AI society for a great course and stellar support.
+Thanks again to the McGill AI society for a great course
