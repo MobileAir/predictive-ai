@@ -1,4 +1,4 @@
-var txt = "Enter a company name";
+var txt = "Search for a company";
 var timeOut;
 var txtLen = txt.length;
 var char = 0;

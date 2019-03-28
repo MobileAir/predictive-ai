@@ -68,19 +68,19 @@ def predict_price(data):
 
         df = df.append({'High':X[0][0], 'Low':X[0][1], 'Open':X[0][2], 'Close':X[0][3]}, ignore_index=True)
         df = df.drop(['NewsData', 'TweetScore'], axis=1)
-        df = df.tail(50)
+        df = df.tail(1)
 
         # invert the normalization
         df = (df/scalar.scale_) + scalar.data_min_
 
         return df
     # initialize net
-    net = RNNClassifier(50*6, 50, 4)
-    checkpts = torch.load("checkpts/all_params.pt")
+    net = RNNClassifier(49*6, 49, 4)
+    checkpts = torch.load("checkpts/web_params.pt")
     net.load_state_dict(checkpts['model_state_dict'])
     hidden_weights = checkpts['hn']
 
-    hn = hidden_weights[0][31].view(1, 1, 50)
+    hn = hidden_weights[0][31].view(1, 1, 49)
 
     # preprocess data
     normed_data, scalar = process_data(data)
@@ -88,7 +88,7 @@ def predict_price(data):
 
     # Create the tensor
     X = torch.tensor(normed_data, requires_grad=True, dtype=torch.float)
-    X = X.view(1, 50*6)
+    X = X.view(1, 49*6)
 
     preds, _ = net(X, hn)
 

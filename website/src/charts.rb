@@ -4,7 +4,7 @@ require 'json'
 def get_charts(stock, int, range)
 	response = Unirest.get "https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-charts?",
   	headers:{
-    "X-RapidAPI-Key" => "c1270becb0msh59ba7b8effef8fcp1185cbjsn138d8347f9ac"
+    "X-RapidAPI-Key" => "e22d42b163msh2dd6677c030d9dap18e2b7jsnd6f1f3578a95"
   	},
   	parameters:{
   		"region" => "us",

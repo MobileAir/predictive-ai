@@ -4,7 +4,7 @@ require 'json'
 def get_stock_prices(stock, from, today)
 	response = Unirest.get "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/get-histories?",
   headers:{
-    "X-RapidAPI-Key" => "284a8b90d5mshdfea6ec830364fbp145a40jsn1964c0508916"
+    "X-RapidAPI-Key" => "e22d42b163msh2dd6677c030d9dap18e2b7jsnd6f1f3578a95"
   },
   parameters:{
   	"region" => "us",

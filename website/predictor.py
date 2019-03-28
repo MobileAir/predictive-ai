@@ -41,6 +41,7 @@ class Predictor():
 			df = df.drop(['Date'], axis=1)
 			return df
 
+		self.ticker = stock
 		tweets = get_tweets(stock) # get a dict of {time: score}
 		news = get_news(stock) #'' '', links contains news headlines and their urls
 		prices = get_prices(stock) # get stock prices from last 50 days from yahoo! finance
@@ -57,9 +58,16 @@ class Predictor():
 					self.news_score = "{:,.2f}".format(v);
 					break
 
+			
 		df = compile_data(prices, news, tweets) # mash the data together in a df
+		preds = predict_price(df)
+		print(preds)
+
 		# make the numbers look nice
-		self.high = "${:,.2f}".format(float(df.tail(1).High.values))
-		self.low = "${:,.2f}".format(float(df.tail(1).Low.values))
-		self.close = "${:,.2f}".format(float(df.tail(1).Close.values))
-		self.ticker = stock
+		self.high = "${:,.2f}".format(float(preds.tail(1).High.values))
+		self.low = "${:,.2f}".format(float(preds.tail(1).Low.values))
+		self.close = "${:,.2f}".format(float(preds.tail(1).Close.values))
+
+p = Predictor()
+p.predict("AON")
+print(p.low)

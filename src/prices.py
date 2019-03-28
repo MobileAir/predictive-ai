@@ -10,11 +10,13 @@ def get_prices(stock):
 
 	# load the stock data, find the date range to search for
 	today = dt.date.today()
-	since = today - dt.timedelta(days=80)
+	since = today - dt.timedelta(days=85)
 
 	# get price updates from yahoo, then format
+
 	prices = dr.get_data_yahoo(stock, since, today)
-	prices = prices.tail(49)
+
+	prices = prices.tail(55) # CHANGE BACK TO 49
 	prices['NewsData'] = 0
 	prices['TweetScore'] = 0
 	prices = prices.drop(['Volume', 'Adj Close'], axis=1)
@@ -22,3 +24,12 @@ def get_prices(stock):
 
 	return prices
 
+with open("../data/names1.txt") as f:
+	names = json.load(f)
+	for k,v in names.items():
+		try:
+			data = get_prices(k)
+			data.to_csv("webData/"+k+".csv")
+		except (dr._utils.RemoteDataError, KeyError) as e:
+			print(v)
+			continue

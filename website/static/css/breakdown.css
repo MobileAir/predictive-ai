@@ -85,7 +85,7 @@ header > nav > ul > li{
 }
 /* ######## FORMATING PREDICTIONS ########## */
 .main-container > .prediction{
-    padding-top: 15px;
+    padding-top: 12px;
     text-align: center;
     color: aliceblue;
     font-size: 120%;
@@ -106,7 +106,6 @@ header > nav > ul > li{
     grid-auto-rows: 60px;
     grid-gap: 120px;
     padding-top: 1%;
-    margin-bottom: 3%;
     text-align: center;
 }
 #section2 > button{
@@ -233,5 +232,5 @@ header > nav > ul > li{
     font-size: 18px; /* Increase font size */
 }
 #topButton:hover {
-    background-color: #001a33af;
+    background-color: #001a33f1;
 }
