@@ -1,20 +1,18 @@
 # Stock-Analysis
 
-This project is meant to explore the potential in today's big data enterprises. Though a heavily standardized approach is taken here to a benign problem, this project harps upon the wonderous possibilities with big data. This project combines stock prices as well as relevant news articles and tweets to predict future stock prices. The news and twitter data bring novelty to an otherwise benign approach to this problem.
-
-This project was done through the McGill AI Society's Accelrated ML bootcamp. Checkout their blogpost [here](https://mcgillai.com/)
-
-Contianed in this document is the journey that the data takes in order to become a prediction.
+The aim of this project was to develop a model predict a stock's market price based off of news articles, tweets, and its past prices. 
+It was completed as part of the McGill AI Society's Accelrated ML bootcamp (and I could not have done it without them!). Checkout their blogpost [here](https://mcgillai.com/)
 
 #### Table of contents:
-1. [Data Mining](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-mining)
+1. [Data Aquisition](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-mining)
 2. [Data Preprocessing](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-preprocessing)
 3. [Model](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#model)
 4. [Results](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#results)
 5. [Next Steps](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#next-steps)
 
-## Data Mining
-This step was made easy with special thanks to the good grace of pandas datareader, Twitter, and RapidAPI. This project uses three sources of data; pandas datareader (for Yahoo Finance), RapidAPI (for news), and Twitter (for tweets).
+## Data Aquisition
+
+To collect data for each stock, I used pandas datareader, RapidAPI and Twitter to gather stock prices, news, and tweets.
 
 Aquiring stock prices was done with the code below. I was interested in the stock prices from the last 50 days.
 
@@ -24,17 +22,15 @@ Aquiring stock prices was done with the code below. I was interested in the stoc
 
 For this project, I observed four prices: the high, open, low, and close for each of the 50 days.
 
-I collected tweets using Twitter's pyhton library, tweepy. This made it easy to search and collect tweets mentioning a given company and thier stock.
+I collected tweets using Twitter's python library (tweepy). This made it easy to search and collect tweets mentioning a given company and thier stock.
 
-To get news articles I used RapidAPI's Yahoo Finance endpoint. It was an excellent source for all my heart's desires.
+To get news articles I used RapidAPI's Yahoo Finance endpoint. It was an excellent source news as well as stock trends that I included in the website.
 
  
 ## Data Preprocessing
-There were two central components of in this stage: Sentiment Polarity and MinMax Scaling.
-To translate the tweets and news articles to tangible features, I used Textblob's sentiment polarity.
+There were two central components of in this stage: TextBlob's sentiment polarity and MinMax Scaling.
 
-
-<strong>TextBlob</strong> uses a Naive Bayes NLP model to calculate sentiment polarity (ie. score in range [-1,1],  representing how "positive" or negative" a text is). Each article and tweet got its own polarity score before being added to the feature matrix.
+Textblob's sentiment polarity encoded the tweets and news articles. Their Naive Bayes model uses calculates polarity (in range [-1,1]), to define how "positive" or negative" a text is. Each article and tweet got its own polarity score before being added to the feature matrix.
 
 Here is a glimpse at Bank of America's data:
 ![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/sampData.png)
@@ -44,12 +40,12 @@ Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my N
 <img src="https://latex.codecogs.com/gif.latex?x%5E%7B%27%7D%20%3D%20%5Cfrac%7Bx%20-%20min%28x%29%7D%7Bmax%28x%29%20-%20min%28x%29%7D">
 </p>
 ## Model
-I obtained the best results using two Gated Recurrent Units stacked on top of one another followed by a fully connected layer that mapped to the output dimension. [Here](https://github.com/j-c-carr/Stock-Analysis/blob/master/src/model.py) is the implementation.
+I obtained the best results using two Gated Recurrent Units followed by a fully connected layer that mapped the GRU output to the model's final dimension. [Here](https://github.com/j-c-carr/Stock-Analysis/blob/master/src/model.py) is the implementation.
 
-I stayed true to my Canadian roots and used the <strong>Adam optimizer</strong>.
+Also, celebrating my Candian heritage I used the <strong>Adam optimizer</strong> to update my parameters.
 
 ## Results
-This model outperforms the toughest Kaggle competitor (Kaggle projects used only the stock prices). Clearly see that the news and tweets were key to the model's performance. The best error I could find on Kaggle was from Rohit Verma. Checkout his project [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
+This model outperforms the toughest Kaggle competitor (though Kaggle projects used only the stock prices). The tweets and news articles were clearly a welcomed addition! The best error I could find on Kaggle was from Rohit Verma. Checkout his project [here](https://github.com/deadskull7/New-York-Stock-Exchange-Predictions-RNN-LSTM).
 
 |           |    Best on Kaggle    |    This model    |
 |-----------|----------------------|------------------|
@@ -69,13 +65,13 @@ This model outperforms the toughest Kaggle competitor (Kaggle projects used only
 ## Next Steps
 
 ##### 1. Training a more refined NLP classifier for data preprocessing
-The polarity score is a vague and much too generalized for my data. I would like to add some language processing that would return a score for how the news impacts the stock market, not just if the news sounds good or bad.
+The polarity score is vague and much too generalized for my data. I would like to add some language processing that would return a score for how the news impacts the stock market, not just if the news sounds good or bad.
 
 ##### 2. Exploring other influences
-Since the news and tweets clearly influenced the model's performance, I'd love to tap into other news and social media websites and see if I can improve the predictions.
+Since the news and tweets boosted the model's performance, I'd love to tap into other news and social media outlets and see if I can improve the predictions.
 
 ##### 3. Longer forecast
-The fact that the model currently only predicts to prices for the next day overshadows its impressive performacen thus far. It would be nice to accurately predict further into the future.
+The model corrently predicts for one day in advance. It would be nice to predict further into the future, though I get the feeling that if that was possible, someone might have beat me to it!
 
 
-Thanks again to the McGill AI society for a great course and stellar support!
+Thanks again to the McGill AI society for a great course and stellar support.
