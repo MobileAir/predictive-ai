@@ -73,38 +73,58 @@ header > nav > ul > li{
     padding-bottom: 250px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.home-container > h1{
-    font-size: 30px;
-}
 
+#slogan{
+    font-size: 350%;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 5%;
+}
 
 /* ######## FORM FORMAT ############## */
-#search {
-    margin-top: 50px;
-    margin-left: 1%;
-    width: 70px;
-    height: 70px;
-    border-radius: 4px;
+form{
+    position: relative;
 }
-#search:hover{
-    width: 68px;
-    height: 68px;
-}
-/*
-input > *{
-    margin: 2%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 100%;
-}*/
 #search-box{
-    left: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
     font-size: 300%;
     padding: 0.8%;
     text-align: center;
-    clear: right;
-    width: 300px;
+    width: 550px;
     height: 70px;
 }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #001a3348;
+  }
+
+#loading-circle{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 670px;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border: 6px solid #001a33;
+    border-top: 6px solid #fafafa;
+    border-radius: 50%;
+    animation: spin 0.85s ease-in infinite;
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
 /* ############# NEWS ARTICLES ####### */
 .grid-container{
@@ -220,10 +240,13 @@ input > *{
 #click-scroll{
     position: absolute;
     bottom: 40px;
-    padding-left: 10px;
+    padding-left: 0;
     text-decoration: none;
     text-align: center;
     color: aliceblue;
     font-size: 200%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#click-scroll:hover{
+    border-bottom: 1px solid aliceblue;
 }

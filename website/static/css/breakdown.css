@@ -8,7 +8,7 @@ body
    font-family: 'Work Sans', sans-serif;
    font-weight: 300;
    color: #001a33;
-   background: linear-gradient(#001a33 20%, #001a3325 60%);
+   background: linear-gradient(#001a33 25%, #001a3325 80%);
 }
 header, footer{
     background: #fafafa;
@@ -59,38 +59,72 @@ header > nav > ul > li{
     padding: 6px 6px;
 }
 
-/* ############# BREAKDOWN BLOCKS ####### */
+/* ############# TOP CONTAINER ####### */
 .main-container{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 80px;
     display: grid;
     align-content: center;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 150px;
-    grid-gap: 40px;
+    grid-auto-rows: 120px;
+    grid-gap: 75px;
+    padding-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+#companyName{
+    grid-column-start: 1; 
+    grid-column-end: 4;
+    color: aliceblue;
+}
+#stock-name{
+    font-size: 350%;
+    text-align: center;
+    padding-bottom: 90px;
+}
+/* ######## FORMATING PREDICTIONS ########## */
+.main-container > .prediction{
+    padding-top: 15px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 120%;
+}
+.main-container > .prediction:hover{
+    background: aliceblue;
+    color: #001a33;
+    border-radius: 2px;
+}
+/* ##########  GRAPH & RANGES ########## */
+#section2{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 60px;
+    grid-gap: 120px;
     padding-top: 1%;
     margin-bottom: 3%;
     text-align: center;
 }
-.main-container > #companyName{
-    height: 500px;
-    margin-top: 100px;
-    margin-bottom: 40px;
-    grid-column-start: 1; 
-    grid-column-end: 4;
-    color: #fafafa; 
-}
-/* ######## FORMATING PREDICTIONS ########## */
-.main-container > .prediction{
-    padding-top: 40px;
+#section2 > button{
+    width: 70%;
+    border: none;
+    border-radius: 1%;
     color: #fafafa;
+    background: transparent;
+    font-size: 80%;
+    padding-bottom: 10px;
 }
-.main-container > .prediction:hover{
-    background: #fafafa;
-    color: #001a33;
+#section2 > button:hover{
+    border-bottom: 2px solid #fafafa;
 }
+#section2> button:focus {outline:0;}
+
 /* ########## GRAPH FORMAT ########## */
-#section2{
+#section3{
     color: #fafafa;
     text-align: left;
     padding-left: 50px;
@@ -99,12 +133,10 @@ header > nav > ul > li{
     font-size: 150%;
     grid-column-start: 1; 
     grid-column-end: 4; 
-    grid-row-start: 2; 
-    grid-row-end: 2;
+    grid-row-start: 1; 
+    grid-row-end: 1;
 }
-#section2 > h3{
-    padding-left: 40px;
-}
+
 
 /* ############## REMAINING METRICS ##############*/
 .bottom-container{
@@ -125,22 +157,23 @@ header > nav > ul > li{
     text-align: left;
     padding-left: 20px;
 }
-#market-cap, #last-fisc, #fif2{
-    text-align: center;
-    background: #001a33;
-    border-radius: 2px;
-    opacity: 0.9;
-}
-#market-cap:hover, #last-fisc:hover, #fif2:hover{
-    opacity: 1;
-}
+
 .bottom-container > * > .content{
     line-height: 120%;
     text-align: center;
     font-size: 600%;
 }
+
 #tweet-score:hover, #NewsScore:hover{
-    color: #001a33be;
+    color: #001a33e1;
+}
+#market-cap, #last-fisc, #fif2{
+    text-align: center;
+    background: #001a33e1;
+    border-radius: 2px;
+}
+#market-cap:hover, #last-fisc:hover, #fif2:hover{
+    background: #001a33f1;
 }
 /* ######## FIFTY TWO WEEK #*/
 #fif2{
@@ -169,7 +202,7 @@ header > nav > ul > li{
     padding-left: 50px;
 }
 
-/* ####### BUTTON FORMAT ########### */
+/* ####### SROLL BUTTONS FORMAT ########### */
 #click-scroll{
     position: absolute;
     left: 600px;
@@ -179,6 +212,9 @@ header > nav > ul > li{
     color: aliceblue;
     font-size: 200%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#click-scroll:hover{
+    border-bottom: 1px solid aliceblue;
 }
 
 /* TOP BUTTON FORMAT */

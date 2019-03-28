@@ -12,7 +12,7 @@ def get_tweets(stock):
 		'''returns access to twitter api '''
 
 		# get your own damn keys!
-		with open("../keys.txt", "r") as f:
+		with open("../../keys.txt", "r") as f:
 			keys = f.readlines()
 			consumer_key = keys[0].strip()
 			consumer_secret = keys[1].strip()
@@ -53,7 +53,7 @@ def get_tweets(stock):
 		'''Returns a dictionary of tweet times and polarity '''
 		api = get_api()
 		query = get_query(stock)
-		max_tweets = 50
+		max_tweets = 4
 
 		tweets = {}
 

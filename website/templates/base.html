@@ -5,24 +5,26 @@
         <title>Jonathan's stock emporium</title>
 
         <link rel="stylesheet" href="../static/css/main.css?q=1280549780" type="text/css"/>
+        <!-- Format placeholder -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     </head>
     <body>
     <header>
         <nav>
             <ul>
                 <li class="predictor" id="predictor"><a href="">predictor</a></li>
-                <li>NASDAQ {{ nas }} ({{ nas_pct }})</li>
-                <li>S&P 500 {{ snp }} ({{snp_pct}})</li>
-                <li>DOW 30  {{ dow }} ({{ dow_pct}})</li>
+                <li>NASDAQ: {{ nas }} ({{ nas_pct }})</li>
+                <li>S&P 500: {{ snp }} ({{snp_pct}})</li>
+                <li>DOW 30:  {{ dow }} ({{ dow_pct}})</li>
             </ul>
         </nav>
     </header>
     <div class="home-container" >
-    <h1>Welcome to Jonathan's post-Victorian of stock price emporium</h1>
-        <form method="POST">
-            <h2>search a stock ticker:</h2>
-            <input type="text" name="company" placeholder="ex. AON" id="search-box">
-            <input type="image" src="../static/images/search.png" alt="predict" id="search">
+        <h1 id="slogan">Jonathan's stock emporium</h1>
+        <h2>for all things of the financial variety</h2>
+        <form id="name-form" method="POST">
+            <input type="text" name="company" class="main-search input-lg" placeholder="Enter a Company Name" id="search-box">
+            <div id="loading-circle"></div>
         </form>
         <a href="#section2" id="click-scroll">view headlines</a>
     </div>
@@ -43,8 +45,7 @@
         <button onclick="topFunction()" id="topButton" title="Go to top">Top</button>
         <a id="bigLeft" href="{{ bin_u_1 }}">
         <div class="b-in">
-            <!--<img id="bigPic1" src="{{ bin_i_1 }}">-->
-            <img id="bigPic1" src="dylan.jpg">
+            <img id="bigPic1" src="{{ bin_i_1 }}">
             <p class="lowtag">Business Insider</p>
             <h2>{{ bin_t_1 }}</h2>
             <p class="content">{{ bin_c_1 }}</p>    
@@ -112,5 +113,16 @@
     <script src="../static/js/scrollTop.js"></script>
     <!-- Smooth scrolling -->
     <script src="../static/js/scrollDown.js"></script>
+    <!-- placeholder -->
+    <script src="../static/js/placeholder.js"></script>
+    <!-- Loading Button -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        // Display circle
+        $("form").submit(function(){
+            const loadingCircle = $("#loading-circle");
+            loadingCircle.css("display", "block");
+        });
+    </script>
    </body>
 </html>

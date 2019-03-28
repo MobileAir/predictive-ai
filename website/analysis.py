@@ -139,12 +139,22 @@ class Analyst:
 
 		stamps = []
 		close = []
-		for t, c in zip(file["result"][0]["timestamp"], file["result"][0]["indicators"]["quote"][0]["close"]):
-			stamps.append(str(dt.datetime.fromtimestamp(t).date()))
-			close.append(round(c, 2))
+		if _range=="1d":
+			for t, c in zip(file["result"][0]["timestamp"], file["result"][0]["indicators"]["quote"][0]["close"]):
+				t = dt.datetime.fromtimestamp(t)
+				if t.minute==0:
+					stamps.append(str(t.hour)+":"+str(t.minute)+"0")
+				else:
+					stamps.append(str(t.hour)+":"+str(t.minute))
+				close.append(round(c, 2))
+
+		else:
+			for t, c in zip(file["result"][0]["timestamp"], file["result"][0]["indicators"]["quote"][0]["close"]):
+				stamps.append(str(dt.datetime.fromtimestamp(t).date()))
+				close.append(round(c, 2))
 		
-		self.stamps = stamps
-		self.labels = close
+		self.labels = stamps
+		self.stamps = close
 
 
 	def analyze(self, stock):
@@ -179,15 +189,6 @@ def is_valid(stock):
 			# if it's a company name, return ticket
 			return k
 	return None
-
-
-
-
-
-
-
-
-
 
 
 
