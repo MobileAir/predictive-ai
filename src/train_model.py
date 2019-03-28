@@ -11,7 +11,12 @@ warnings.filterwarnings("ignore")
 
 
 def load_data(train_bound, val_bound, features, labels, batch_size=32):
-
+    """
+    :param train_bound: defines where we split data
+    :param features: list matrix of features
+    :param batch_size: nb of features too feed the net at each time point
+    :return: nicely shuffled DataLoader objects
+    """
 
     X = torch.tensor(features, requires_grad=True, dtype=torch.float)
     Y = torch.tensor(labels, requires_grad=False, dtype=torch.float)
@@ -57,14 +62,18 @@ class RNNClassifier(nn.Module):
 
 
 def train(trainloader, val_loader, in_size, N, learning_rate):
-    ''' N is batch size '''
-
+    """
+    :param trainloader: train dataLoader object
+    :param in_size: Input dimension
+    :param N: Batch Size
+    :return: Saves params, outputs hidden weights for fctn
+    """
 
     epochs = 1000
 
     optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)
-
     optimizer.load_state_dict(checkpts["optim_state_dict"])
+
     loss_fn = nn.MSELoss()
 
     hn = net.initHidden(N)
@@ -74,8 +83,6 @@ def train(trainloader, val_loader, in_size, N, learning_rate):
         average_loss = 0
         val_loss = 0
 
-        len_train = 0
-        len_vali = 0
         for days, true_stats in trainloader:
 
             days = days.view(N, in_size)
@@ -89,7 +96,6 @@ def train(trainloader, val_loader, in_size, N, learning_rate):
             optimizer.step()
 
             average_loss += loss.item()
-            len_train+=1
 
         for days, truth in val_loader:
 
@@ -100,20 +106,22 @@ def train(trainloader, val_loader, in_size, N, learning_rate):
             loss = loss_fn(preds, truth)
 
             val_loss += loss.item()
-            len_vali +=1
 
-        if epoch %2==0:
+        if (epoch % 2) == 0:
 
-            print("(epoch, train_loss, val_loss) = ({0}, {1}, {2})".format(epoch, average_loss/len_train, \
-                                                                       val_loss/len_vali))
+            print("(epoch, train_loss, val_loss) = ({0}, {1}, {2})".format(epoch, average_loss/N, \
+                                                                       val_loss/N))
 
     torch.save({'model_state_dict':net.state_dict(), 'optim_state_dict':optimizer.state_dict(), 'hn': hn}, \
-               "checkpts/web_params.pt")
+               PARAMS_FILEPATH)
 
     return hn
 
 
 def normalize_data(df):
+    """
+    MinMax Scaling for input data
+    """
 
     min_max_scaler = MinMaxScaler()
 
@@ -133,7 +141,7 @@ def test(testloader, hn, delta, batch):
     truths = []
 
     total_loss = 0
-    tot = 0
+    nb_samples = 0
     for days, truth in testloader:
 
         days = days.view(batch, delta*6)
@@ -144,7 +152,7 @@ def test(testloader, hn, delta, batch):
         final_preds += preds.tolist()
 
 
-        tot+=1
+        nb_samples += 1
 
         total_loss += loss.item()
 
@@ -152,7 +160,10 @@ def test(testloader, hn, delta, batch):
 
 
 def unnormalize(df, n_v):
-
+    """
+    df: originial df
+    n_v: normalized results
+    """
     df = normalize_data(df)
 
     min_max_scaler = sklearn.preprocessing.MinMaxScaler()
@@ -165,40 +176,49 @@ def unnormalize(df, n_v):
     return n_v
 
 def readbigData(delta):
-    '''Delta is how for back you want to predict from'''
+    """
+    :param delta: defines how far back in time you're looking at
+    :return: nice features & labels
+    """
     features = []
     labels = []
+
+    # Text file containing all company names
     with open("../data/names1.txt", "r") as f:
         names = json.load(f)
-        for ticker in names.keys():
-            try:
 
-                df = pd.read_csv("webData/"+ticker+".csv")
+        for ticker in names.keys():
+
+            # for some companies I was not able to get the prices
+            try:
+                df = pd.read_csv(DATA_FOLDER/+ticker+".csv")
                 df = df.drop(['Date', 'Unnamed: 0'], axis=1)
 
                 normed = normalize_data(df)
                 mat = normed.as_matrix()
 
+                # TWO DAY PREDICTIONS (passing delta is 50, but only 49 days in feature matrix)
                 for i in range(len(df.High) - delta):
-                    print(i)
                     features.append(mat[i:i+delta-1])
                     labels.append(mat[i+delta][:-2])
+
             except FileNotFoundError:
                 continue
     return features, labels
 
-# delta is how many days you have data for
+# DELTA: HOW FAR BACK YOU HAVE STOCK INFO FOR
 delta = 49
-in_dim = delta*6
+
+in_dim = delta*6 # EACH SAMPLE HAS 6 FEATURES
 hidden_dim = 49
 out_dim = 4
 lr = 1e-4
 batch = 32
 
 feats, labels = readbigData(50)
-days = len(feats)
 
-# seqs are batch_size * seq_len * feats
+# Days = number of samples that we have
+days = len(feats)
 
 trainloader, valloader, testloader = load_data(int(days*0.8), int(days*0.9), features=feats, labels=labels)
 
@@ -212,21 +232,5 @@ hidden_weight = checkpts['hn']
 hidden_weight = train(trainloader, valloader, in_dim, batch, learning_rate=lr)
 
 
-'''
 outputs, labels = test(testloader, hidden_weight, delta, batch)
 
-high_p = [t[0] for t in outputs]
-low_p = [t[1] for t in outputs]
-open_p = [t[2] for t in outputs]
-close_p = [t[3] for t in outputs]
-
-high_t = [t[0] for t in labels]
-low_t= [t[1] for t in labels]
-open_t = [t[2] for t in labels]
-close_t = [t[3] for t in labels]
-
-
-print(mean_squared_error(high_t, high_p))
-print(mean_squared_error(low_t, low_p))
-
-print(mean_squared_error(close_t, close_p))'''

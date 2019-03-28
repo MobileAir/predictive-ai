@@ -5,6 +5,8 @@ from tweets import get_tweets
 from prices import get_prices
 from model import predict_price
 
+################ COMPILES DATA FROM TWEETS, NEWS, AND STOCK PRICES
+################ SENDS TO MODEL.PY TO GET A PREDICTION
 def predict(stock):
 	def compile_data(df, articles, tweets):
 		''' The last step will be to update the data'''

@@ -54,6 +54,7 @@ def get_news(stock):
 
 		return articles, links
 
+	# Get raw JSON file from ruby - news api not functional in pyhton 3.x :(
 	file = subprocess.check_output(['ruby', 'news.rb', stock])
 
 	articles, links = newsUpdate(stock, file)
