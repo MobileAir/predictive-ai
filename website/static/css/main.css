@@ -144,9 +144,9 @@ form{
     background: #fafafa;
 }
 
-/* ############## ARTICLE GRIDS ################ */
-/* GENERAL FORMATS */
+/* ############## ARTICLES ################ */
 
+/* GENERAL FORMATS */
 .grid-container > a{
     color: #001a33;
     text-decoration: none;
@@ -160,7 +160,12 @@ form{
     text-align: left;
     font-size: 150%;
 }
-.grid-container > a > *{
+
+.grid-container > a > .bloomberg, .ft{
+    position: relative;
+    padding: 10px 10px;
+}
+.grid-container > a > .b-in > .lowtag{
     position: relative;
     padding: 10px 10px;
 }
