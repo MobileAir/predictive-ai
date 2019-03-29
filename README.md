@@ -1,7 +1,7 @@
 # Stock-Analysis
 
 The aim of this project was to develop a model predict a stock's market price based off of news articles, tweets, and its past prices. 
-It was completed as part of the McGill AI Society's Accelrated ML bootcamp (and I could not have done it without them!). Checkout their blogpost [here](https://mcgillai.com/)
+It was completed as part of the McGill AI Society's Accelrated ML bootcamp (and I could not have done it without them!). Checkout their blogpost [here](https://mcgillai.com/). For more project info, look in the deliverables folder.
 
 #### Table of contents:
 1. [Data Aquisition](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-mining)
