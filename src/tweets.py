@@ -12,7 +12,7 @@ def get_tweets(stock):
 		'''returns access to twitter api '''
 
 		# get your own damn keys!
-		with open("../keys.txt", "r") as f:
+		with open("/Users/jonathancarr/.keys/keys.txt", "r") as f:
 			keys = f.readlines()
 			consumer_key = keys[0].strip()
 			consumer_secret = keys[1].strip()
@@ -29,7 +29,7 @@ def get_tweets(stock):
 		'''Returns the stock company name based on the ticker'''
 
 		# reads the company names
-		with open("data/names.txt", 'r') as f:
+		with open("../data/names.txt", 'r') as f:
 			names = json.load(f)
 		f.close()
 
@@ -61,9 +61,10 @@ def get_tweets(stock):
 		try: 
 			searched_tweets = [status for status in tweepy.Cursor(api.search, q=query+' stock', lang='en').items(max_tweets)]
 
-		except tweepy.error.TweepError:
+		except tweepy.error.TweepError as e:
 
-			#print("Tweepy Error starting at {}".format(stock))
+			print("Tweepy Error starting at {}".format(stock))
+			print(e)
 			return None
 
 		for tweet in searched_tweets:
@@ -79,4 +80,6 @@ def get_tweets(stock):
 	# returns a dictionary of tweet times and polarity for a given stock
 	return twitter_update(stock)
 
+tweets = get_tweets("MSFT")
 
+print(tweets)
