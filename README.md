@@ -4,11 +4,11 @@ The aim of this project was to develop a model predict a stock's market price ba
 It was completed as part of the McGill AI Society's Accelrated ML bootcamp. Checkout their blogpost [here](https://mcgillai.com/). For more project info, look in the deliverables folder.
 
 #### Table of contents:
-1. [Data Aquisition](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-mining)
-2. [Data Preprocessing](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#data-preprocessing)
-3. [Model](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#model)
-4. [Results](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#results)
-5. [Next Steps](https://github.com/j-c-carr/Stock-Analysis/blob/master/README.md#next-steps)
+1. [Data Aquisition](https://github.com/MobileAir/Stock-Analysis/blob/master/README.md#data-mining)
+2. [Data Preprocessing](https://github.com/MobileAir/Stock-Analysis/blob/master/README.md#data-preprocessing)
+3. [Model](https://github.com/MobileAir/Stock-Analysis/blob/master/README.md#model)
+4. [Results](https://github.com/MobileAir/Stock-Analysis/blob/master/README.md#results)
+5. [Next Steps](https://github.com/MobileAir/Stock-Analysis/blob/master/README.md#next-steps)
 
 ## Data Aquisition
 
@@ -33,7 +33,7 @@ There were two central components of in this stage: TextBlob's sentiment polarit
 Textblob's sentiment polarity encoded the tweets and news articles. Their Naive Bayes model uses calculates polarity (in range [-1,1]), to define how "positive" or negative" a text is. Each article and tweet got its own polarity score before being added to the feature matrix.
 
 Here is a glimpse at Bank of America's data:
-![](https://github.com/j-c-carr/Stock-Analysis/blob/master/.extras/sampData.png)
+![](https://github.com/MobileAir/Stock-Analysis/blob/master/.extras/sampData.png)
 
 Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my Neural Network. The algorithm is as follows:
 <p align="center">
@@ -41,7 +41,7 @@ Lastly, I used sklearn's MinMax scaler to normalize the data before feeding my N
 </p>
 
 ## Model
-Finally, I had a nice feature matrix: 49 rows x 6 columns, with each row being one day. It was now time to let my model do some heavy lifting. I obtained the best results using two Gated Recurrent Units followed by a fully connected layer. [Here](https://github.com/j-c-carr/Stock-Analysis/blob/master/src/model.py) is the implementation.
+Finally, I had a nice feature matrix: 49 rows x 6 columns, with each row being one day. It was now time to let my model do some heavy lifting. I obtained the best results using two Gated Recurrent Units followed by a fully connected layer. [Here](https://github.com/MobileAir/Stock-Analysis/blob/master/src/model.py) is the implementation.
 
 Celebrating my Candian heritage I used the <strong>Adam optimizer</strong> to update my parameters.
 
